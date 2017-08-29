@@ -27,7 +27,6 @@
     "gulp-sass-globbing": "0.0.2",
     "gulp-uglify": "^2.0.1",
     "main-bower-files": "^2.13.1",
-    "postcss-scss": "^1.0.2",
     "singularitygs": "^1.7.1"
   },
   "dependencies": {

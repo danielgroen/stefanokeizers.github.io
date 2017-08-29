@@ -69,7 +69,7 @@ gulp.task('html',function() {
 	gulp.src(htmlFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
 		.pipe(htmlmin({collapseWhitespace: true}))
-		.pipe(gulp.dest(dist))
+		.pipe(gulp.dest('./'))
 		.pipe(browserSync.stream());
 });
 
