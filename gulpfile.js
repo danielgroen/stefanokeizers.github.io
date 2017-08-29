@@ -19,7 +19,7 @@ const 	gulp 				= require('gulp'),
 		app 				= './app',
 		dist 				= 'dist',
 		jsFiles 			= app + '/js/**/*.js',
-		images 				= app + '/**/*.{png,jpg,jpeg}',
+		images 				= app + '/img/**/*.{png,jpg,jpeg}',
 		sassFiles 			= app + '/sass/**/*.scss',
 		htmlFiles 			= app + '/html/*.html';
 
@@ -91,7 +91,7 @@ gulp.task('serve', ['browsersync'], function(){
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-gulp.task('build', ['html','js', 'sass-serve', 'wiredep', 'compile']);
+gulp.task('build', ['html','js', 'wiredep', 'sass-serve', 'compile']);
 gulp.task('default', ['serve']);
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
