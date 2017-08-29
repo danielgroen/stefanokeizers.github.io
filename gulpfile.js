@@ -21,7 +21,7 @@ const 	gulp 				= require('gulp'),
 		jsFiles 			= app + '/js/**/*.js',
 		images 				= app + '/**/*.{png,jpg,jpeg}',
 		sassFiles 			= app + '/sass/**/*.scss',
-		htmlFiles 			= app + '/html/*.{html}';
+		htmlFiles 			= app + '/html/*.html';
 
 // Setup browsersync.
 gulp.task('browsersync', function() {
@@ -71,7 +71,6 @@ gulp.task('html',function() {
 		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest(dist))
 		.pipe(browserSync.stream());
-		console.log('html')
 });
 
 gulp.task('compile', function() {
