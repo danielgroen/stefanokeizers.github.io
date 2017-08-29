@@ -77,7 +77,7 @@ gulp.task('compile', function() {
 	gulp.src(images)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
 		.pipe(imagemin({
-			optimizationLevel: 7;
+			optimizationLevel: 7
 		}))
 		.pipe(gulp.dest(dist + '/img/'));
 });
