@@ -1,0 +1,14 @@
+{
+  "name": "Daniel groen",
+  "description": "site danielgroen.nl",
+  "main": "gulpfile.js",
+  "authors": [
+    "Daniel groen <groendaniel@live.nl>"
+  ],
+  "license": "ISC",
+  "homepage": "http://www.danielgroen.nl",
+  "dependencies": {
+    "jQuery": "^3.1.1",
+    "singularity": "singularitygs#^1.7.1"
+  }
+}

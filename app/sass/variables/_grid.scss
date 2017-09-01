@@ -1,0 +1,42 @@
+@include sgs-change('mobile first', true);
+
+/* Sizes */
+$mobile: 360px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$gutter: 40px;
+$mobile-menu-height: 48px;
+$tablet-menu-height: 50px;
+$desktop-menu-height: 50px;
+
+/* Grids */
+@include add-grid(4);
+@include add-grid(8 at $tablet);
+@include add-grid(12 at $desktop);
+
+/* Gutters */
+@include add-gutter(0);
+
+// Singularity visualizer
+body:after {
+  content: '';
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  pointer-events: none;
+  @include sgs-change('debug', true);
+  @include background-grid($color: red);
+  @include sgs-change('debug', false);
+  opacity: 0.4;
+  z-index: 10000;
+}
+
+body[grid="visible"]:after {
+  display: block;
+}
