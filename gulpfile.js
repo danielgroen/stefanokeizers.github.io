@@ -13,6 +13,7 @@ const 	gulp 							= require('gulp'),
 				filesystem		= require('fs'),
 				htmlmin				= require('gulp-htmlmin'),
 				imagemin 			= require('gulp-imagemin'),
+				cssnano 			= require('gulp-cssnano'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
 				// files
 				app 				= './app',
@@ -45,6 +46,7 @@ gulp.task('sass-serve',function() {
         .pipe(sassGlob())
 	    .pipe(sass({}))
 		.pipe(gulpAutoprefixer())
+		.pipe(cssnano())
 		.pipe(concat('stylesheet.css'))
 		.pipe(gulp.dest(dist+'/css/'))
 		.pipe(browserSync.stream());
