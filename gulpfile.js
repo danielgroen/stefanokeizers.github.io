@@ -4,6 +4,7 @@ const 	gulp 							= require('gulp'),
 				mainBowerFiles		= require('main-bower-files'),
 				gulpAutoprefixer 	= require('gulp-autoprefixer'),
 				concat 				= require('gulp-concat'),
+				inlineCss 			= require('gulp-inline-css'),
 				notify 				= require('gulp-notify'),
 				plumber 			= require('gulp-plumber'),
 				sass 					= require('gulp-sass'),
@@ -13,7 +14,6 @@ const 	gulp 							= require('gulp'),
 				filesystem		= require('fs'),
 				htmlmin				= require('gulp-htmlmin'),
 				imagemin 			= require('gulp-imagemin'),
-				cssnano 			= require('gulp-cssnano'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
 				// files
 				app 				= './app',
@@ -21,7 +21,7 @@ const 	gulp 							= require('gulp'),
 				jsFiles 			= app + '/js/**/*.js',
 				images 				= app + '/img/**/*.{png,jpg,jpeg}',
 				sassFiles 			= app + '/sass/**/*.scss',
-				htmlFiles 			= app + '/html/*.html',
+				htmlFiles 			= app + '/*.html',
 				cname				= app + '/CNAME',
 
 				options = {
@@ -44,10 +44,10 @@ gulp.task('sass-serve',function() {
 	gulp.src(sassFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
         .pipe(sassGlob())
-	    .pipe(sass({}))
+	    .pipe(sass())
 		.pipe(gulpAutoprefixer())
-		.pipe(cssnano())
 		.pipe(concat('stylesheet.css'))
+		.pipe(gulp.dest(app+'/css/'))
 		.pipe(gulp.dest(dist+'/css/'))
 		.pipe(browserSync.stream());
 });
@@ -66,6 +66,7 @@ gulp.task('js', function() {
 gulp.task('html',function() {
 	gulp.src(htmlFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
+    	.pipe(inlineCss())
 		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest(dist))
 		.pipe(browserSync.stream());
@@ -73,7 +74,6 @@ gulp.task('html',function() {
 	gulp.src(cname)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
     	.pipe(gulp.dest(dist));
-
 });
 
 gulp.task('compile', function() {
@@ -93,7 +93,7 @@ gulp.task('serve', ['browsersync'], function(){
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-gulp.task('build', ['html','js', 'sass-serve', 'compile']);
+gulp.task('build', ['sass-serve', 'html','js', 'compile']);
 gulp.task('default', ['serve']);
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
