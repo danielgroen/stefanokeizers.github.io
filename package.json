@@ -29,7 +29,8 @@
     "gulp-uglify": "^2.0.1",
     "imagemin-mozjpeg": "^6.0.0",
     "main-bower-files": "^2.13.1",
-    "singularitygs": "^1.7.1"
+    "singularitygs": "^1.7.1",
+    "webfontloader": "^1.6.28"
   },
   "dependencies": {
     "wiredep": "^4.0.0"
