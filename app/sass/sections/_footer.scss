@@ -1,0 +1,7 @@
+.footer {
+	@include font('navigation');
+	color: $gray-light;
+	width: 100%;
+	background-color: $gray-dark;
+	text-align: center;
+}

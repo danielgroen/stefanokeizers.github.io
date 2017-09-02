@@ -1,0 +1,13 @@
+// elements
+body {
+	@include font('normal');
+}
+
+a {
+	color: $black;
+}
+
+img {
+	border-top: 1px solid $gray-light;
+	border-bottom: 1px solid $gray-light;
+}

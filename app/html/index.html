@@ -25,12 +25,46 @@
 		<link rel="shortcut icon" href="img/favicons/favicon.ico">
 		<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	</head>
 	<body>
-		<div class="banner">
-			<h1>stefanokeizers</h1>
-		</div>
+		<header class="header">
+			<h1 class="title">Stefanokeizers <span>erg heel</span></h1>
+			<nav class="menu">
+				<ul>
+					<li class="item"><a class="button" href="#">Home</a></li>
+					<li class="item"><a class="button" href="#media">Media</a></li>
+					<li class="item"><a class="button" href="#contact">Contact</a></li>
+					<li class="item"><a class="button" href="#">Speeldata</a></li>
+				</ul>
+			</nav>
+		</header>
+		<img class="image full-width" src="img/stefano-hoofd.jpg">
+		<main>
+			<div id="media">
+				<h2 class="title">Media</h2>
+				<input type="radio" checked id="recensies" name="media" value="recensies">
+				<label for="recensies">recensies</label>
+				<input type="radio" id="interview" name="media" value="interview">
+				<label for="interview">interview</label>
+				<input type="radio" id="radio" name="media" value="radio">
+				<label for="radio">radio</label>
+				<input type="radio" id="tv" name="media" value="tv">
+				<label for="tv">tv</label>
+
+				<div class="recensies wrapper">dit zijn recensies</div>
+				<div class="interview wrapper">dit zijn interviews</div>
+				<div class="radio wrapper">dit zijn radios</div>
+				<div class="tv wrapper">dit zijn tvs</div>
+			</div>
+			<img class="image full-width" src="img/stefano-voeten.jpg">
+
+			<img class="image full-width" src="img/stefano-liggend.jpg">
+			<footer class="footer">
+				<p class="credits">&#9400; 2017 | Stefano Keizers | All rights reserved</p>
+			</footer>
+		</main>
 		<!-- <script type="text/javascript">
 		  emailE = 'stefanokeizers.nl'
 		  emailE = ('info' + '@' + emailE)

@@ -1,0 +1,34 @@
+#media {
+	@include max-width;
+	margin: 0 auto;
+
+	.title {
+	@include font('subtitle');
+
+	}
+
+	.wrapper {
+		display: none;
+	}
+
+	input[type="radio"] {
+		&:checked {
+			+ label {
+				font-weight: 600;
+			}
+		}
+		// selectors
+		&#recensies:checked ~ div.recensies {
+			display: block !important;
+		}
+		&#interview:checked ~ div.interview {
+			display: block !important;
+		}				
+		&#radio:checked ~ div.radio {
+			display: block !important;
+		}		
+		&#tv:checked ~ div.tv {
+			display: block !important;
+		}
+	}
+}

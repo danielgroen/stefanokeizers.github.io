@@ -1,0 +1,30 @@
+.header {
+	text-align: center;
+	@include max-width;
+
+	.title {
+		@include font('title');
+		text-transform: uppercase;
+		margin: $gutter 0;
+
+		span {
+			font-weight: 400;
+		}
+	}
+
+	.menu {
+		color: $gray-light;
+		margin-bottom: $gutter;
+
+		.item {
+			@include font('navigation');
+			display: inline;
+			margin-right: $padding;
+			
+			.button {
+				color: $gray;
+				text-decoration: none;
+			}
+		}
+	}
+}
