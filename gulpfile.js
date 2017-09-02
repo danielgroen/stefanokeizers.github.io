@@ -75,7 +75,6 @@ gulp.task('html',function() {
 });
 
 gulp.task('compile', function() {
-	console.log(images);
 	return	gulp.src(images)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
 		.pipe(imagemin([mozjpeg()]))

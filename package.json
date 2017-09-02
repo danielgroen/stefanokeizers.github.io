@@ -1,7 +1,7 @@
 {
   "name": "stefanokeizers.nl",
   "version": "0.0.1",
-  "description": "site danielgroen.nl",
+  "description": "site stefanokeizers.nl",
   "main": "gulpfile.js",
   "scripts": {
     "postinstall": "bower install"
