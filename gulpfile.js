@@ -1,17 +1,17 @@
 'use strict';
-const 	gulp 							= require('gulp'),
-				browserSync 			= require('browser-sync').create(),
+const 	gulp 						= require('gulp'),
+				browserSync 		= require('browser-sync').create(),
 				mainBowerFiles		= require('main-bower-files'),
 				gulpAutoprefixer 	= require('gulp-autoprefixer'),
 				concat 				= require('gulp-concat'),
 				inlineCss 			= require('gulp-inline-css'),
 				notify 				= require('gulp-notify'),
 				plumber 			= require('gulp-plumber'),
-				sass 					= require('gulp-sass'),
+				sass 				= require('gulp-sass'),
 				ghpages				= require('gulp-gh-pages'),
 				sassGlob 			= require('gulp-sass-glob'),
-				uglify        = require('gulp-uglify'),
-				filesystem		= require('fs'),
+				uglify 				= require('gulp-uglify'),
+				filesystem			= require('fs'),
 				htmlmin				= require('gulp-htmlmin'),
 				imagemin 			= require('gulp-imagemin'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
@@ -19,7 +19,7 @@ const 	gulp 							= require('gulp'),
 				app 				= './app',
 				dist 				= 'dist',
 				jsFiles 			= app + '/js/**/*.js',
-				images 				= app + '/img/**/*.{png,jpg,jpeg}',
+				images 				= app + '/img/**/*.{png,jpg,jpeg,ico}',
 				sassFiles 			= app + '/sass/**/*.scss',
 				htmlFiles 			= app + '/*.html',
 				cname				= app + '/CNAME',
@@ -66,7 +66,7 @@ gulp.task('js', function() {
 gulp.task('html',function() {
 	gulp.src(htmlFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-    	.pipe(inlineCss())
+    	// .pipe(inlineCss())
 		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest(dist))
 		.pipe(browserSync.stream());
@@ -100,7 +100,6 @@ gulp.task('default', ['serve']);
 
 //deploy the dist folder to gh pages
 gulp.task('deploy', ['build'], function () {
-	return del('./.publish/', {force:true});
 	gulp.src(["dist/**/*.*", "dist/CNAME"])
 		.pipe(ghpages(options));
 });

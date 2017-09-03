@@ -8,7 +8,7 @@
   "license": "ISC",
   "homepage": "http://www.stefanokeizers.nl",
   "dependencies": {
-    "jQuery": "^3.1.1",
-    "singularity": "singularitygs#^1.7.1"
+    "singularity": "singularitygs#^1.7.1",
+    "owl.carousel": "^2.2.1"
   }
 }
