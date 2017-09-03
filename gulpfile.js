@@ -100,6 +100,7 @@ gulp.task('default', ['serve']);
 
 //deploy the dist folder to gh pages
 gulp.task('deploy', ['build'], function () {
-  gulp.src(["dist/**/*.*", "dist/CNAME"])
-    .pipe(ghpages(options));
+	return del('./.publish/', {force:true});
+	gulp.src(["dist/**/*.*", "dist/CNAME"])
+		.pipe(ghpages(options));
 });
