@@ -8,13 +8,10 @@ jQuery(function ($) {
 	var speed = 200;
 
 	var itemsPerSlide = 1;
-	// TODO:: onresize en onload
 	$( window ).on('resize load', debounce(function () {
 		 if ( $(window).width() >= tablet ) {
-		 	console.log($(window).width())
 			itemsPerSlide = 3;
 		}
-		console.log(itemsPerSlide, $(window).width());
 	}, speed));
 
 	owl.owlCarousel({
