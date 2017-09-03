@@ -15,9 +15,9 @@ $tablet-menu-height: 50px;
 $desktop-menu-height: 50px;
 
 /* Grids */
-@include add-grid(4);
-@include add-grid(8 at $tablet);
-@include add-grid(12 at $desktop);
+@include add-grid(12);
+@include add-grid(24 at $tablet);
+@include add-grid(24 at $desktop);
 
 /* Gutters */
 @include add-gutter(0);

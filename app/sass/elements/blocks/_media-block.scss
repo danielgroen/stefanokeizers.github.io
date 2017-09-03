@@ -1,34 +1,63 @@
 #media {
-	@include max-width;
-	margin: 0 auto;
+	// @include max-width;
+	@include grid-span(10, 2);
+	@include clearfix;
+	float: none;
 
 	.title {
-	@include font('subtitle');
-
+		@include font('subtitle');
 	}
 
-	.wrapper {
-		display: none;
-	}
-
-	input[type="radio"] {
-		&:checked {
-			+ label {
-				font-weight: 600;
+	.media-nav {
+		padding: 20px 0;
+		.media-category {
+			display: inline-block;
+			
+			a {
+				@include font('navigation');
+				text-decoration: none;
+				margin-right: $gutter;
+				text-transform: none;
 			}
 		}
-		// selectors
-		&#recensies:checked ~ div.recensies {
-			display: block !important;
-		}
-		&#interview:checked ~ div.interview {
-			display: block !important;
-		}				
-		&#radio:checked ~ div.radio {
-			display: block !important;
-		}		
-		&#tv:checked ~ div.tv {
-			display: block !important;
+	}
+	.owl-carousel {
+		@include grid-span(12, 0 ,10);
+		max-width: none;
+
+		.owl-dots {
+			display: none;
 		}
 	}
+}
+
+@include breakpoint($tablet) {
+	#media {
+	// @include max-width;
+	@include grid-span(22, 2);
+	@include clearfix;
+	float: none;
+
+	.media-nav {
+		padding: 20px 0;
+		.media-category {
+			display: inline-block;
+			
+			a {
+				@include font('navigation');
+				text-decoration: none;
+				margin-right: $gutter;
+				text-transform: none;
+			}
+		}
+	}
+	.owl-carousel {
+		@include grid-span(20, 1, 20);
+		max-width: none;
+
+		.owl-dots {
+			display: none;
+		}
+	}
+}
 }

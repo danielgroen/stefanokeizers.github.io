@@ -7,15 +7,11 @@ jQuery(function ($) {
 	var desktop = 1280;
 	var speed = 200;
 
-	var itemsPerSlide = 1;
-	$( window ).on('resize load', debounce(function () {
-		 if ( $(window).width() >= tablet ) {
-			itemsPerSlide = 3;
-		}
-	}, speed));
+	var itemsPerSlide = 3;
 
 	owl.owlCarousel({
 		margin: 20,
+		nav: false,
 		responsive : {
 		    0 : {
 				items: 1,
