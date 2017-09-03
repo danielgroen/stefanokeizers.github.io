@@ -22,11 +22,15 @@ jQuery(function ($) {
 		responsive : {
 		    0 : {
 				items: 1,
-				slideBy: 1
+				slideBy: 3,
+				stagePadding: 50,
+				center: true
 		    },
 		    768 : {
 				items: 3,
-				slideBy: 3
+				slideBy: 3,
+				stagePadding: 0,
+				center: false
 		    }
 		}
 	});
