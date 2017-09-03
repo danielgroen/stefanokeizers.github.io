@@ -8,6 +8,7 @@ jQuery(function ($) {
 	var speed = 200;
 
 	var itemsPerSlide = 3;
+	var itemsperslideNew = 0; 
 
 	owl.owlCarousel({
 		margin: 20,
@@ -36,6 +37,13 @@ jQuery(function ($) {
 
 	owl.on('changed.owl.carousel', function(event) {
 		var index = $('.owl-dot.active').index() + 1;
+
+		//calculatie werkt nog niet
+		// console.log(event);
+		// var index = event.page.index + 1;
+		// var itemsperslideNew = index * (event.page.count / $('.media-category').length) ;
+		// console.log(itemsperslideNew)
+		
 		$('.media-category.active').removeClass('active');
 		$( '.media-category:nth-child(' + index + ')').addClass('active');
 	})
