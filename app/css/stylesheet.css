@@ -742,6 +742,8 @@ table {
         text-decoration: none;
         margin-right: 40px;
         text-transform: none; }
+      #media .media-nav .media-category.active {
+        font-weight: 600; }
   #media .owl-carousel {
     width: 120%;
     float: left;

@@ -19,11 +19,18 @@
 				margin-right: $gutter;
 				text-transform: none;
 			}
+
+			&.active {
+				font-weight: 600;
+			}
 		}
 	}
 	.owl-carousel {
 		@include grid-span(12, 0 ,10);
 		max-width: none;
+
+		.owl-stage {
+		}
 
 		.owl-dots {
 			display: none;

@@ -32,6 +32,12 @@ jQuery(function ($) {
 		e.preventDefault();
 		var toIndex = $(this).parent().index() * itemsPerSlide;
 		owl.trigger('to.owl.carousel', [toIndex, speed, true]);
+	});
+
+	owl.on('changed.owl.carousel', function(event) {
+		var index = $('.owl-dot.active').index() + 1;
+		$('.media-category.active').removeClass('active');
+		$( '.media-category:nth-child(' + index + ')').addClass('active');
 	})
 
 	// Debounce function
