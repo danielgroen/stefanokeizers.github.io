@@ -13,7 +13,7 @@
 					font-weight: 600;
 					color: $gray;
 					text-decoration: none;
-					margin-right: $gutter;
+					margin-right: calc(#{$gutter} / 1.5);
 					text-transform: none;
 				}
 

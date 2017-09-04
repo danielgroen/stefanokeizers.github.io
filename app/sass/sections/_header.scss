@@ -13,8 +13,15 @@
 			
 			a {
 				color: $gray;
-				margin-right: 10px;
 				text-decoration: none;
+				margin-right: 10px;
+
+			}
+
+			&:last-child {
+				a {
+					margin-right: 0;
+				}
 			}
 
 			&.active {

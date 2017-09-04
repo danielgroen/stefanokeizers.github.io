@@ -695,8 +695,10 @@ table {
       margin-right: 5px; }
       .header .menu .item a {
         color: gray;
-        margin-right: 10px;
-        text-decoration: none; }
+        text-decoration: none;
+        margin-right: 10px; }
+      .header .menu .item:last-child a {
+        margin-right: 0; }
       .header .menu .item.active a {
         color: #252525; }
 
@@ -765,6 +767,7 @@ main section {
     margin-right: 0;
     clear: none;
     padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 4.16667%;
     padding-right: 4.16667%;
     background-repeat: no-repeat;
@@ -774,7 +777,8 @@ main section {
     float: none;
     -webkit-filter: brightness(99%);
             filter: brightness(99%);
-    min-height: 500px; }
+    overflow: hidden;
+    min-height: 300px; }
     main section .inner:after {
       content: "";
       display: table;
@@ -795,6 +799,7 @@ main section {
     margin-left: 4.16667%;
     clear: none;
     float: none;
+    min-height: 500px;
     padding-left: 12.5%; }
     main section .inner:after {
       content: "";
@@ -813,13 +818,19 @@ main section {
     line-height: 1.4;
     font-size: 48px;
     font-weight: bold;
-    line-height: 50px;
     text-transform: uppercase;
-    margin: 40px 0; }
+    margin: 40px 0;
+    font-size: 30px;
+    line-height: 1.4; }
     #header-block .inner .title span {
       font-weight: 400;
       clear: left;
       display: block; }
+
+@media (min-width: 768px) {
+  #header-block .inner .title {
+    font-size: 48px;
+    line-height: 60px; } }
 
 #media .inner {
   background-image: url("../img/stefano-liggend.jpg"); }
@@ -839,7 +850,7 @@ main section {
         font-weight: 600;
         color: gray;
         text-decoration: none;
-        margin-right: 40px;
+        margin-right: calc(40px / 1.5);
         text-transform: none; }
       #media .inner .media-nav .media-category.active a {
         color: #252525; }

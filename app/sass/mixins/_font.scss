@@ -7,7 +7,6 @@
   @if $type == "title" {
     font-size: 48px;
     font-weight: bold;
-    line-height: 50px;
 
   } @else if $type == "navigation" {
     font-family: "Source Sans Pro", sans-serif;

@@ -6,6 +6,7 @@ main {
 			@include grid-span(24, 1);
 			@include clearfix;
 			padding-top: $gutter;
+			padding-bottom: $gutter;
 			padding-left: grid-span(1,1);
 			padding-right: grid-span(1,1);
 			background-repeat: no-repeat;
@@ -14,7 +15,8 @@ main {
 			margin-bottom: $gutter;
 			float: none;
 			filter: brightness(99%);
-			min-height: 500px;
+			overflow: hidden;
+			min-height: 300px;
 			
 			> .title {
 				@include font('subtitle');
@@ -31,6 +33,7 @@ main {
 				@include grid-span(22, 2);
 				@include clearfix;
 				float: none;
+				min-height: 500px;
 
 				padding-left: grid-span(3, 1,24);
 			}

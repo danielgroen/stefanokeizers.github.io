@@ -1,15 +1,28 @@
 #header-block {
 	.inner {
 		background-image:  url('../img/stefano-hoofd.jpg');
+		
 		.title {
 			@include font('title');
 			text-transform: uppercase;
 			margin: $gutter 0;
+			font-size: 30px;
+			line-height: 1.4;
 
 			span {
 				font-weight: 400;
 				clear: left;
 				display: block;
+			}
+		}
+	}
+}
+@include breakpoint($tablet) {
+	#header-block {
+		.inner {
+			.title {
+				font-size: 48px;
+				line-height: 60px;
 			}
 		}
 	}
