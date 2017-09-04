@@ -13,6 +13,7 @@ jQuery(function ($) {
 	owl.owlCarousel({
 		margin: 20,
 		nav: false,
+		autoHeight: true,
 		responsive : {
 		    0 : {
 				items: 1,
@@ -37,6 +38,7 @@ jQuery(function ($) {
 
 	owl.on('changed.owl.carousel', function(event) {
 		var index = $('.owl-dot.active').index() + 1;
+		console.log(event.page.index / event.page.count)
 
 		//calculatie werkt nog niet
 		// console.log(event);
@@ -47,13 +49,4 @@ jQuery(function ($) {
 		$('.media-category.active').removeClass('active');
 		$( '.media-category:nth-child(' + index + ')').addClass('active');
 	})
-
-	// Debounce function
-  	function debounce(callback, time) {
-		var timeout;
-		return function() {
-		  clearTimeout(timeout);
-		  timeout = setTimeout(callback, time);
-		};
-  	};
 });

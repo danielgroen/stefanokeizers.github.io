@@ -12,6 +12,8 @@ const 	gulp 						= require('gulp'),
 				sassGlob 			= require('gulp-sass-glob'),
 				uglify 				= require('gulp-uglify'),
 				filesystem			= require('fs'),
+				inject				= require('gulp-inject'),
+				//https://www.npmjs.com/package/gulp-inject
 				htmlmin				= require('gulp-htmlmin'),
 				imagemin 			= require('gulp-imagemin'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
@@ -56,8 +58,7 @@ gulp.task('sass-serve',function() {
 gulp.task('js', function() {
 	gulp.src(mainBowerFiles(['**/*.js']).concat(jsFiles))
 		.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-        .pipe(sassGlob())
-		.pipe(uglify())
+		// .pipe(uglify())
 		.pipe(concat('main.js'))
 		.pipe(gulp.dest(dist+'/js/'))
 		.pipe(browserSync.stream());
