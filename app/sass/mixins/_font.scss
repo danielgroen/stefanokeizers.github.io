@@ -2,6 +2,7 @@
   font-family: "Source Sans Pro", sans-serif;
   color: $black;
   font-size: 16px;
+  line-height: 1.4;
 
   @if $type == "title" {
     font-size: 48px;
@@ -10,12 +11,12 @@
 
   } @else if $type == "navigation" {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 600px;
     text-transform: uppercase;
 
   } @else if $type == "subtitle" {
     font-weight: 600px;
-    font-size: 26px;
+    font-size: 28px;
   }
 }

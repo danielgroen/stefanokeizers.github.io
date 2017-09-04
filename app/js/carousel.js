@@ -13,7 +13,6 @@ jQuery(function ($) {
 	owl.owlCarousel({
 		margin: 20,
 		nav: false,
-		autoHeight: true,
 		responsive : {
 		    0 : {
 				items: 1,
@@ -36,17 +35,17 @@ jQuery(function ($) {
 		owl.trigger('to.owl.carousel', [toIndex, speed, true]);
 	});
 
-	owl.on('changed.owl.carousel', function(event) {
-		var index = $('.owl-dot.active').index() + 1;
-		console.log(event.page.index / event.page.count)
+	$('.media-category').each(function( index ) {
+		var htmlText = $(this).find('a').text().toLowerCase();
+		$(this).addClass(htmlText);
+	});
 
-		//calculatie werkt nog niet
-		// console.log(event);
-		// var index = event.page.index + 1;
-		// var itemsperslideNew = index * (event.page.count / $('.media-category').length) ;
-		// console.log(itemsperslideNew)
-		
+	owl.on('changed.owl.carousel', function(event) {
+		var index = event.item.index + 1;
+
+		var ClassOfActiveItem =  $('.owl-carousel .owl-item:nth-child(' + index + ') > ').attr('class');
 		$('.media-category.active').removeClass('active');
-		$( '.media-category:nth-child(' + index + ')').addClass('active');
+		
+		$( '.media-category.' + ClassOfActiveItem ).addClass('active');
 	})
 });

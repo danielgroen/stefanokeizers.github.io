@@ -1,70 +1,54 @@
 #media {
-	// @include max-width;
-	@include grid-span(10, 2);
-	@include clearfix;
-	float: none;
+	.inner {
+		background-image:  url('../img/stefano-liggend.jpg');
 
-	.title {
-		@include font('subtitle');
-	}
+		.media-nav {
+			padding: 20px 0;
 
-	.media-nav {
-		padding: 20px 0;
-		.media-category {
-			display: inline-block;
-			
-			a {
-				@include font('navigation');
-				text-decoration: none;
-				margin-right: $gutter;
-				text-transform: none;
-			}
+			.media-category {
+				display: inline-block;
+				
+				a {
+					@include font('navigation');
+					font-weight: 600;
+					color: $gray;
+					text-decoration: none;
+					margin-right: $gutter;
+					text-transform: none;
+				}
 
-			&.active {
-				font-weight: 600;
+				&.active {
+					a {
+						color: $black;
+					}
+				}
 			}
 		}
-	}
-	.owl-carousel {
-		@include grid-span(12, 0 ,10);
-		max-width: none;
+		.owl-carousel {
+			@include grid-span(12, 0 ,10);
+			max-width: none;
 
-		.owl-stage {
-		}
+			.owl-stage-outer {
+				padding-left: 10px;
+				margin-left: -10px;
+				padding-right: 10px;
+				box-sizing: content-box;
+				margin-right: -10px;
+			}
 
-		.owl-dots {
-			display: none;
+			.owl-dots {
+				display: none;
+			}
 		}
 	}
 }
 
 @include breakpoint($tablet) {
 	#media {
-	// @include max-width;
-	@include grid-span(22, 2);
-	@include clearfix;
-	float: none;
-
-	.media-nav {
-		padding: 20px 0;
-		.media-category {
-			display: inline-block;
-			
-			a {
-				@include font('navigation');
-				text-decoration: none;
-				margin-right: $gutter;
-				text-transform: none;
+		.inner {
+			.owl-carousel {
+				@include grid-span(24, 1 ,24);
 			}
 		}
 	}
-	.owl-carousel {
-		@include grid-span(20, 1, 20);
-		max-width: none;
-
-		.owl-dots {
-			display: none;
-		}
-	}
-}
 }

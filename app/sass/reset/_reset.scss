@@ -19,7 +19,6 @@ time, mark, audio, video {
 	padding: 0;
 	font-size: 100%;
 	max-width: 100%;
-	font: inherit;
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
@@ -28,9 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }

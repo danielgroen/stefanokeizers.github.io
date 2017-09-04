@@ -1,0 +1,39 @@
+main {
+	section {
+		@include max-width;
+
+		.inner {
+			@include grid-span(24, 1);
+			@include clearfix;
+			padding-top: $gutter;
+			padding-left: grid-span(1,1);
+			padding-right: grid-span(1,1);
+			background-repeat: no-repeat;
+			background-size: cover;
+			border: $border;
+			margin-bottom: $gutter;
+			float: none;
+			filter: brightness(99%);
+			min-height: 500px;
+			
+			> .title {
+				@include font('subtitle');
+			}
+		}
+	}
+}
+
+
+@include breakpoint($tablet) {
+	main {
+		section {
+			.inner {
+				@include grid-span(22, 2);
+				@include clearfix;
+				float: none;
+
+				padding-left: grid-span(3, 1,24);
+			}
+		}
+	}
+}

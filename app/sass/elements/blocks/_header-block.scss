@@ -1,0 +1,16 @@
+#header-block {
+	.inner {
+		background-image:  url('../img/stefano-hoofd.jpg');
+		.title {
+			@include font('title');
+			text-transform: uppercase;
+			margin: $gutter 0;
+
+			span {
+				font-weight: 400;
+				clear: left;
+				display: block;
+			}
+		}
+	}
+}

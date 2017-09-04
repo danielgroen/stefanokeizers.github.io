@@ -2,28 +2,25 @@
 	text-align: center;
 	@include max-width;
 
-	.title {
-		@include font('title');
-		text-transform: uppercase;
-		margin: $gutter 0;
-
-		span {
-			font-weight: 400;
-		}
-	}
-
 	.menu {
 		color: $gray-light;
-		margin-bottom: $gutter;
+		margin: $gutter 0;
 
 		.item {
 			@include font('navigation');
 			display: inline;
 			margin-right: $padding;
 			
-			.button {
+			a {
 				color: $gray;
+				margin-right: 10px;
 				text-decoration: none;
+			}
+
+			&.active {
+				a {
+					color: $black;
+				}
 			}
 		}
 	}

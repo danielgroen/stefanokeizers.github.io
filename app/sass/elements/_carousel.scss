@@ -1,5 +1,34 @@
 .owl-carousel {
 	.owl-stage {
 		max-width: none;
+	    padding-top: 10px;
+
+		.owl-item {
+			background-color: $white;
+			box-shadow: $shadow;
+			padding: $gutter;
+			min-height: 250px;
+			margin-bottom: 10px;
+
+			.card {
+				.title {
+					@include font('navigation');
+					font-weight: 600;
+				}
+				a {
+					margin: 20px 0;
+					display: block;
+				}
+				blockquote {
+					font-style: italic;
+					&:before {
+						content: "\201C";
+					}
+					&:after {
+						content: "\201D";
+					}
+				}
+			}
+		}
 	}
 }

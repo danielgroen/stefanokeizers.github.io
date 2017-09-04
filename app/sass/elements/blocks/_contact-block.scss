@@ -1,0 +1,10 @@
+#contact {
+
+	.inner {
+		background-image:  url('../img/stefano-voeten.jpg');
+	}
+}
+
+@include breakpoint($tablet) {
+
+}
