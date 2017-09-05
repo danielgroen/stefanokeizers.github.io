@@ -772,6 +772,7 @@ main section {
     padding-right: 4.16667%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     border: 1px solid #ececec;
     margin-bottom: 40px;
     float: none;
@@ -877,3 +878,6 @@ main section {
     margin-left: 0;
     margin-right: 0;
     clear: none; } }
+
+#speeldata .inner {
+  background-image: url("../img/stefano-voeten.jpg"); }

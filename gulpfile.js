@@ -21,6 +21,7 @@ const 	gulp 						= require('gulp'),
 				app 				= './app',
 				dist 				= 'dist',
 				jsFiles 			= app + '/js/**/*.js',
+				data	 			= app + '/data/*.json',
 				images 				= app + '/img/**/*.{png,jpg,jpeg,ico}',
 				sassFiles 			= app + '/sass/**/*.scss',
 				htmlFiles 			= app + '/*.html',
@@ -62,6 +63,12 @@ gulp.task('js', function() {
 		.pipe(concat('main.js'))
 		.pipe(gulp.dest(dist+'/js/'))
 		.pipe(browserSync.stream());
+
+	// data
+	gulp.src(data)
+		.pipe(concat('data.json'))
+		.pipe(gulp.dest(dist+'/data/'))
+		.pipe(browserSync.stream());
 });
 
 gulp.task('html',function() {
@@ -87,6 +94,7 @@ gulp.task('compile', function() {
 gulp.task('serve', ['browsersync'], function(){
     gulp.watch(sassFiles, ['sass-serve']);
 	gulp.watch(jsFiles, ['js']);
+	gulp.watch(data, ['js']);
 	gulp.watch(htmlFiles, ['html']);
 	gulp.watch(images, ['compile']);
 });
