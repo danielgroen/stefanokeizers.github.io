@@ -665,6 +665,7 @@ table {
   font-size: 1em;
   line-height: 1.5;
   font-family: "Source Sans Pro", sans-serif;
+  color: #777777;
   font-size: 1em;
   font-weight: 600px;
   text-transform: uppercase;
@@ -688,13 +689,14 @@ table {
       font-size: 1em;
       line-height: 1.5;
       font-family: "Source Sans Pro", sans-serif;
+      color: #777777;
       font-size: 1em;
       font-weight: 600px;
       text-transform: uppercase;
       display: inline;
       margin-right: 2em; }
       .header .menu .item a {
-        color: gray;
+        color: #777777;
         text-decoration: none; }
       .header .menu .item:last-child a {
         margin-right: 0; }
@@ -707,6 +709,7 @@ table {
   font-size: 1em;
   line-height: 1.5;
   font-family: "Source Sans Pro", sans-serif;
+  color: #777777;
   font-size: 1em;
   font-weight: 600px;
   text-transform: uppercase;
@@ -731,22 +734,28 @@ table {
   padding-top: 10px; }
   .owl-carousel .owl-stage .owl-item {
     background-color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 40px;
     min-height: 250px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    border-radius: 2px; }
     .owl-carousel .owl-stage .owl-item .card .title {
       font-family: "Source Sans Pro", sans-serif;
       color: #252525;
       font-size: 1em;
       line-height: 1.5;
       font-family: "Source Sans Pro", sans-serif;
+      color: #777777;
       font-size: 1em;
       font-weight: 600px;
       text-transform: uppercase;
+      font-size: 1.125em;
+      color: #252525;
+      text-transform: capitalize;
       font-weight: 600; }
     .owl-carousel .owl-stage .owl-item .card a {
-      margin: 20px 0;
+      color: #777777;
+      margin: 1em 0;
       display: block; }
     .owl-carousel .owl-stage .owl-item .card blockquote {
       font-style: italic; }
@@ -754,6 +763,26 @@ table {
         content: "\201C"; }
       .owl-carousel .owl-stage .owl-item .card blockquote:after {
         content: "\201D"; }
+
+.owl-nav > div {
+  display: block;
+  position: absolute;
+  top: calc(50% - 30px);
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out; }
+  .owl-nav > div.owl-prev {
+    left: 0px; }
+  .owl-nav > div.owl-next {
+    right: 0px; }
+  .owl-nav > div.disabled {
+    opacity: 0 !important; }
+
+.owl-nav [class*='owl-'] {
+  background: transparent !important; }
+
+.owl-nav svg {
+  height: 2em;
+  fill: #777777; }
 
 main section {
   width: 100%;
@@ -775,8 +804,8 @@ main section {
     border: 1px solid #ececec;
     margin-bottom: 40px;
     float: none;
-    -webkit-filter: brightness(99%);
-            filter: brightness(99%);
+    -webkit-filter: brightness(98%);
+            filter: brightness(98%);
     overflow: hidden;
     min-height: 300px; }
     main section .inner:after {
@@ -843,12 +872,13 @@ main section {
         font-size: 1em;
         line-height: 1.5;
         font-family: "Source Sans Pro", sans-serif;
+        color: #777777;
         font-size: 1em;
         font-weight: 600px;
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 600;
-        color: gray;
+        color: #777777;
         text-decoration: none;
         margin-right: 2em;
         text-transform: none; }
@@ -872,10 +902,10 @@ main section {
 
 @media (min-width: 768px) {
   #media .inner .owl-carousel {
-    width: 100%;
-    float: right;
+    width: 105.55556%;
+    float: left;
+    margin-right: -100%;
     margin-left: 0;
-    margin-right: 0;
     clear: none; } }
 
 #speeldata .inner {

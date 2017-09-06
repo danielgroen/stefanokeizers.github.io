@@ -1,0 +1,31 @@
+.owl-nav {
+	> div {
+		display: block;
+		position: absolute;
+		top: calc(50% - 30px);
+		opacity: 1; 
+		transition: opacity $speed ease-in-out;
+		
+		&.owl-prev {
+			left: 0px;
+		}
+		
+		&.owl-next {
+			right: 0px;
+		}		
+
+		&.disabled {
+			opacity:0 !important;
+		}
+	}
+
+	[class*='owl-'] {
+		background: transparent !important;
+	}
+
+	svg {
+		height: 2em;
+		fill: $gray;
+	}
+	
+}

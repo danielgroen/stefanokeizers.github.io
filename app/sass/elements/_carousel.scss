@@ -9,16 +9,23 @@
 			padding: $gutter;
 			min-height: 250px;
 			margin-bottom: 10px;
+			border-radius: $border-radius;
 
 			.card {
 				.title {
 					@include font('navigation');
+					font-size: 1.125em;
+					color: $black;
+					text-transform: capitalize;
 					font-weight: 600;
 				}
+
 				a {
-					margin: 20px 0;
+					color: $gray;
+					margin: 1em 0;
 					display: block;
 				}
+
 				blockquote {
 					font-style: italic;
 					&:before {

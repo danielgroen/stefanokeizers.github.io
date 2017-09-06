@@ -48,7 +48,7 @@
 	#media {
 		.inner {
 			.owl-carousel {
-				@include grid-span(24, 1 ,24);
+				@include grid-span(19, 1 ,18);
 			}
 		}
 	}
