@@ -606,8 +606,8 @@ body[grid="visible"]:after {
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #252525;
-  font-size: 16px;
-  line-height: 1.4; }
+  font-size: 1em;
+  line-height: 1.5; }
 
 a {
   color: #252525; }
@@ -662,10 +662,10 @@ table {
 .footer {
   font-family: "Source Sans Pro", sans-serif;
   color: #252525;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 1em;
+  line-height: 1.5;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 17px;
+  font-size: 1em;
   font-weight: 600px;
   text-transform: uppercase;
   width: 100%;
@@ -685,18 +685,17 @@ table {
     .header .menu .item {
       font-family: "Source Sans Pro", sans-serif;
       color: #252525;
-      font-size: 16px;
-      line-height: 1.4;
+      font-size: 1em;
+      line-height: 1.5;
       font-family: "Source Sans Pro", sans-serif;
-      font-size: 17px;
+      font-size: 1em;
       font-weight: 600px;
       text-transform: uppercase;
       display: inline;
-      margin-right: 5px; }
+      margin-right: 2em; }
       .header .menu .item a {
         color: gray;
-        text-decoration: none;
-        margin-right: 10px; }
+        text-decoration: none; }
       .header .menu .item:last-child a {
         margin-right: 0; }
       .header .menu .item.active a {
@@ -705,10 +704,10 @@ table {
 .button {
   font-family: "Source Sans Pro", sans-serif;
   color: #252525;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 1em;
+  line-height: 1.5;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 17px;
+  font-size: 1em;
   font-weight: 600px;
   text-transform: uppercase;
   color: black;
@@ -739,10 +738,10 @@ table {
     .owl-carousel .owl-stage .owl-item .card .title {
       font-family: "Source Sans Pro", sans-serif;
       color: #252525;
-      font-size: 16px;
-      line-height: 1.4;
+      font-size: 1em;
+      line-height: 1.5;
       font-family: "Source Sans Pro", sans-serif;
-      font-size: 17px;
+      font-size: 1em;
       font-weight: 600px;
       text-transform: uppercase;
       font-weight: 600; }
@@ -787,10 +786,10 @@ main section {
     main section .inner > .title {
       font-family: "Source Sans Pro", sans-serif;
       color: #252525;
-      font-size: 16px;
-      line-height: 1.4;
-      font-weight: 600px;
-      font-size: 28px; }
+      font-size: 1em;
+      line-height: 1.5;
+      font-size: 2em;
+      font-weight: bold; }
 
 @media (min-width: 768px) {
   main section .inner {
@@ -815,14 +814,13 @@ main section {
   #header-block .inner .title {
     font-family: "Source Sans Pro", sans-serif;
     color: #252525;
-    font-size: 16px;
-    line-height: 1.4;
-    font-size: 48px;
+    font-size: 1em;
+    line-height: 1.5;
+    font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
     margin: 40px 0;
-    font-size: 30px;
-    line-height: 1.4; }
+    font-size: 1.5em; }
     #header-block .inner .title span {
       font-weight: 400;
       clear: left;
@@ -830,7 +828,7 @@ main section {
 
 @media (min-width: 768px) {
   #header-block .inner .title {
-    font-size: 48px;
+    font-size: 3.5em;
     line-height: 60px; } }
 
 #media .inner {
@@ -842,16 +840,17 @@ main section {
       #media .inner .media-nav .media-category a {
         font-family: "Source Sans Pro", sans-serif;
         color: #252525;
-        font-size: 16px;
-        line-height: 1.4;
+        font-size: 1em;
+        line-height: 1.5;
         font-family: "Source Sans Pro", sans-serif;
-        font-size: 17px;
+        font-size: 1em;
         font-weight: 600px;
         text-transform: uppercase;
+        font-size: 1.25em;
         font-weight: 600;
         color: gray;
         text-decoration: none;
-        margin-right: calc(40px / 1.5);
+        margin-right: 2em;
         text-transform: none; }
       #media .inner .media-nav .media-category.active a {
         color: #252525; }

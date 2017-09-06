@@ -9,13 +9,11 @@
 		.item {
 			@include font('navigation');
 			display: inline;
-			margin-right: $padding;
+			margin-right: $fontpadding;
 			
 			a {
 				color: $gray;
 				text-decoration: none;
-				margin-right: 10px;
-
 			}
 
 			&:last-child {

@@ -1,21 +1,18 @@
 @mixin font($type:'normal') {
   font-family: "Source Sans Pro", sans-serif;
   color: $black;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 1em;
+  line-height: 1.5;
 
   @if $type == "title" {
-    font-size: 48px;
+    font-size: 2em;
     font-weight: bold;
 
   } @else if $type == "navigation" {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 17px;
+    font-size: 1em;
     font-weight: 600px;
     text-transform: uppercase;
 
-  } @else if $type == "subtitle" {
-    font-weight: 600px;
-    font-size: 28px;
   }
 }

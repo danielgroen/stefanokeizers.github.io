@@ -10,10 +10,11 @@
 				
 				a {
 					@include font('navigation');
+					font-size: 1.25em;
 					font-weight: 600;
 					color: $gray;
 					text-decoration: none;
-					margin-right: calc(#{$gutter} / 1.5);
+					margin-right: $fontpadding;
 					text-transform: none;
 				}
 

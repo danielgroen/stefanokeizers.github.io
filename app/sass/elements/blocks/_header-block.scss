@@ -6,8 +6,7 @@
 			@include font('title');
 			text-transform: uppercase;
 			margin: $gutter 0;
-			font-size: 30px;
-			line-height: 1.4;
+			font-size: 1.5em;
 
 			span {
 				font-weight: 400;
@@ -21,7 +20,7 @@
 	#header-block {
 		.inner {
 			.title {
-				font-size: 48px;
+				font-size: 3.5em;
 				line-height: 60px;
 			}
 		}
