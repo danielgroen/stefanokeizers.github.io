@@ -731,12 +731,12 @@ table {
 
 .owl-carousel .owl-stage {
   max-width: none;
-  padding-top: 10px; }
+  padding-top: 10px;
+  min-width: 5000px; }
   .owl-carousel .owl-stage .owl-item {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    min-height: 250px;
+    padding: 2em;
     margin-bottom: 10px;
     border-radius: 2px; }
     .owl-carousel .owl-stage .owl-item .card .title {
@@ -755,7 +755,7 @@ table {
       font-weight: 600; }
     .owl-carousel .owl-stage .owl-item .card a {
       color: #777777;
-      margin: 1em 0;
+      margin: 1em 0 .5em 0;
       display: block; }
     .owl-carousel .owl-stage .owl-item .card blockquote {
       font-style: italic; }
@@ -902,10 +902,10 @@ main section {
 
 @media (min-width: 768px) {
   #media .inner .owl-carousel {
-    width: 105.55556%;
-    float: left;
-    margin-right: -100%;
+    width: 100%;
+    float: right;
     margin-left: 0;
+    margin-right: 0;
     clear: none; } }
 
 #speeldata .inner {

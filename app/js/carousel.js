@@ -17,12 +17,14 @@ jQuery(function ($) {
 		    0 : {
 				items: 1,
 				slideBy: 3,
-				nav: true,
+				nav: false,
+				mouseDrag: true,
 				stagePadding: 50,
-				center: true
+				center: true,
 		    },
 		    768 : {
-				items: 3,
+				items: 4,
+				mouseDrag: false,
 				nav: true,
 				slideBy: 3,
 				stagePadding: 0,
@@ -33,7 +35,7 @@ jQuery(function ($) {
 
 	$('.media-nav a').on('click', function(e) {
 		e.preventDefault();
-		var toIndex = $(this).parent().index() * itemsPerSlide;
+		var toIndex = $(this).parent().index() * (itemsPerSlide + 1);
 		owl.trigger('to.owl.carousel', [toIndex, speed, true]);
 	});
 

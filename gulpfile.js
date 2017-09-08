@@ -37,7 +37,8 @@ const 	gulp 						= require('gulp'),
 gulp.task('browsersync', function() {
     filesystem.readFile('environment', 'utf8', function (error, environment) {
         browserSync.init({
-            proxy: environment
+            proxy: environment,
+            ghostMode: false
         });
     });
 });

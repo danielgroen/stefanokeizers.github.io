@@ -2,12 +2,12 @@
 	.owl-stage {
 		max-width: none;
 	    padding-top: 10px;
+	    min-width: 5000px;
 
 		.owl-item {
 			background-color: $white;
 			box-shadow: $shadow;
-			padding: $gutter;
-			min-height: 250px;
+			padding: 2em;
 			margin-bottom: 10px;
 			border-radius: $border-radius;
 
@@ -22,7 +22,7 @@
 
 				a {
 					color: $gray;
-					margin: 1em 0;
+					margin: 1em 0 .5em 0;
 					display: block;
 				}
 
@@ -34,6 +34,18 @@
 					&:after {
 						content: "\201D";
 					}
+				}
+			}
+		}
+	}
+}
+
+@include breakpoint($tablet) {
+	.owl-carousel {
+		.owl-stage {
+			.owl-item {
+				&:nth-child(4n+4) {
+					// margin-left: 220px;
 				}
 			}
 		}
