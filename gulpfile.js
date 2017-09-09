@@ -12,20 +12,21 @@ const 	gulp 						= require('gulp'),
 				sassGlob 			= require('gulp-sass-glob'),
 				uglify 				= require('gulp-uglify'),
 				filesystem			= require('fs'),
-				inject				= require('gulp-inject'),
-				//https://www.npmjs.com/package/gulp-inject
 				htmlmin				= require('gulp-htmlmin'),
 				imagemin 			= require('gulp-imagemin'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
+				reload 				= browserSync.reload,
+				
 				// files
 				app 				= './app',
 				dist 				= 'dist',
-				jsFiles 			= app + '/js/**/*.js',
-				data	 			= app + '/data/*.json',
-				images 				= app + '/img/**/*.{png,jpg,jpeg,ico}',
-				sassFiles 			= app + '/sass/**/*.scss',
-				htmlFiles 			= app + '/*.html',
-				cname				= app + '/CNAME',
+				jsFiles 			= '/js/**/*.js',
+				data	 			= '/data/*.json',
+				images 				= '/img/**/*.{png,jpg,jpeg,ico}',
+				sassFiles 			= '/sass/**/*.scss',
+				htmlFiles 			= '/*.html',
+				cssFiles 			= '/css/*.css',
+				cname				= '/CNAME',
 
 				options = {
 					remoteUrl: "https://github.com/danielgroen/stefanokeizers.github.io.git",
@@ -37,79 +38,78 @@ const 	gulp 						= require('gulp'),
 gulp.task('browsersync', function() {
     filesystem.readFile('environment', 'utf8', function (error, environment) {
         browserSync.init({
-            proxy: environment,
-            ghostMode: false
+	        server: {
+	            baseDir: app
+	        },
+	        ghostMode: false
         });
     });
 });
 
 // set scss files to the css folder into a css file
-gulp.task('sass-serve',function() {
-	gulp.src(sassFiles)
+gulp.task('css',function() {
+	console.log('joe')
+	return gulp.src(app + sassFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
         .pipe(sassGlob())
 	    .pipe(sass())
-		.pipe(gulpAutoprefixer())
-		.pipe(concat('stylesheet.css'))
-		.pipe(gulp.dest(app+'/css/'))
-		.pipe(gulp.dest(dist+'/css/'))
+		.pipe(gulpAutoprefixer({
+	        browsers: ['last 20 versions'],
+        	cascade: false
+		}))
+		.pipe(gulp.dest(app + '/css/'))
 		.pipe(browserSync.stream());
+
+
 });
 
-//task gejat van manofhthematches
 gulp.task('js', function() {
-	gulp.src(mainBowerFiles(['**/*.js']).concat(jsFiles))
+	return gulp.src(mainBowerFiles(['**/*.js']).concat(app + jsFiles))
 		.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-		// .pipe(uglify())
 		.pipe(concat('main.js'))
-		.pipe(gulp.dest(dist+'/js/'))
-		.pipe(browserSync.stream());
-
-	// data
-	gulp.src(data)
-		.pipe(concat('data.json'))
-		.pipe(gulp.dest(dist+'/data/'))
+		.pipe(gulp.dest(app + '/js/'))
 		.pipe(browserSync.stream());
 });
 
-gulp.task('html',function() {
-	gulp.src(htmlFiles)
-    	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-    	// .pipe(inlineCss())
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+gulp.task('serve', ['browsersync'], function() {
+	gulp.watch([app + htmlFiles]).on("change", reload);
+	gulp.watch([app + jsFiles], ['js']);
+	gulp.watch([app + data]).on("change", reload);
+	gulp.watch([app + sassFiles], ['css']);	
+});
+
+gulp.task('default', ['serve']);
+
+gulp.task('build', function() {
+	gulp.src(app + htmlFiles)
+	    // .pipe(replace('<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>', '<!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>-->'))
+		// .pipe(inlineCss())
 		.pipe(htmlmin({collapseWhitespace: true}))
-		.pipe(gulp.dest(dist))
-		.pipe(browserSync.stream());
+		.pipe(gulp.dest(dist));
 
-	gulp.src(cname)
-    	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-    	.pipe(gulp.dest(dist));
-});
+	gulp.src(app + '/js/*.js')
+		.pipe(uglify())
+		.pipe(gulp.dest( dist + '/js/'));
 
-gulp.task('compile', function() {
-	return	gulp.src(images)
-    	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
+	gulp.src(app + cssFiles)
+		.pipe(gulp.dest( dist + '/css/'));
+
+	gulp.src(app + data)
+		.pipe(gulp.dest( dist + '/data/'));
+
+	gulp.src(app + images)
 		.pipe(imagemin([mozjpeg()]))
 		.pipe(gulp.dest(dist + '/img/'));
+
 });
 
-gulp.task('serve', ['browsersync'], function(){
-    gulp.watch(sassFiles, ['sass-serve']);
-	gulp.watch(jsFiles, ['js']);
-	gulp.watch(data, ['js']);
-	gulp.watch(htmlFiles, ['html']);
-	gulp.watch(images, ['compile']);
-});
-
-
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-gulp.task('build', ['sass-serve', 'html','js', 'compile']);
-gulp.task('default', ['serve']);
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-
-//deploy the dist folder to gh pages
 gulp.task('deploy', ['build'], function () {
 	gulp.src(["dist/**/*.*", "dist/CNAME"])
 		.pipe(ghpages(options));
 });
+/////////////////////////////////////////////////
+/////////////////////////////////////////////////
+
+
