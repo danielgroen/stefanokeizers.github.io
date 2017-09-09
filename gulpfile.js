@@ -91,9 +91,7 @@ gulp.task('build', function() {
 
 	gulp.src(app + htmlFiles)
 	    // .pipe(replace('<style type="text/css">/*<!-- inject-style src="./app/css/stylesheet.css" -->*/</style>', '<!--gone-->'))
-		.pipe(styleInject({
-			encapsulated: false
-		}))
+		.pipe(styleInject({encapsulated: false}))
 		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest(dist));
 
