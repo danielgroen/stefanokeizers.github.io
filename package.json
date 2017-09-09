@@ -10,6 +10,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/danielgroen/stefanokeizers.nl",
   "devDependencies": {
+    "async": "^2.5.0",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",

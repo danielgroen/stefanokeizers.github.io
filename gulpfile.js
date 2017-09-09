@@ -16,6 +16,7 @@ const 			gulp 				= require('gulp'),
 				htmlmin				= require('gulp-htmlmin'),
 				styleInject 		= require("gulp-style-inject"),
 				imagemin 			= require('gulp-imagemin'),
+				async 				= require('async'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
 				reload 				= browserSync.reload,
 				
@@ -48,7 +49,6 @@ gulp.task('browsersync', function() {
 
 // set scss files to the css folder into a css file
 gulp.task('css',function() {
-	console.log('joe')
 	return gulp.src(app + sassFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
         .pipe(sassGlob())
@@ -83,21 +83,28 @@ gulp.task('serve', ['browsersync'], function() {
 gulp.task('default', ['serve']);
 
 gulp.task('build', function() {
-	
-	gulp.src(app + cssFiles)	
-		.pipe(cssnano())
-		.pipe(gulp.dest( dist + '/css/'));
+
+	async.series([
+	    function (next) {
+			gulp.src(app + cssFiles)	
+				.pipe(cssnano())
+				.pipe(gulp.dest( dist + '/css/'))
+				.on('end', next);
+		},
+	    function (next) {
+			gulp.src(app + htmlFiles)
+				.pipe(styleInject({encapsulated: false}))
+			    .pipe(replace('<link type="text/css" rel="stylesheet" type="text/css" href="css/stylesheet.css">', ' '))
+			    .pipe(replace('<style><!-- inject-style src="./dist/css/stylesheet.css" --></style>', ' '))
+				.pipe(htmlmin({collapseWhitespace: true}))
+				.pipe(gulp.dest(dist));
+	    }]
+    );
 
 	gulp.src(app + '/js/*.js')
 		.pipe(uglify())
 		.pipe(gulp.dest( dist + '/js/'));
 
-	gulp.src(app + htmlFiles)
-	    .pipe(replace('<link type="text/css" rel="stylesheet" type="text/css" href="css/stylesheet.css">', ' '))
-		.pipe(styleInject({encapsulated: false}))
-	    .pipe(replace('<style><!-- inject-style src="./dist/css/stylesheet.css" --></style>', ' '))
-		.pipe(htmlmin({collapseWhitespace: true}))
-		.pipe(gulp.dest(dist));
 
 	gulp.src(app + data)
 		.pipe(gulp.dest( dist + '/data/'));
@@ -105,6 +112,7 @@ gulp.task('build', function() {
 	gulp.src(app + images)
 		.pipe(imagemin([mozjpeg()]))
 		.pipe(gulp.dest(dist + '/img/'));
+
 });
 
 gulp.task('deploy', function() {
