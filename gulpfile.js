@@ -4,7 +4,6 @@ const 	gulp 						= require('gulp'),
 				mainBowerFiles		= require('main-bower-files'),
 				gulpAutoprefixer 	= require('gulp-autoprefixer'),
 				concat 				= require('gulp-concat'),
-				inlineCss 			= require('gulp-inline-css'),
 				notify 				= require('gulp-notify'),
 				plumber 			= require('gulp-plumber'),
 				sass 				= require('gulp-sass'),
@@ -12,7 +11,9 @@ const 	gulp 						= require('gulp'),
 				sassGlob 			= require('gulp-sass-glob'),
 				uglify 				= require('gulp-uglify'),
 				filesystem			= require('fs'),
+				cssnano 			= require('gulp-cssnano'),
 				htmlmin				= require('gulp-htmlmin'),
+				styleInject 		= require("gulp-style-inject"),
 				imagemin 			= require('gulp-imagemin'),
 				mozjpeg 			= require('imagemin-mozjpeg'),
 				reload 				= browserSync.reload,
@@ -83,9 +84,16 @@ gulp.task('serve', ['browsersync'], function() {
 gulp.task('default', ['serve']);
 
 gulp.task('build', function() {
+	
+	gulp.src(app + cssFiles)
+		.pipe(cssnano())
+		.pipe(gulp.dest( dist + '/css/'));
+
 	gulp.src(app + htmlFiles)
-	    // .pipe(replace('<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>', '<!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>-->'))
-		// .pipe(inlineCss())
+	    // .pipe(replace('<style type="text/css">/*<!-- inject-style src="./app/css/stylesheet.css" -->*/</style>', '<!--gone-->'))
+		.pipe(styleInject({
+			encapsulated: false
+		}))
 		.pipe(htmlmin({collapseWhitespace: true}))
 		.pipe(gulp.dest(dist));
 
@@ -93,8 +101,6 @@ gulp.task('build', function() {
 		.pipe(uglify())
 		.pipe(gulp.dest( dist + '/js/'));
 
-	gulp.src(app + cssFiles)
-		.pipe(gulp.dest( dist + '/css/'));
 
 	gulp.src(app + data)
 		.pipe(gulp.dest( dist + '/data/'));
