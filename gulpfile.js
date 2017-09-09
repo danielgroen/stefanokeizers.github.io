@@ -96,6 +96,7 @@ gulp.task('build', ['js', 'css'], function() {
 				.pipe(styleInject({encapsulated: false}))
 			    .pipe(replace('<link type="text/css" rel="stylesheet" type="text/css" href="css/stylesheet.css">', ' '))
 			    .pipe(replace('<style><!-- inject-style src="./dist/css/stylesheet.css" --></style>', ' '))
+			    .pipe(replace('../img/', 'img/'))
 				.pipe(htmlmin({collapseWhitespace: true}))
 				.pipe(gulp.dest(dist));
 	    }]
