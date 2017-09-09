@@ -1,11 +1,19 @@
 #header-block {
+
 	.inner {
+		display: flex;
 		background-image:  url('../img/stefano-hoofd.jpg');
+
+		.title-wrapper {
+			border: 1px;
+			align-self: center;
+		}
 		
 		.title {
 			@include font('title');
 			text-transform: uppercase;
 			margin: $gutter 0;
+			margin-top: 0;
 			font-size: 1.5em;
 
 			span {

@@ -1,20 +1,26 @@
 .button {
 	@include font('navigation');
-	color: black;
+	color: $black;
 	margin: 0;
 	border: 0;
 	position: relative;
 	width: 200px;
 	height: 50px;
 	text-align: center;
+	font-size: 1.125em;
 	box-sizing: border-box;
 	cursor: pointer;
 	overflow: hidden;
 	border: #000000 solid 1px;
 	padding: calc( #{$gutter} / 4) calc( #{$gutter} / 2);
 	transition: background-color $speed ease;
+	border-radius: $border-radius;
+	text-decoration: none;
+    display: block !important;
 
 	&:hover {
-		background-color: #f9f9f9;
+		color: $white;
+		background-color: $black;
+
 	}
 }

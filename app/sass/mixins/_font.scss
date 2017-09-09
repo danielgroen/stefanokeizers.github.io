@@ -10,10 +10,9 @@
 
   } @else if $type == "navigation" {
     font-family: "Source Sans Pro", sans-serif;
-    color: $gray;
+    color: $links;
     font-size: 1em;
-    font-weight: 600px;
+    font-weight: 600;
     text-transform: uppercase;
-
   }
 }

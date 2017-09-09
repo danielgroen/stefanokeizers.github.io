@@ -7,7 +7,7 @@
 		transition: opacity $speed ease-in-out;
 		
 		&.owl-prev {
-			left: 0px;
+			left: grid-span(-2, 1, 18);
 		}
 		
 		&.owl-next {
