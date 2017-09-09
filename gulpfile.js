@@ -7,7 +7,7 @@ const 			gulp 				= require('gulp'),
 				notify 				= require('gulp-notify'),
 				plumber 			= require('gulp-plumber'),
 				sass 				= require('gulp-sass'),
-				ghpages				= require('gulp-gh-pages'),
+				deploy				= require('gulp-gh-pages'),
 				sassGlob 			= require('gulp-sass-glob'),
 				uglify 				= require('gulp-uglify'),
 				filesystem			= require('fs'),
@@ -107,9 +107,9 @@ gulp.task('build', function() {
 		.pipe(gulp.dest(dist + '/img/'));
 });
 
-gulp.task('deploy', function () {
+gulp.task('deploy', function() {
 	gulp.src(["dist/**/*.*", "dist/CNAME"])
-		.pipe(ghpages(options));
+		.pipe(deploy(options));
 });
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
