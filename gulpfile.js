@@ -82,7 +82,7 @@ gulp.task('serve', ['browsersync'], function() {
 
 gulp.task('default', ['serve']);
 
-gulp.task('build', ['js'], function() {
+gulp.task('build', ['js', 'css'], function() {
 
 	async.series([
 	    function (next) {
