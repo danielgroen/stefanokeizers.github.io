@@ -1,5 +1,5 @@
 'use strict';
-const 	gulp 						= require('gulp'),
+const 			gulp 				= require('gulp'),
 				browserSync 		= require('browser-sync').create(),
 				mainBowerFiles		= require('main-bower-files'),
 				gulpAutoprefixer 	= require('gulp-autoprefixer'),
@@ -11,6 +11,7 @@ const 	gulp 						= require('gulp'),
 				sassGlob 			= require('gulp-sass-glob'),
 				uglify 				= require('gulp-uglify'),
 				filesystem			= require('fs'),
+				replace 			= require('gulp-replace'),
 				cssnano 			= require('gulp-cssnano'),
 				htmlmin				= require('gulp-htmlmin'),
 				styleInject 		= require("gulp-style-inject"),
@@ -37,13 +38,11 @@ const 	gulp 						= require('gulp'),
 
 // Setup browsersync.
 gulp.task('browsersync', function() {
-    filesystem.readFile('environment', 'utf8', function (error, environment) {
-        browserSync.init({
-	        server: {
-	            baseDir: app
-	        },
-	        ghostMode: false
-        });
+    browserSync.init({
+        server: {
+            baseDir: app
+        },
+        ghostMode: false
     });
 });
 
@@ -85,20 +84,20 @@ gulp.task('default', ['serve']);
 
 gulp.task('build', function() {
 	
-	gulp.src(app + cssFiles)
+	gulp.src(app + cssFiles)	
 		.pipe(cssnano())
 		.pipe(gulp.dest( dist + '/css/'));
-
-	gulp.src(app + htmlFiles)
-	    // .pipe(replace('<style type="text/css">/*<!-- inject-style src="./app/css/stylesheet.css" -->*/</style>', '<!--gone-->'))
-		.pipe(styleInject({encapsulated: false}))
-		.pipe(htmlmin({collapseWhitespace: true}))
-		.pipe(gulp.dest(dist));
 
 	gulp.src(app + '/js/*.js')
 		.pipe(uglify())
 		.pipe(gulp.dest( dist + '/js/'));
 
+	gulp.src(app + htmlFiles)
+	    .pipe(replace('<link type="text/css" rel="stylesheet" type="text/css" href="css/stylesheet.css">', ' '))
+		.pipe(styleInject({encapsulated: false}))
+	    .pipe(replace('<style><!-- inject-style src="./dist/css/stylesheet.css" --></style>', ' '))
+		.pipe(htmlmin({collapseWhitespace: true}))
+		.pipe(gulp.dest(dist));
 
 	gulp.src(app + data)
 		.pipe(gulp.dest( dist + '/data/'));
@@ -106,10 +105,9 @@ gulp.task('build', function() {
 	gulp.src(app + images)
 		.pipe(imagemin([mozjpeg()]))
 		.pipe(gulp.dest(dist + '/img/'));
-
 });
 
-gulp.task('deploy', ['build'], function () {
+gulp.task('deploy', function () {
 	gulp.src(["dist/**/*.*", "dist/CNAME"])
 		.pipe(ghpages(options));
 });
