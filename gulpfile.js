@@ -23,7 +23,7 @@ const 			gulp 				= require('gulp'),
 				// files
 				app 				= './app',
 				dist 				= 'dist',
-				jsFiles 			= '/js/**/*.js',
+				jsFiles 			= '/js/source/*.js',
 				data	 			= '/data/*.json',
 				images 				= '/img/**/*.{png,jpg,jpeg,ico}',
 				sassFiles 			= '/sass/**/*.scss',
@@ -82,7 +82,7 @@ gulp.task('serve', ['browsersync'], function() {
 
 gulp.task('default', ['serve']);
 
-gulp.task('build', function() {
+gulp.task('build', ['js'], function() {
 
 	async.series([
 	    function (next) {

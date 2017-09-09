@@ -1,10 +1,8 @@
 jQuery(function ($) {
-
 	$.getJSON( "data/data.json", function( data ) {
 		// var titles = [];
 		var performance = [];
 		var triggerOnce = true;
-
 
 		// speeldata
 		$.each( data.speeldata, function( index, val ) {
@@ -15,11 +13,11 @@ jQuery(function ($) {
 			}
 
 			if (Object.keys(val).length == 4) {
-				if(triggerOnce){
+				
+				if(triggerOnce == true ) {
 					triggerOnce = false;
 					var object = data.speeldata[0];
 					performance.push( "<tr><th>" + Object.keys(object)[0] + "</th><th>" + Object.keys(object)[1] + "</th><th>" + Object.keys(object)[2] + "</th><th>" + Object.keys(object)[3] + "<th></tr>" );
-					var escape = true;
 				}
 			}
 			performance.push( "<tr><td>" + val.datum + "</td><td>" + val.plaats + "</td><td>" + val.theater + "</td><td>" + tickets + "</td></tr>" );
