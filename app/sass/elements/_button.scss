@@ -11,7 +11,7 @@
 	overflow: hidden;
 	border: #000000 solid 1px;
 	padding: calc( #{$gutter} / 4) calc( #{$gutter} / 4);
-	transition: background-color $speed ease;
+	transition: background-color $speed ease, color $speed ease;
 	border-radius: $border-radius;
 	text-decoration: none;
     display: block !important;

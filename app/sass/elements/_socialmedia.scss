@@ -6,17 +6,18 @@
 
 		svg {
 			width: 15px;
-			fill: $white;
-			background-color: $black;
+			fill: $black;
+			background-color: $white;
 			padding: 7px;
 			border-radius: 50%;
+			border: 1px solid $black;
 			transition: background-color $speed;
 		}
 		
 		&:hover {
 			svg {
-				fill: $black;
-				background-color: $white;
+				fill: $white;
+				background-color: $black;
 				border-radius: 50%;
 			}			
 		}

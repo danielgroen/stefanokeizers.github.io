@@ -14,7 +14,7 @@
 					font-weight: 600;
 					color: $gray;
 					text-decoration: none;
-					margin-right: $fontpadding;
+					margin-right: calc( #{$fontpadding} / 1.5;
 					text-transform: none;
 				}
 
