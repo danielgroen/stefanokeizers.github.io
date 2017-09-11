@@ -11,7 +11,7 @@
 		}
 		
 		&.owl-next {
-			right: 0px;
+			right: grid-span(-2, 1, 18);
 		}		
 
 		&.disabled {

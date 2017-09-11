@@ -1,10 +1,7 @@
 $.fn.parallax = function(strength) {
     var scroll_top = $(window).scrollTop();
 	if ( this[0].offsetTop < ( scroll_top + $(window).height() ) ) {
-
-		// deze calculatie nog berekenen
-	    var move_value = Math.round(scroll_top * strength);
-	    this.css('background-position', '0 '+ ( move_value) +'px');
+	    this.css('background-position', '0 '+ Math.round((scroll_top - this[0].offsetTop) * strength) +'px');
 	}
 };
 

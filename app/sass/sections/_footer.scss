@@ -1,9 +1,64 @@
 .footer {
 	@include font('navigation');
-	color: $black;
-	width: 100%;
-	text-align: center;
-	font-weight: 600;
 	font-size: 16px;
-	margin-bottom: $gutter;
+	color: $black;
+
+	.credits {
+		@include float-span(14, 1);
+		@include clearfix;
+		padding-left: grid-span(1,1);
+		margin-bottom: $gutter;
+
+		span {
+			clear: both;
+			display: block;
+		}
+	}
+
+	.socialmedia {
+		padding-top: 2.5em;	
+		@include float-span(10, 15);
+		@include clearfix;
+
+		a {
+			margin-left: grid-span(2,1);
+		}
+	}
+}
+
+@include breakpoint($tablet) {
+	.footer {
+		text-align: center;
+
+		.inner {
+		display: inline-block;
+		width: auto;
+		height: 50px;
+		margin: 0 auto;
+
+			.credits {
+				display: inline-block;
+				padding-left: 0;
+				width: auto;
+				span {
+					clear: none;
+					display: inline-block;
+
+					&:after {
+						content: '\00a0|\00a0';
+					}
+				}
+			}
+
+			.socialmedia {
+				width: auto;
+				padding-top: 0;
+
+				a {
+					padding-left: grid-span(1,1);
+					    height: 20px;
+				}
+			}
+		}
+	}
 }

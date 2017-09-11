@@ -23,7 +23,7 @@ jQuery(function ($) {
 				center: true,
 		    },
 		    768 : {
-				items: 4,
+				items: 3,
 				mouseDrag: false,
 				nav: true,
 				slideBy: 3,

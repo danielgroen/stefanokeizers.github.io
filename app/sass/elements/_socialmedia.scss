@@ -1,0 +1,32 @@
+.socialmedia {
+	a {
+		text-decoration: none;
+
+		svg {
+			width: 15px;
+			fill: $white;
+			background-color: $black;
+			padding: 7px;
+			border-radius: 50%;
+			transition: background-color $speed;
+		}
+		
+		&:hover {
+			svg {
+				fill: $black;
+				background-color: $white;
+				border-radius: 50%;
+			}			
+		}
+	}
+}
+// @include breakpoint($tablet) {
+// 	.socialmedia {
+// 		a {
+// 			svg {
+// 				width: 20px;
+// 				padding: 10px;
+// 			}
+// 		}
+// 	}	
+// }
