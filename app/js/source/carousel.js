@@ -19,7 +19,7 @@ jQuery(function ($) {
 				slideBy: 3,
 				nav: false,
 				mouseDrag: true,
-				stagePadding: 100,
+				stagePadding: 50,
 				center: true,
 		    },
 		    768 : {
