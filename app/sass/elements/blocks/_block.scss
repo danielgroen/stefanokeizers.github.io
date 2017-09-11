@@ -21,6 +21,7 @@ main {
 			> .title {
 				@include font('title');
 				margin-bottom: 20px;
+				font-size: 1.6em;
 			}
 		}
 	}
@@ -36,6 +37,10 @@ main {
 				float: none;
 				min-height: 500px;
 				padding-left: grid-span(3, 1,24);
+
+				> .title {
+    				font-size: 2em;
+				}
 			}
 		}
 	}

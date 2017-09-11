@@ -4,23 +4,28 @@
 	margin: 0;
 	border: 0;
 	position: relative;
-	width: 200px;
-	height: 50px;
 	text-align: center;
 	font-size: 1.125em;
 	box-sizing: border-box;
 	cursor: pointer;
 	overflow: hidden;
 	border: #000000 solid 1px;
-	padding: calc( #{$gutter} / 4) calc( #{$gutter} / 2);
+	padding: calc( #{$gutter} / 4) calc( #{$gutter} / 4);
 	transition: background-color $speed ease;
 	border-radius: $border-radius;
 	text-decoration: none;
     display: block !important;
+	max-width: 150px;
 
 	&:hover {
 		color: $white;
 		background-color: $black;
 
+	}
+}
+@include breakpoint($tablet) {
+	.button {
+		padding: calc( #{$gutter} / 4) calc( #{$gutter} / 2);
+		max-width: 200px;
 	}
 }

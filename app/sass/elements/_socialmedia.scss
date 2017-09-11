@@ -1,4 +1,6 @@
 .socialmedia {
+   white-space: nowrap;
+
 	a {
 		text-decoration: none;
 
@@ -20,13 +22,3 @@
 		}
 	}
 }
-// @include breakpoint($tablet) {
-// 	.socialmedia {
-// 		a {
-// 			svg {
-// 				width: 20px;
-// 				padding: 10px;
-// 			}
-// 		}
-// 	}	
-// }

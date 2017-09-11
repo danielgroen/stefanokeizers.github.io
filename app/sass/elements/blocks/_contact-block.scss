@@ -1,7 +1,16 @@
 #contact {
-
 	.inner {
 		background-image:  url('../img/stefano-voeten.jpg');
+
+		.contact-article {
+			margin-bottom: 20px;
+
+			.phonenumber {
+				display: block;
+				color: $black;
+				text-decoration: none;
+			}
+		}
 	}
 }
 
