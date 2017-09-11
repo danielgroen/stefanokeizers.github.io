@@ -18,6 +18,11 @@
 					text-transform: none;
 				}
 
+				&:last-child {
+					a {
+						margin-right: 0;
+					}
+				}
 				&.active {
 					a {
 						color: $black;
