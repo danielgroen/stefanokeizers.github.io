@@ -33,7 +33,7 @@
 				td {
 					display: table-cell;
 					vertical-align: middle;
-					padding-left: $gutter;
+					padding-left: calc(#{$gutter} / 2);
 					
 					&:not(:last-child) {
 						float: left;
@@ -46,8 +46,9 @@
 					}
 
 					&:last-child {
+						padding-right: calc(#{$gutter} / 2);
 						text-transform: uppercase;
-					    text-align: center;
+					    text-align: right;
 
 						a {
 					    text-decoration: none;
