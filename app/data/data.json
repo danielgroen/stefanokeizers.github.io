@@ -1,184 +1,456 @@
 {
   "mediacards": [
-	{
-		"category": "Recensies",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "Recensies",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "Recensies",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "interviews",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "interviews",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "interviews",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},	
-	{
-		"category": "radio",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "radio",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "radio",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "tv",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "tv",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	},
-	{
-		"category": "tv",
-		"title": "NRC",
-		"link-text": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
-		"link": "http://www.danielgroen.nl",
-		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
-	}	
+  	{
+  		"category": "Recensies",
+  		"title": "1",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "Recensies",
+  		"title": "2",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "Recensies",
+  		"title": "3",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "interviews",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "interviews",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "interviews",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},	
+  	{
+  		"category": "radio",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "radio",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "radio",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "tv",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "tv",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	},
+  	{
+  		"category": "tv",
+  		"title": "NRC",
+  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel.",
+  		"link": "http://www.danielgroen.nl",
+  		"quote": "Het optreden was super gaaf! er gebeurde dingen die ik niet kon plaatsen! echt te random."
+  	}	
   ],
   "speeldata": [
-    { 
-      "datum": "Zo 1 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 2 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater"
-    },
-    { 
-      "datum": "Zo 3 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater"
-    },
-    { 
-      "datum": "Zo 4 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 5 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    },
-    { 
-      "datum": "Zo 10 sep 20:15",
-      "plaats": "Mierlo",
-      "theater": "Ons Mierloos Theater",
-      "kaarten": "https://www.danielgroen.nl"
-    }
+    {
+     "datum": "vr 13 okt 20:30",
+     "plaats": "Beverwijk",
+     "theater": "Kennemer Theater",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=dXWW-c53Uyk&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 14 okt 20:30",
+     "plaats": "Leidschendam",
+     "theater": "Het Veur Theater",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=mJNZKsG6PYA&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 20 okt 20:15",
+     "plaats": "Nijverdal",
+     "theater": "ZINiN Theater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 21 okt 20:30",
+     "plaats": "Gorinchem",
+     "theater": "'t Pand",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=Q21p2xg87fM&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 27 okt 20:15",
+     "plaats": "Winschoten",
+     "theater": "De Klinker",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=9cMoVDm3B6U&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 02 nov 20:30",
+     "plaats": "Enschede",
+     "theater": "Theater Concordia",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=bIsVggVHP08&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 03 nov 21:00",
+     "plaats": "Rotterdam",
+     "theater": "Theater Walhalla",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 04 nov 20:30",
+     "plaats": "Winsum",
+     "theater": "Zalencentrum de Hoogte",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 11 nov 20:15",
+     "plaats": "Putten",
+     "theater": "Theater Stroud",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=t54ALecy1HE&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 17 nov 20:30",
+     "plaats": "Utrecht",
+     "theater": "Het Werftheater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 18 nov 20:30",
+     "plaats": "Utrecht",
+     "theater": "Het Werftheater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "vr 24 nov 20:30",
+     "plaats": "Lisse",
+     "theater": "Theater Floralis",
+     "kaarten": "https://extranet.ntk.nl/redirect/stefano-keizers/2017-11-24/20:30:00/?r="
+   },
+   {
+     "datum": "za 25 nov 20:15",
+     "plaats": "Roden",
+     "theater": "Theater de Winsinghhof",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=LJt5lZaXkW4&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 08 dec 20:30",
+     "plaats": "Oosterhout",
+     "theater": "Theater de Bussel",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=YpDPtTzxNWE&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "za 09 dec 20:30",
+     "plaats": "Drachten",
+     "theater": "De Lawei",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "wo 13 dec 20:15",
+     "plaats": "Steenwijk",
+     "theater": "Rabo Theater De Meenthe",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=zc-_W6L1lT4&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "vr 05 jan 20:15",
+     "plaats": "Rijswijk",
+     "theater": "de Rijswijkse Schouwburg",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=eEaTmBbbRrw&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "wo 10 jan 20:30",
+     "plaats": "Oudenbosch",
+     "theater": "Cult. Centrum Fidei et Arti",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=3dz194Oy0f0&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 12 jan 20:30",
+     "plaats": "Veghel",
+     "theater": "Theater de Blauwe Kei",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 13 jan 20:00",
+     "plaats": "Middelburg",
+     "theater": "Stadsschouwburg",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=cn5Ct4Yiva4&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 19 jan 20:15",
+     "plaats": "Arnhem",
+     "theater": "Posttheater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 20 jan 20:30",
+     "plaats": "Zoetermeer",
+     "theater": "Stadstheater",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=2tGo-8zlcTQ&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "wo 24 jan 20:30",
+     "plaats": "Beusichem",
+     "theater": "Het Heerenlogement",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=yWbIr1q0FGs&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 27 jan 20:15",
+     "plaats": "Den Haag",
+     "theater": "Diligentia",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=BYZPHt90TZM&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "wo 31 jan 20:15",
+     "plaats": "Rotterdam",
+     "theater": "Theater Zuidplein",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=K9k4y8x_dFw&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "do 01 feb 20:15",
+     "plaats": "Huizen",
+     "theater": "De Boerderij",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=WCALCiW88ho&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 02 feb 20:30",
+     "plaats": "Veldhoven",
+     "theater": "Theater De Schalm",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=rLSqqkmnPLg&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "wo 07 feb 20:30",
+     "plaats": "Delft",
+     "theater": "Theater de Veste",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "do 08 feb 20:30",
+     "plaats": "Waalwijk",
+     "theater": "Theater De Leest",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=D6Q0rB1R3uo&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "do 15 feb 20:15",
+     "plaats": "Vlissingen",
+     "theater": "CineCity XL",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=YWan4Tv7yEI&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 16 feb 20:30",
+     "plaats": "Dordrecht",
+     "theater": "Schouwburg Kunstmin",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=zlTl8iVt0S4&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "za 17 feb 20:15",
+     "plaats": "Roosendaal",
+     "theater": "Schouwburg De Kring",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "wo 21 feb 20:15",
+     "plaats": "Naaldwijk",
+     "theater": "WestlandTheater De Naald",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=V0AoVrmR7yk&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 22 feb 20:30",
+     "plaats": "Heerlen",
+     "theater": "Theater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "za 24 feb 20:30",
+     "plaats": "Leeuwarden",
+     "theater": "Stadsschouwburg De Harmonie",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=yPXl9oPSD14&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 01 mrt 20:30",
+     "plaats": "Hoofddorp",
+     "theater": "Het Oude Raadhuis",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "vr 02 mrt 20:15",
+     "plaats": "Den Bosch",
+     "theater": "Verkadefabriek",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=lsOTEnYUXxU&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 03 mrt 20:00",
+     "plaats": "Tiel",
+     "theater": "Schouwburg Agnietenhof",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=RFAHxZDjFBI&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 08 mrt 20:30",
+     "plaats": "Nijmegen",
+     "theater": "Lindenberg Theater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "vr 09 mrt 20:30",
+     "plaats": "Den Helder",
+     "theater": "Schouwburg de Kampanje",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=ol9LE0SP-40&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 10 mrt 20:00",
+     "plaats": "Veenendaal",
+     "theater": "Theater De Lampegiet",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=9svjeQ2FWK0&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "ma 19 mrt 20:30",
+     "plaats": "Utrecht",
+     "theater": "De Blauwe Zaal",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=1PhfFSLBq5Y&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "do 22 mrt 20:15",
+     "plaats": "Oldenzaal",
+     "theater": "Stadstheater De Bond",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=M6XGij79rgA&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 24 mrt 20:30",
+     "plaats": "Tilburg",
+     "theater": "Theaters Tilburg (schouwburg)",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=J6QgablQg88&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "di 27 mrt 20:30",
+     "plaats": "Maastricht",
+     "theater": "Theater aan het Vrijthof",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=5cjHxxxJMGg&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "wo 28 mrt 20:15",
+     "plaats": "Oss",
+     "theater": "Theater De Lievekamp",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=M_wDSrLAKig&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 29 mrt 20:30",
+     "plaats": "Amsterdam",
+     "theater": "Theater Bellevue",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=4A9hNRSxelw&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "vr 30 mrt 20:30",
+     "plaats": "Amsterdam",
+     "theater": "Theater Bellevue",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=sH4Lb8oFhXA&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 31 mrt 20:30",
+     "plaats": "Amsterdam",
+     "theater": "Theater Bellevue",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   },
+   {
+     "datum": "wo 04 apr 20:30",
+     "plaats": "Alphen Aan Den Rijn",
+     "theater": "Theater Castellum",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=PbxdZz85xb4&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "do 05 apr 20:15",
+     "plaats": "Helmond",
+     "theater": "Theater Speelhuis",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=mV9dS5zvW5s&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 07 apr 20:15",
+     "plaats": "Venlo",
+     "theater": "Theater de Maaspoort",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=2aQmkzyCsR0&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 12 apr 20:30",
+     "plaats": "Gouda",
+     "theater": "De Goudse Schouwburg",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=rSY5YPDvAYc&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "vr 13 apr 20:00",
+     "plaats": "Hilvarenbeek",
+     "theater": "Cultureel Centrum Elckerlyc",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=ysjwfsjomDs&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "do 19 apr 20:00",
+     "plaats": "Zutphen",
+     "theater": "Hanzehof",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=9poUTkzZHyE&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "vr 20 apr 20:30",
+     "plaats": "Zaandam",
+     "theater": "Zaantheater",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=4uBO7ensMTM&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "za 21 apr 20:30",
+     "plaats": "Purmerend",
+     "theater": "Theater De Purmaryn",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=wGWrbnlXe3w&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "wo 02 mei 20:00",
+     "plaats": "Venray",
+     "theater": "Schouwburg",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=mKnjIzKj6Ss&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "do 03 mei 20:30",
+     "plaats": "Doetinchem",
+     "theater": "Schouwburg Amphion",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=3Qok1Svg0RQ&s=5iCowjB7skc&l=nl&r="
+   },
+   {
+     "datum": "za 05 mei 20:15",
+     "plaats": "Valkenswaard",
+     "theater": "Theater De Hofnar",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=VkpmxtSSwG8&s=80cswBbInpo&l=nl&r="
+   },
+   {
+     "datum": "vr 11 mei 20:30",
+     "plaats": "Eindhoven",
+     "theater": "Parktheater",
+     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+   }
   ]
 }
