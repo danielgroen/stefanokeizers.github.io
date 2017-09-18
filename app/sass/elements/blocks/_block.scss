@@ -11,7 +11,7 @@ main {
 			padding-right: grid-span(1,1);
 			background-repeat: no-repeat;
 			border: $border;
-			background-size: cover;
+			background-size: inherit;
 			margin-bottom: $gutter;
 			float: none;
 			filter: brightness(98%);

@@ -16,7 +16,7 @@ $.fn.parallax = function(strength, offset) {
 };
 
 $(window).on('scroll', function() {
-	$('#header-block .inner').parallax(0.1);
-	$('#media .inner').parallax(0.1);
-	$('#contact .inner').parallax(0.1);
+	$('#header-block .inner').parallax(0.2);
+	$('#media .inner').parallax(0.2);
+	$('#contact .inner').parallax(0.2);
 });
