@@ -10,14 +10,14 @@ main {
 			padding-left: grid-span(1,1);
 			padding-right: grid-span(1,1);
 			background-repeat: no-repeat;
-			background-size: cover;
 			border: $border;
+			background-size: cover;
 			margin-bottom: $gutter;
 			float: none;
 			filter: brightness(98%);
 			overflow: hidden;
 			min-height: 300px;
-			
+
 			> .title {
 				@include font('title');
 				margin-bottom: 20px;

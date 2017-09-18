@@ -48,9 +48,7 @@ jQuery(function ($) {
 		var tablet = 768;
 		var desktop = 1280;
 		var speed = 200;
-
 		var itemsPerSlide = 3;
-		var itemsperslideNew = 0; 
 
 		owl.owlCarousel({
 			margin: 20,
@@ -77,7 +75,8 @@ jQuery(function ($) {
 
 		$('.media-nav a').on('click', function(e) {
 			e.preventDefault();
-			var toIndex = $(this).parent().index() * (itemsPerSlide);
+			console.log($(this).parent().index());
+			var toIndex = $(this).parent().index() * itemsPerSlide;
 			owl.trigger('to.owl.carousel', [toIndex, speed, true]);
 		});
 

@@ -54,7 +54,7 @@ gulp.task('css',function() {
         .pipe(sassGlob())
 	    .pipe(sass())
 		.pipe(gulpAutoprefixer({
-	        browsers: ['last 20 versions'],
+	        browsers: ['last 40 versions'],
         	cascade: false
 		}))
 		.pipe(gulp.dest(app + '/css/'))
