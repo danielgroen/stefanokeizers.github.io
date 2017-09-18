@@ -39,13 +39,11 @@ jQuery(function ($) {
 					"class": "owl-carousel owl-theme",
 					html: cards.join( "" )
 				}).appendTo( "#media .inner" );
-				console.log('kaartjesingeladen');
 			});
 		};
 
 	jsonLoader().done(function() {
 		var owl = $('.owl-carousel');
-		console.log('owl-carousel');
 		var mobile = 360;
 		var tablet = 768;
 		var desktop = 1280;
@@ -79,7 +77,7 @@ jQuery(function ($) {
 
 		$('.media-nav a').on('click', function(e) {
 			e.preventDefault();
-			var toIndex = $(this).parent().index() * (itemsPerSlide + 1);
+			var toIndex = $(this).parent().index() * (itemsPerSlide);
 			owl.trigger('to.owl.carousel', [toIndex, speed, true]);
 		});
 

@@ -3,8 +3,13 @@ body {
 	@include font('normal');
 }
 
-a {
+a:not(.button) {
 	color: $links;
+	transition: color $speed;
+
+	&:hover {
+		color: $linkshover;
+	}
 }
 
 img {

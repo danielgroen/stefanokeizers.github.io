@@ -34,7 +34,7 @@
 				td {
 					display: table-cell;
 					vertical-align: middle;
-					padding-left: calc(#{$gutter} / 2);
+					padding-left: 2rem;
 					
 					&:not(:last-child) {
 						float: left;
@@ -47,15 +47,15 @@
 					}
 
 					&:first-child {
-						padding-top: 5px;
+						padding-top: 1rem;
 					}
 
 					&:nth-child(3) {
-						padding-bottom: 5px;
+						padding-bottom: 1rem;
 					}
 
 					&:last-child {
-						padding-right: calc(#{$gutter} / 2);
+						padding-right: 1rem;
 						text-transform: uppercase;
 					    text-align: right;
 

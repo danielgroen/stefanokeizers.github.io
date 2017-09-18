@@ -16,6 +16,10 @@
 					text-decoration: none;
 					margin-right: calc( #{$fontpadding} / 1.5;
 					text-transform: none;
+
+					&:hover {
+						color: $linkshover;
+					}
 				}
 
 				&:last-child {
