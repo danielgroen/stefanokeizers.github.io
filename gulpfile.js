@@ -98,9 +98,15 @@ gulp.task('build', ['js', 'css'], function() {
 			    .pipe(replace('<style><!-- inject-style src="./dist/css/stylesheet.css" --></style>', ' '))
 			    .pipe(replace('../img/', 'img/'))
 				.pipe(htmlmin({collapseWhitespace: true}))
+				.pipe(gulp.dest(dist))
+				.on('end', next);
+	    },
+	    function (next) {
+			gulp.src(app + cname)
+				.pipe(concat('CNAME'))
 				.pipe(gulp.dest(dist));
-	    }]
-    );
+		}
+	]);
 
 	gulp.src(app + '/js/*.js')
 		.pipe(uglify())
@@ -117,7 +123,7 @@ gulp.task('build', ['js', 'css'], function() {
 });
 
 gulp.task('deploy', function() {
-	gulp.src(["dist/**/*.*", "dist/CNAME"])
+	gulp.src(["dist/**/*.*", dist + cname])
 		.pipe(deploy(options));
 });
 /////////////////////////////////////////////////
