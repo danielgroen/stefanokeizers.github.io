@@ -66,7 +66,7 @@ gulp.task('css',function() {
 gulp.task('js', function() {
 	return gulp.src(mainBowerFiles(['**/*.js']).concat(app + jsFiles))
 		.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
-		.pipe(concat('main.js'))
+		.pipe(concat('build.js'))
 		.pipe(gulp.dest(app + '/js/'))
 		.pipe(browserSync.stream());
 });

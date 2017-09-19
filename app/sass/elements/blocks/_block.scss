@@ -11,12 +11,13 @@ main {
 			padding-right: grid-span(1,1);
 			background-repeat: no-repeat;
 			border: $border;
-			background-size: inherit;
+			background-size: cover;
 			margin-bottom: $gutter;
+			background-position-x: center;
 			float: none;
-			filter: brightness(98%);
 			overflow: hidden;
 			min-height: 300px;
+			background-color: #fcfdff;
 
 			> .title {
 				@include font('title');
@@ -35,6 +36,7 @@ main {
 				@include grid-span(22, 2);
 				@include clearfix;
 				float: none;
+				background-size: inherit;
 				min-height: 500px;
 				padding-left: grid-span(3, 1,24);
 

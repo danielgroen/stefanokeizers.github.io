@@ -13,6 +13,7 @@
     "async": "^2.5.0",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.18.8",
+    "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.1",
@@ -20,6 +21,7 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.3.0",
     "gulp-min": "0.0.2",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
@@ -32,6 +34,7 @@
     "imagemin-mozjpeg": "^6.0.0",
     "main-bower-files": "^2.13.1",
     "singularitygs": "^1.7.1",
+    "stream-series": "^0.1.1",
     "webfontloader": "^1.6.28"
   }
 }
