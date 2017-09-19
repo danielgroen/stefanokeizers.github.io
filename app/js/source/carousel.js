@@ -9,7 +9,7 @@ jQuery(function ($) {
 				// speeldata
 				$.each( data.speeldata, function( index, val ) {
 					if (val.kaarten) {
-						var tickets = '<a href="' + val.kaarten + '">Bestel kaarten</a>';
+						var tickets = '<a href="' + val.kaarten + 'utm_source=' +window.location.href +'" target="_blank">Bestel kaarten</a>';
 					} else {
 						var tickets = 'uitverkocht';
 					}
@@ -48,7 +48,6 @@ jQuery(function ($) {
 		var tablet = 768;
 		var desktop = 1280;
 		var speed = 200;
-		var itemsPerSlide = 3;
 
 		owl.owlCarousel({
 			margin: 20,
@@ -63,6 +62,14 @@ jQuery(function ($) {
 					center: true,
 			    },
 			    768 : {
+					items: 2,
+					mouseDrag: true,
+					nav: true,
+					slideBy: 2,
+					stagePadding: 0,
+					center: false
+			    },
+			    1280 : {
 					items: 3,
 					mouseDrag: false,
 					nav: true,
@@ -75,8 +82,9 @@ jQuery(function ($) {
 
 		$('.media-nav a').on('click', function(e) {
 			e.preventDefault();
-			console.log($(this).parent().index());
-			var toIndex = $(this).parent().index() * itemsPerSlide;
+			var category = $(this).text().toLowerCase();
+
+			var toIndex = $('.owl-stage .' + category).first().parent().index();
 			owl.trigger('to.owl.carousel', [toIndex, speed, true]);
 		});
 
