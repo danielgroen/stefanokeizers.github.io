@@ -27,6 +27,7 @@ const 			gulp 				= require('gulp'),
 				data	 			= '/data/*.json',
 				images 				= '/img/**/*.{png,jpg,jpeg,ico}',
 				sassFiles 			= '/sass/**/*.scss',
+				fonts				= '/font/*.scss',
 				htmlFiles 			= '/*.html',
 				cssFiles 			= '/css/*.css',
 				cname				= '/CNAME',
@@ -49,7 +50,7 @@ gulp.task('browsersync', function() {
 
 // set scss files to the css folder into a css file
 gulp.task('css',function() {
-	return gulp.src(app + sassFiles)
+	gulp.src(app + sassFiles)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
         .pipe(sassGlob())
 	    .pipe(sass())
@@ -57,10 +58,19 @@ gulp.task('css',function() {
 	        browsers: ['last 40 versions'],
         	cascade: false
 		}))
-		.pipe(gulp.dest(app + '/css/'))
+		.pipe(gulp.dest(app + '/css/'));
+
+    gulp.src(app + fonts)
+    	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
+        .pipe(sassGlob())
+	    .pipe(sass())
+		.pipe(gulpAutoprefixer({
+	        browsers: ['last 40 versions'],
+        	cascade: false
+		}))
+        .pipe(concat('fonts.css'))
+        .pipe(gulp.dest(app + '/css/'))
 		.pipe(browserSync.stream());
-
-
 });
 
 gulp.task('js', function() {
@@ -73,11 +83,12 @@ gulp.task('js', function() {
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
-gulp.task('serve', ['browsersync'], function() {
+gulp.task('serve', ['browsersync', 'css'], function() {
 	gulp.watch([app + htmlFiles]).on("change", reload);
 	gulp.watch([app + jsFiles], ['js']);
+	gulp.watch([app + fonts], ['css']);
 	gulp.watch([app + data]).on("change", reload);
-	gulp.watch([app + sassFiles], ['css']);	
+	gulp.watch([app + sassFiles], ['css']);
 });
 
 gulp.task('default', ['serve']);
@@ -91,6 +102,11 @@ gulp.task('build', ['js', 'css'], function() {
 				.pipe(gulp.dest( dist + '/css/'))
 				.on('end', next);
 		},
+	    function (next) {
+			gulp.src(app + '/css/fonts.css')	
+				.pipe(gulp.dest( dist + '/css/'))
+				.on('end', next);
+		},		
 	    function (next) {
 			gulp.src(app + htmlFiles)
 				.pipe(styleInject({encapsulated: false}))
