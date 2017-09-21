@@ -7,31 +7,35 @@
 		.owl-item {
 			background-color: $white;
 			box-shadow: $shadow;
-			padding: 2em;
+			padding: 2rem;
 			margin-bottom: 10px;
 			border-radius: $border-radius;
 
 			.card {
 				.title {
 					@include font('navigation');
-					font-size: 1.125em;
+					font-size: 1.125rem;
 					color: $black;
 					text-transform: capitalize;
 					font-weight: 600;
 				}
 
-				a {
+				.title-text {
 					color: $gray;
-					margin: 1em 0 .5em 0;
+					margin-top: 1rem;
+					padding-bottom: 1rem;
+					// display: inline-block;
 					display: block;
+					font-size: 1rem;
 
 						&:hover {
 							color: $linkshover;
 						}
 				}
 
-				blockquote {
+				.quotes {
 					font-style: italic;
+
 					&:before {
 						content: "\201C";
 					}

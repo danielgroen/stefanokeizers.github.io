@@ -8,7 +8,6 @@ $.fn.parallax = function(strength, offset) {
  		   this.css('background-position-y', Math.round( ( $(window).scrollTop() - this[0].offsetTop ) * strength + offset ) +'px');
 		}
 	} else {
-		console.log('joe')
 	    this.css('background-position-y', '');
 	}
 

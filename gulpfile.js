@@ -58,7 +58,8 @@ gulp.task('css',function() {
 	        browsers: ['last 40 versions'],
         	cascade: false
 		}))
-		.pipe(gulp.dest(app + '/css/'));
+		.pipe(gulp.dest(app + '/css/'))
+		.pipe(browserSync.stream());
 
     gulp.src(app + fonts)
     	.pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
