@@ -10,6 +10,7 @@
 			padding: 2rem;
 			margin-bottom: 10px;
 			border-radius: $border-radius;
+			min-height: 270px;
 
 			.card {
 				.title {
@@ -52,9 +53,7 @@
 	.owl-carousel {
 		.owl-stage {
 			.owl-item {
-				&:nth-child(4n+4) {
-					// margin-left: 220px;
-				}
+				min-height: 250px;
 			}
 		}
 	}

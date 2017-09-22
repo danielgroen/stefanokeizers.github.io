@@ -29,6 +29,8 @@
 @include breakpoint($tablet) {
 	#header-block {
 		.inner {
+			background-position: 40%;
+
 			.header-title {
 				margin-bottom: 1.5rrem;
 				font-size: 3.5rem;
