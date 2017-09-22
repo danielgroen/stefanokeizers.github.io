@@ -48,13 +48,3 @@
 		}
 	}
 }
-
-@include breakpoint($tablet) {
-	.owl-carousel {
-		.owl-stage {
-			.owl-item {
-				min-height: 250px;
-			}
-		}
-	}
-}
