@@ -12,7 +12,7 @@ main {
 			background-repeat: no-repeat;
 			border: $border;
 			background-size: cover;
-			margin-bottom: $gutter;
+			margin-bottom: calc(#{$gutter} / 2);
 			background-position-x: center;
 			float: none;
 			overflow: hidden;
