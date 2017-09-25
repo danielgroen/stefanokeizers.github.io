@@ -1,7 +1,7 @@
 jQuery(function ($) {
-    $(".header .menu a").on('click touch', function(event){
+    $(".header .menu .item[data-link='thispage'] a").on('click touch', function(event){
         event.preventDefault();
-        var $gutter = 40;
+        var $gutter = 40 /2;
         var full_url = this.href;
         var parts = full_url.split("#");
         var trgt = parts[1];
