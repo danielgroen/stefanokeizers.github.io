@@ -140,7 +140,7 @@ gulp.task('build', ['js', 'css'], function() {
 });
 
 gulp.task('deploy', function() {
-	gulp.src(["dist/**/*.*", dist + cname])
+	return gulp.src(["dist/**/*.*", dist + cname])
 		.pipe(deploy(options));
 });
 /////////////////////////////////////////////////
