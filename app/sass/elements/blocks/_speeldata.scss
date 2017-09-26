@@ -21,6 +21,10 @@
 			background-color: $white;
 			display: table;
 
+			.tickets {
+				font-weight: 600;
+			}
+
 			tr {
 				height: 50px;
 				text-align: left;

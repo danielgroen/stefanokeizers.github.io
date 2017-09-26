@@ -9,7 +9,7 @@ jQuery(function ($) {
 				// speeldata
 				$.each( data.speeldata, function( index, val ) {
 					if (val.kaarten) {
-						var tickets = '<a href="' + val.kaarten + 'utm_source=' +window.location.href +'" target="_blank">Bestel kaarten</a>';
+						var tickets = '<a class="tickets" href="' + val.kaarten + '?utm_source=' +window.location.href +'" target="_blank">Bestel kaarten</a>';
 					} else {
 						var tickets = 'uitverkocht';
 					}
@@ -32,7 +32,7 @@ jQuery(function ($) {
 
 				// kaartjes
 				$.each( data.mediacards, function( index, val ) {
-					cards.push( '<div class=' + val.category + '><article class="card"><h4>'+ val.title + '</h4><a class="title-text" href="' + val.link  + 'utm_source=' +window.location.href +'" target="_blank">' + val.linkText + '</a><blockquote class="quotes">' + val.quote +'</blockquote></div>');
+					cards.push( '<div class=' + val.category + '><article class="card"><h4>'+ val.title + '</h4><a class="title-text" href="' + val.link  + '?utm_source=' +window.location.href +'" target="_blank">' + val.linkText + '</a><blockquote class="quotes">' + val.quote +'</blockquote></div>');
 				});
 
 				$( "<div/>", {
