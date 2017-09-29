@@ -100,17 +100,10 @@
   	},
   	{
   		"category": "tv",
-  		"title": "NPO",
-  		"linkText": "Jinek: Ik wist de hele uitzending lang niet wat ik met m'n handen moest doen :(",
+  		"title": "Jinek",
+  		"linkText": "Wie zijn de finalisten van De Slimste Mens",
   		"link": "https://www.npo.nl/jinek/19-01-2017/KN_1687311/POMS_KN_7000278",
-  		"quote": "De seksuele spanning tussen mij en Eva was om te snijden."
-  	},
-  	{
-  		"category": "tv",
-  		"title": "Bright",
-  		"linkText": "Bekende Nerd: cabaretier Stefano Keizers heeft hele rare hobby's",
-  		"link": "https://www.youtube.com/watch?v=NGinitaWwIg",
-  		"quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
+  		"quote": "Jinek: Ik wist de hele uitzending lang niet wat ik met m'n handen moest doen :("
   	},
     {
       "category": "tv",
@@ -118,7 +111,21 @@
       "linkText": "Cabaretiers Dolf Jansen en Stefano Keizers maken hun opwachting op de Uitmarkt.",
       "link": "https://www.npo.nl/jinek/25-08-2017/KN_1691969/POMS_KN_10500599",
       "quote": "Na de uitzending heb ik hem niet meer gesproken"
-    }
+    },
+    {
+      "category": "tv",
+      "title": "NPO",
+      "linkText": "Uitmarkt 2017 Vanaf Het Water (vanaf 38:00)",
+      "link": "https://www.npo.nl/uitmarkt-2017-vanaf-het-water/27-08-2017/VPWON_1274608#e2c9eada7",
+      "quote": "Ik heb m'n mond gehouden, dat leek me het beste"
+    },    
+  	{
+  		"category": "tv",
+  		"title": "Bright",
+  		"linkText": "Bekende Nerd: cabaretier Stefano Keizers heeft hele rare hobby's",
+  		"link": "https://www.youtube.com/watch?v=NGinitaWwIg",
+  		"quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
+  	}
   ],
   "speeldata": [
     {
