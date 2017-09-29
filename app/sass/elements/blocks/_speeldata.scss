@@ -1,6 +1,8 @@
 #speeldata {
 	.inner {
 		background-color: #f4f5fa;
+		background-image:  url('../img/stefanohelemaal.png');
+	    background-position: right 400px;
 
 		.header-title {
 			@include font('title');

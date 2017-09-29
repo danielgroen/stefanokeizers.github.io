@@ -14,7 +14,7 @@
 					font-weight: 600;
 					color: $gray;
 					text-decoration: none;
-					margin-right: calc( #{$fontpadding} / 1.5;
+					margin-right: 10px;
 					text-transform: none;
 
 					&:hover {
@@ -48,6 +48,20 @@
 
 			.owl-dots {
 				display: none;
+			}
+		}
+	}
+}
+
+@include breakpoint($mobile) {
+	#media {
+		.inner {
+			.media-nav {
+				.media-category {
+					a {
+						margin-right: calc( #{$fontpadding} / 1.5;
+					}
+				}
 			}
 		}
 	}

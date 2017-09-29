@@ -9,7 +9,7 @@
 		.item {
 			@include font('navigation');
 			display: inline;
-			margin-right: $fontpadding;
+			margin-right: 10px;
 			
 			a {
 				text-decoration: none;
@@ -23,6 +23,15 @@
 				a {
 					color: $black;
 				}
+			}
+		}
+	}
+}
+@include breakpoint($mobile) {
+	.header {
+		.menu {
+			.item {
+				margin-right: $fontpadding;
 			}
 		}
 	}
