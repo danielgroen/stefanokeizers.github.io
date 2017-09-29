@@ -3,6 +3,8 @@
 		background-color: #f4f5fa;
 		background-image:  url('../img/stefanohelemaal.png'), url('../img/stefanohelemaalachterkant.png');
 	    background-position: right 400px, left 90%;
+	    background-size: initial;
+	    
 
 		.header-title {
 			@include font('title');
