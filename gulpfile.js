@@ -2,6 +2,9 @@
 const 			gulp 				= require('gulp'),
 				browserSync 		= require('browser-sync').create(),
 				mainBowerFiles		= require('main-bower-files'),
+				filesystem			= require('fs'),
+				async 				= require('async'),
+				mozjpeg 			= require('imagemin-mozjpeg'),
 				gulpAutoprefixer 	= require('gulp-autoprefixer'),
 				concat 				= require('gulp-concat'),
 				notify 				= require('gulp-notify'),
@@ -10,14 +13,12 @@ const 			gulp 				= require('gulp'),
 				deploy				= require('gulp-gh-pages'),
 				sassGlob 			= require('gulp-sass-glob'),
 				uglify 				= require('gulp-uglify'),
-				filesystem			= require('fs'),
 				replace 			= require('gulp-replace'),
 				cssnano 			= require('gulp-cssnano'),
 				htmlmin				= require('gulp-htmlmin'),
+				xmlsitemap 			= require('gulp-sitemap'),
 				styleInject 		= require("gulp-style-inject"),
 				imagemin 			= require('gulp-imagemin'),
-				async 				= require('async'),
-				mozjpeg 			= require('imagemin-mozjpeg'),
 				reload 				= browserSync.reload,
 				
 				// files
@@ -35,7 +36,8 @@ const 			gulp 				= require('gulp'),
 				options = {
 					remoteUrl: "https://github.com/danielgroen/stefanokeizers.github.io.git",
 					branch: "master",
-					force: true
+					force: true,
+					sitename: "https://stefanokeizers.nl"
 				};
 
 // Setup browsersync.
@@ -125,10 +127,13 @@ gulp.task('build', ['js', 'css'], function() {
 		}
 	]);
 
+    gulp.src(app + htmlFiles , {read: false})
+        .pipe(xmlsitemap( {siteUrl: options.sitename} ))
+        .pipe(gulp.dest(dist));
+
 	gulp.src(app + '/js/*.js')
 		.pipe(uglify())
 		.pipe(gulp.dest( dist + '/js/'));
-
 
 	gulp.src(app + data)
 		.pipe(gulp.dest( dist + '/data/'));
@@ -143,5 +148,3 @@ gulp.task('deploy', function() {
 	return gulp.src(["dist/**/*.*", dist + cname])
 		.pipe(deploy(options));
 });
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
