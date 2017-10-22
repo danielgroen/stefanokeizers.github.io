@@ -10,6 +10,8 @@ jQuery(function ($) {
 				$.each( data.speeldata, function( index, val ) {
 					if (val.kaarten) {
 						var tickets = '<a class="tickets" href="' + val.kaarten + '?utm_source=' +window.location.href +'" target="_blank">Bestel kaarten</a>';
+					} else if (val.info) {
+						var tickets = '<a class="tickets" href="' + val.info + '?utm_source=' +window.location.href +'" target="_blank">Meer info</a>';
 					} else {
 						var tickets = 'uitverkocht';
 					}
