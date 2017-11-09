@@ -1,47 +1,47 @@
 {
   "mediacards": [
-  	{
-  		"category": "recensies",
-  		"title": "NRC",
-  		"linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
-  		"link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
-  		"quote": "Je bent zelf sensationeel"
-  	},
-  	{
-  		"category": "recensies",
-  		"title": "NRC",
-  		"linkText": "De vermommingen van Stefano Keizers in De Slimste Mens",
-  		"link": "https://www.nrc.nl/nieuws/2017/01/06/de-vermommingen-van-stefano-keizers-6077143-a1540007",
-  		"quote": "Ik heb ook drie katten. Ze heten Kwik, Kwek en Kwak."
-  	},
-  	{
-  		"category": "recensies",
-  		"title": "Televisier",
-  		"linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
-  		"link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
-  		"quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
-  	},
-  	{
-  		"category": "interviews",
-  		"title": "Metro",
-  		"linkText": "Ineens was-ie er: Stefano. Maar wie is Stefano toch?",
-  		"link": "https://www.metronieuws.nl/nieuws/binnenland/2017/01/ineens-was-ie-er-stefano-maar-wie-is-stefano-toch",
-  		"quote": "Bij het afscheid nemen struikelde Iris over het salontafeltje."
-  	},
-  	{
-  		"category": "interviews",
-  		"title": "3voor12",
-  		"linkText": "Gover Meit/Stefano Keizers maakt je comfortzone kapot",
-  		"link": "https://3voor12.vpro.nl/artikelen/overzicht/2017/Maart/Gover-Meit-longsy-Stefano-Keizers-interview.html",
-  		"quote": "Ik werd ooit opgepakt in Japan. Was echt stom, maar ook leuk."
-  	},
-  	{
-  		"category": "interviews",
-  		"title": "NRC",
-  		"linkText": "‘Stefano Keizers kan meer dan ikzelf’",
-  		"link": "https://www.nrc.nl/nieuws/2017/01/19/stefano-keizers-kan-meer-dan-ikzelf-6288132-a1542078",
-  		"quote": "Lekker emo doen met een beetje kots in mijn mond."
-  	},
+    {
+      "category": "recensies",
+      "title": "NRC",
+      "linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
+      "link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
+      "quote": "Je bent zelf sensationeel"
+    },
+    {
+      "category": "recensies",
+      "title": "NRC",
+      "linkText": "De vermommingen van Stefano Keizers in De Slimste Mens",
+      "link": "https://www.nrc.nl/nieuws/2017/01/06/de-vermommingen-van-stefano-keizers-6077143-a1540007",
+      "quote": "Ik heb ook drie katten. Ze heten Kwik, Kwek en Kwak."
+    },
+    {
+      "category": "recensies",
+      "title": "Televisier",
+      "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
+      "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
+      "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+    },
+    {
+      "category": "interviews",
+      "title": "Metro",
+      "linkText": "Ineens was-ie er: Stefano. Maar wie is Stefano toch?",
+      "link": "https://www.metronieuws.nl/nieuws/binnenland/2017/01/ineens-was-ie-er-stefano-maar-wie-is-stefano-toch",
+      "quote": "Bij het afscheid nemen struikelde Iris over het salontafeltje."
+    },
+    {
+      "category": "interviews",
+      "title": "3voor12",
+      "linkText": "Gover Meit/Stefano Keizers maakt je comfortzone kapot",
+      "link": "https://3voor12.vpro.nl/artikelen/overzicht/2017/Maart/Gover-Meit-longsy-Stefano-Keizers-interview.html",
+      "quote": "Ik werd ooit opgepakt in Japan. Was echt stom, maar ook leuk."
+    },
+    {
+      "category": "interviews",
+      "title": "NRC",
+      "linkText": "‘Stefano Keizers kan meer dan ikzelf’",
+      "link": "https://www.nrc.nl/nieuws/2017/01/19/stefano-keizers-kan-meer-dan-ikzelf-6288132-a1542078",
+      "quote": "Lekker emo doen met een beetje kots in mijn mond."
+    },
     {
       "category": "interviews",
       "title": "Vice - Munchies",
@@ -70,41 +70,41 @@
       "link": "http://www.at5.nl/artikelen/167569/stefano-keizers-huilt-niet-meer-op-zijn-kamer-na-winnen-kleinkunst-festival",
       "quote": "Let vooral ook op mijn haar!"
     },
-  	{
-  		"category": "radio",
-  		"title": "BNR",
-  		"linkText": "Friday Move met Wilfred Genee, Jörgen Raymann en Erik Scherder",
-  		"link": "https://www.bnr.nl/radio/bnr-the-friday-move/10321484/21-april-stefano-keizers-jorgen-raymann-en-erik-scherder",
-  		"quote": "Wilfred rook inderdaad naar een zwoele zomernacht op het Spaanse platteland."
-  	},
-  	{
-  		"category": "radio",
-  		"title": "NPO - Radio 2",
-  		"linkText": "De wat een week show met Shay",
-  		"link": "http://www.nporadio2.nl/dewateenweekshowmetshay/agenda/1060/gast-stefano-keizers",
-  		"quote": "Ik dacht dat ik uitgenodigd was bij 'Sway in the morning'."
-  	},
-  	{
-  		"category": "radio",
-  		"title": "VPRO",
-  		"linkText": "Open Kaart: Stefano Keizers/Gover Meit",
-  		"link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
-  		"quote": "Ik kan me van deze opnames helemaal niets meer herinneren"
-  	},
-  	{
-  		"category": "tv",
-  		"title": "KRO-NCRV",
-  		"linkText": "De Slimste Mens Afleveringen",
-  		"link": "https://www.kro-ncrv.nl/deslimstemens/seizoenen/seizoen-2016-1",
-  		"quote": "Ik heb dit zelf nog niet teruggekeken."
-  	},
-  	{
-  		"category": "tv",
-  		"title": "Jinek",
-  		"linkText": "Wie zijn de finalisten van De Slimste Mens",
-  		"link": "https://www.npo.nl/jinek/19-01-2017/KN_1687311/POMS_KN_7000278",
-  		"quote": "Jinek: Ik wist de hele uitzending lang niet wat ik met m'n handen moest doen :("
-  	},
+    {
+      "category": "radio",
+      "title": "BNR",
+      "linkText": "Friday Move met Wilfred Genee, Jörgen Raymann en Erik Scherder",
+      "link": "https://www.bnr.nl/radio/bnr-the-friday-move/10321484/21-april-stefano-keizers-jorgen-raymann-en-erik-scherder",
+      "quote": "Wilfred rook inderdaad naar een zwoele zomernacht op het Spaanse platteland."
+    },
+    {
+      "category": "radio",
+      "title": "NPO - Radio 2",
+      "linkText": "De wat een week show met Shay",
+      "link": "http://www.nporadio2.nl/dewateenweekshowmetshay/agenda/1060/gast-stefano-keizers",
+      "quote": "Ik dacht dat ik uitgenodigd was bij 'Sway in the morning'."
+    },
+    {
+      "category": "radio",
+      "title": "VPRO",
+      "linkText": "Open Kaart: Stefano Keizers/Gover Meit",
+      "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
+      "quote": "Ik kan me van deze opnames helemaal niets meer herinneren"
+    },
+    {
+      "category": "tv",
+      "title": "KRO-NCRV",
+      "linkText": "De Slimste Mens Afleveringen",
+      "link": "https://www.kro-ncrv.nl/deslimstemens/seizoenen/seizoen-2016-1",
+      "quote": "Ik heb dit zelf nog niet teruggekeken."
+    },
+    {
+      "category": "tv",
+      "title": "Jinek",
+      "linkText": "Wie zijn de finalisten van De Slimste Mens",
+      "link": "https://www.npo.nl/jinek/19-01-2017/KN_1687311/POMS_KN_7000278",
+      "quote": "Jinek: Ik wist de hele uitzending lang niet wat ik met m'n handen moest doen :("
+    },
     {
       "category": "tv",
       "title": "Jinek",
@@ -119,157 +119,139 @@
       "link": "https://www.npo.nl/uitmarkt-2017-vanaf-het-water/27-08-2017/VPWON_1274608#e2c9eada7",
       "quote": "Ik heb m'n mond gehouden, dat leek me het beste"
     },    
-  	{
-  		"category": "tv",
-  		"title": "Bright",
-  		"linkText": "Bekende Nerd: cabaretier Stefano Keizers heeft hele rare hobby's",
-  		"link": "https://www.youtube.com/watch?v=NGinitaWwIg",
-  		"quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
-  	}
+    {
+      "category": "tv",
+      "title": "Bright",
+      "linkText": "Bekende Nerd: cabaretier Stefano Keizers heeft hele rare hobby's",
+      "link": "https://www.youtube.com/watch?v=NGinitaWwIg",
+      "quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
+    }
   ],
   "speeldata": [
-    {
-     "datum": "vr 13 okt 20:30",
-     "plaats": "Beverwijk",
-     "theater": "Kennemer Theater",
-     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=dXWW-c53Uyk&s=5iCowjB7skc&l=nl&r="
-   },
-   {
-     "datum": "za 14 okt 20:30",
-     "plaats": "Leidschendam",
-     "theater": "Het Veur Theater",
-     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=mJNZKsG6PYA&s=5iCowjB7skc&l=nl&r="
-   },
-   {
-     "datum": "vr 20 okt 20:15",
-     "plaats": "Nijverdal",
-     "theater": "ZINiN Theater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
-   },
-   {
-     "datum": "za 21 okt 20:30",
-     "plaats": "Gorinchem",
-     "theater": "'t Pand",
-     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=Q21p2xg87fM&s=5iCowjB7skc&l=nl&r="
-   },
    {
      "datum": "vr 27 okt 20:15",
      "plaats": "Winschoten",
-     "theater": "De Klinker",
-     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=9cMoVDm3B6U&s=5iCowjB7skc&l=nl&r="
+     "theater": "De Klinker <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "do 02 nov 20:30",
      "plaats": "Enschede",
-     "theater": "Theater Concordia",
+     "theater": "Theater Concordia <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=bIsVggVHP08&s=5iCowjB7skc&l=nl&r="
    },
    {
      "datum": "vr 03 nov 21:00",
      "plaats": "Rotterdam",
-     "theater": "Theater Walhalla",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "Theater Walhalla <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "za 04 nov 20:30",
      "plaats": "Winsum",
-     "theater": "Zalencentrum de Hoogte",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "Zalencentrum de Hoogte <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
+   },
+   {
+     "datum": "vr 10 nov 20:00",
+     "plaats": "Delden",
+     "theater": "Stadscentrum het Parochiehuis <em>(Try-out)</em>",
+     "kaarten": "https://www.reggehof.nl/theater/stefano-keizers-erg-heel/10-11-2017-20-00"
    },
    {
      "datum": "za 11 nov 20:15",
      "plaats": "Putten",
-     "theater": "Theater Stroud",
+     "theater": "Theater Stroud <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=t54ALecy1HE&s=5iCowjB7skc&l=nl&r="
    },
    {
      "datum": "vr 17 nov 20:30",
      "plaats": "Utrecht",
-     "theater": "Het Werftheater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "Het Werftheater <em>(Try-out)</em>",
+     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=aKJ5dRu9kEE&s=5iCowjB7skc&l=nl&r=ntkhomepage"
    },
    {
      "datum": "za 18 nov 20:30",
      "plaats": "Utrecht",
-     "theater": "Het Werftheater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "Het Werftheater <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "vr 24 nov 20:30",
      "plaats": "Lisse",
-     "theater": "Theater Floralis",
+     "theater": "Theater Floralis <em>(Try-out)</em>",
      "kaarten": "https://extranet.ntk.nl/redirect/stefano-keizers/2017-11-24/20:30:00/?r="
    },
    {
      "datum": "za 25 nov 20:15",
      "plaats": "Roden",
-     "theater": "Theater de Winsinghhof",
-     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=LJt5lZaXkW4&s=5iCowjB7skc&l=nl&r="
+     "theater": "Theater de Winsinghhof <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "vr 08 dec 20:30",
      "plaats": "Oosterhout",
-     "theater": "Theater de Bussel",
+     "theater": "Theater de Bussel <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=YpDPtTzxNWE&s=80cswBbInpo&l=nl&r="
    },
    {
      "datum": "za 09 dec 20:30",
      "plaats": "Drachten",
-     "theater": "De Lawei",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "De Lawei <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "wo 13 dec 20:15",
      "plaats": "Steenwijk",
-     "theater": "Rabo Theater De Meenthe",
+     "theater": "Rabo Theater De Meenthe <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=zc-_W6L1lT4&s=80cswBbInpo&l=nl&r="
    },
    {
      "datum": "vr 05 jan 20:15",
      "plaats": "Rijswijk",
-     "theater": "de Rijswijkse Schouwburg",
+     "theater": "de Rijswijkse Schouwburg <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=eEaTmBbbRrw&s=80cswBbInpo&l=nl&r="
    },
    {
      "datum": "wo 10 jan 20:30",
      "plaats": "Oudenbosch",
-     "theater": "Cult. Centrum Fidei et Arti",
+     "theater": "Cult. Centrum Fidei et Arti <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=3dz194Oy0f0&s=5iCowjB7skc&l=nl&r="
    },
    {
      "datum": "vr 12 jan 20:30",
      "plaats": "Veghel",
-     "theater": "Theater de Blauwe Kei",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "Theater de Blauwe Kei <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "za 13 jan 20:00",
      "plaats": "Middelburg",
-     "theater": "Stadsschouwburg",
+     "theater": "Stadsschouwburg Middelburg <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=cn5Ct4Yiva4&s=5iCowjB7skc&l=nl&r="
    },
    {
      "datum": "vr 19 jan 20:15",
      "plaats": "Arnhem",
-     "theater": "Posttheater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "theater": "Posttheater <em>(Try-out)</em>",
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "za 20 jan 20:30",
      "plaats": "Zoetermeer",
-     "theater": "Stadstheater",
+     "theater": "Stadstheater <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=2tGo-8zlcTQ&s=5iCowjB7skc&l=nl&r="
    },
    {
      "datum": "wo 24 jan 20:30",
      "plaats": "Beusichem",
-     "theater": "Het Heerenlogement",
+     "theater": "Het Heerenlogement <em>(Try-out)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=yWbIr1q0FGs&s=5iCowjB7skc&l=nl&r="
    },
    {
      "datum": "za 27 jan 20:15",
      "plaats": "Den Haag",
-     "theater": "Diligentia",
+     "theater": "Diligentia <em>(Première)</em>",
      "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=BYZPHt90TZM&s=5iCowjB7skc&l=nl&r="
    },
    {
@@ -294,7 +276,7 @@
      "datum": "wo 07 feb 20:30",
      "plaats": "Delft",
      "theater": "Theater de Veste",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "do 08 feb 20:30",
@@ -318,19 +300,19 @@
      "datum": "za 17 feb 20:15",
      "plaats": "Roosendaal",
      "theater": "Schouwburg De Kring",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "wo 21 feb 20:15",
      "plaats": "Naaldwijk",
      "theater": "WestlandTheater De Naald",
-     "kaarten": "https://tickets231a.ticketmatic.com/addevent.php?a=m1lmh1VAgcM&e=V0AoVrmR7yk&s=5iCowjB7skc&l=nl&r="
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "do 22 feb 20:30",
      "plaats": "Heerlen",
      "theater": "Theater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "za 24 feb 20:30",
@@ -342,7 +324,7 @@
      "datum": "do 01 mrt 20:30",
      "plaats": "Hoofddorp",
      "theater": "Het Oude Raadhuis",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "vr 02 mrt 20:15",
@@ -360,7 +342,7 @@
      "datum": "do 08 mrt 20:30",
      "plaats": "Nijmegen",
      "theater": "Lindenberg Theater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "vr 09 mrt 20:30",
@@ -420,7 +402,7 @@
      "datum": "za 31 mrt 20:30",
      "plaats": "Amsterdam",
      "theater": "Theater Bellevue",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    },
    {
      "datum": "wo 04 apr 20:30",
@@ -492,7 +474,7 @@
      "datum": "vr 11 mei 20:30",
      "plaats": "Eindhoven",
      "theater": "Parktheater",
-     "kaarten": "https://www.ntk.nl/voorstelling/stefano-keizers"
+     "info": "https://www.ntk.nl/pagina/meer-informatie?show=stefano-keizers"
    }
   ]
 }
