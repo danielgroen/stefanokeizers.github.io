@@ -23,8 +23,7 @@
 			@include grid-span(24, 1);
 			box-shadow: $shadow;
 			background-color: $white;
-			min-height: 2505px;
-
+			min-height: 2975px;
 		}
 	}
 }
@@ -40,6 +39,7 @@
 
 			iframe {
 				@include grid-span(22, 1);
+				min-height: 2279px;
 			}
 		}
 	}
