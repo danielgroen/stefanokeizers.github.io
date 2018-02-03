@@ -32,6 +32,7 @@ const 			gulp 				= require('gulp'),
 				htmlFiles 			= '/*.html',
 				cssFiles 			= '/css/*.css',
 				cname				= '/CNAME',
+				domain				= 'https:://stefanokeizers.nl',
 
 				options = {
 					branch: 'gh-pages',
@@ -126,7 +127,7 @@ gulp.task('build', ['js', 'css'], function() {
 	]);
 
     gulp.src(app + htmlFiles , {read: false})
-        .pipe(xmlsitemap( {siteUrl: options.sitename} ))
+        .pipe(xmlsitemap( {siteUrl: domain} ))
         .pipe(gulp.dest(dist));
 
 	gulp.src(app + '/js/*.js')
