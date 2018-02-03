@@ -18,7 +18,6 @@
     "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.3.0",
     "gulp-inject": "^4.3.0",
@@ -37,5 +36,8 @@
     "singularitygs": "^1.7.1",
     "stream-series": "^0.1.1",
     "webfontloader": "^1.6.28"
+  },
+  "dependencies": {
+    "gulp-gh-pages": "git+ssh://git@github.com/tekd/gulp-gh-pages.git#update-dependency"
   }
 }

@@ -34,10 +34,8 @@ const 			gulp 				= require('gulp'),
 				cname				= '/CNAME',
 
 				options = {
-					remoteUrl: "https://github.com/danielgroen/stefanokeizers.github.io.git",
-					branch: "master",
-					force: true,
-					sitename: "https://stefanokeizers.nl"
+					branch: 'gh-pages',
+					force: true
 				};
 
 // Setup browsersync.
