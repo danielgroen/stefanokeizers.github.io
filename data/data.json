@@ -3,6 +3,34 @@
     {
       "category": "recensies",
       "title": "NRC",
+      "linkText": "Overrompelend cabaretdebuut van tragisch absurde Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2018/01/28/overrompelend-cabaretdebuut-van-tragisch-absurde-keizers-a1590077",
+      "quote": "Dick Zijp en ik zaten bij elkaar in de klas op de basisschool, vandaar."
+    },
+    {
+      "category": "recensies",
+      "title": "Theaterkrant",
+      "linkText": "Tussen gekte en genialiteit",
+      "link": "https://www.theaterkrant.nl/recensie/erg-heel/stefano-keizers",
+      "quote": "Zij hebben het op zich ook wel goed begrepen."
+    },
+    {
+      "category": "recensies",
+      "title": "Trouw",
+      "linkText": "Meesterlijk anti-cabaret van Stefano Keizers",
+      "link": "https://www.trouw.nl/cultuur/meesterlijk-anti-cabaret-van-stefano-keizers~a25165fb",
+      "quote": "In deze recensie worden al mijn grappen verklapt. Nul sterren!!!"
+    },
+    {
+      "category": "recensies",
+      "title": "Volkskrant",
+      "linkText": "Dwarsligger Stefano Keizers gaat vast nog veel betere voorstellingen maken",
+      "link": "https://www.volkskrant.nl/theater/dwarsligger-stefano-keizers-gaat-vast-nog-veel-betere-voorstellingen-maken~a4562669",
+      "quote": "Deze mocht ik van Senf eigenlijk niet op de site zetten."
+    },    
+    {
+      "category": "recensies",
+      "title": "NRC",
       "linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
       "link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
       "quote": "Je bent zelf sensationeel"
@@ -20,6 +48,27 @@
       "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
       "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
       "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+    },
+    {
+      "category": "interviews",
+      "title": "Volkskrant",
+      "linkText": "De wonderlijke wording van Stefano Keizers: 'Ik ben niet Stefano Keizers'",
+      "link": "https://www.volkskrant.nl/theater/de-wonderlijke-wording-van-stefano-keizers-ik-ben-niet-stefano-keizers~a4555776/?utm_source=twitter&utm_medium=social&utm_campaign=shared%20content&utm_content=paid&hash=50fc0506a92513e9167a48a4fb9860abc400014e",
+      "quote": "Langste artikel everrrrrrrrrrrrr!!!!!"
+    },
+    {
+      "category": "interviews",
+      "title": "AD",
+      "linkText": "Saboteur om te koesteren",
+      "link": "https://www.stadsschouwburg-utrecht.nl/cms_files/MediaGalerij/Other/otherfiles20802_00.pdf",
+      "quote": "Arno moest de hele tijd giechelen toen ik me om aan het kleden was."
+    },
+    {
+      "category": "interviews",
+      "title": "Stentor/Turbantia",
+      "linkText": "Stefano Keizers heeft schijt aan alles",
+      "link": "http://erikkrebbers.nl/2017/10/stefano-keizers-heeft-schijt-aan-alles/",
+      "quote": "De zoons van Erik Krebbers zijn / waren fan van me."
     },
     {
       "category": "interviews",
@@ -72,17 +121,67 @@
     },
     {
       "category": "radio",
-      "title": "BNR",
-      "linkText": "Friday Move met Wilfred Genee, Jörgen Raymann en Erik Scherder",
-      "link": "https://www.bnr.nl/radio/bnr-the-friday-move/10321484/21-april-stefano-keizers-jorgen-raymann-en-erik-scherder",
-      "quote": "Wilfred rook inderdaad naar een zwoele zomernacht op het Spaanse platteland."
+      "title": "Nooit Meer Slapen",
+      "linkText": "De reismicrofoon: Stefano Keizers",
+      "link": "https://www.nporadio1.nl/kunststof/onderwerpen/442576-stefano-keizers-entertainer",
+      "quote": "Dit ga ik dus nóóit meer doen."
     },
     {
       "category": "radio",
-      "title": "NPO - Radio 2",
-      "linkText": "De wat een week show met Shay",
-      "link": "http://www.nporadio2.nl/dewateenweekshowmetshay/agenda/1060/gast-stefano-keizers",
-      "quote": "Ik dacht dat ik uitgenodigd was bij 'Sway in the morning'."
+      "title": "Kunststof",
+      "linkText": "Stefano Keizers, entertainer",
+      "link": "https://www.nporadio1.nl/kunststof/onderwerpen/442576-stefano-keizers-entertainer",
+      "quote": "Ze hebben geprobeerd om me een koekje van eigen deeg te geven en dat is gelukt."
+    },
+    {
+      "category": "radio",
+      "title": "Spijkers met Koppen",
+      "linkText": "Stefano Keizers heeft een avondvullende theatervoorstelling 'Erg Heel'",
+      "link": "https://www.nporadio2.nl/gemist/video/6424/stefano-keizers-heeft-een-avondvullende-theatervoorstelling-erg-heel",
+      "quote": "Ik voelde me fris want ik had net gedoucht!"
+    },
+
+    {
+      "category": "radio",
+      "title": "De Wild In De Middag",
+      "linkText": "Stefano Keizers over zijn nieuwe theatervoorstelling",
+      "link": "https://www.nporadio2.nl/gemist/audio/17433/stefano-keizers-over-zijn-nieuwe-theatervoorstelling",
+      "quote": "Hij heeft een grotere penis dan ik."
+    },
+    {
+      "category": "radio",
+      "title": "De wat Een Weekshow met Shay",
+      "linkText": "Zaterdag 22 juli 2017",
+      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/242110/6-6-2017",
+      "quote": "Shay is m'n beste vriendin!!!"
+    },
+    {
+      "category": "radio",
+      "title": "De Wat Een Weekshow met Shay",
+      "linkText": "Zaterdag 22 juli 2017",
+      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/243455/6-8-2017",
+      "quote": "Shay is de enige die echt in me gelooft."
+    },
+    {
+      "category": "radio",
+      "title": "De Wat Een Weekshow met Shay",
+      "linkText": "Zaterdag 22 juli 2017",
+      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/244443/6-11-2017",
+      "quote": "Shay krijgt altijd koekjes van de andere gasten, nooit van mij."
+    },
+    {
+      "category": "radio",
+      "title": "Friday Move",
+      "linkText": "Stefano Keizers over zijn nieuwe theatervoorstelling",
+      "link": "https://www.bnr.nl/podcast/the-friday-move/10338622/kees-jansma-bart-chabot-annabel-nanninga",
+      "quote": "De tweede keer hakkelde ik nog meer dan de eerste keer :( Kees Jansma I <3 U"
+    },
+    {
+      "category": "radio",
+      "title": "Friday Move",
+      "linkText": "21 April | Stefano Keizers, Jörgen Raymann en Erik Scherder",
+      "link": "https://www.bnr.nl/radio/bnr-the-friday-move/10321484/21-april-stefano-keizers-jorgen-raymann-en-erik-scherder",
+      "quote": "Wilfred rook inderdaad naar een zwoele zomernacht op het Spaanse platteland."
     },
     {
       "category": "radio",
@@ -93,10 +192,10 @@
     },
     {
       "category": "tv",
-      "title": "KRO-NCRV",
-      "linkText": "De Slimste Mens Afleveringen",
-      "link": "https://www.kro-ncrv.nl/deslimstemens/seizoenen/seizoen-2016-1",
-      "quote": "Ik heb dit zelf nog niet teruggekeken."
+      "title": "Jinek",
+      "linkText": "Stefano Keizers gaat het het theater in met zijn eigen voorstelling",
+      "link": "https://www.npo.nl/stefano-keizers-gaat-het-het-theater-in-met-zijn-eigen-voorstelling/25-01-2018/POMS_KN_12641940",
+      "quote": "Het begint wel een beetje op te vallen dat ik alleen bij Jinek aan tafel zit."
     },
     {
       "category": "tv",
@@ -111,6 +210,13 @@
       "linkText": "Cabaretiers Dolf Jansen en Stefano Keizers maken hun opwachting op de Uitmarkt.",
       "link": "https://www.npo.nl/jinek/25-08-2017/KN_1691969/POMS_KN_10500599",
       "quote": "Na de uitzending heb ik hem niet meer gesproken"
+    },
+    {
+      "category": "tv",
+      "title": "KRO-NCRV",
+      "linkText": "De Slimste Mens Afleveringen",
+      "link": "https://www.kro-ncrv.nl/deslimstemens/seizoenen/seizoen-2016-1",
+      "quote": "Ik heb dit zelf nog niet teruggekeken."
     },
     {
       "category": "tv",
