@@ -1,9 +1,9 @@
 {
-  "name": "Daniel groen",
+  "name": "daniel groen",
   "description": "site stefanokeizers.nl",
   "main": "gulpfile.js",
   "authors": [
-    "Daniel groen <groendaniel@live.nl>"
+    "daniel groen <groendaniel@live.nl>"
   ],
   "license": "ISC",
   "homepage": "http://www.stefanokeizers.nl",
