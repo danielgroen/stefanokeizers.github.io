@@ -3,11 +3,11 @@ jQuery(function ($) {
 		function jsonLoader() {
 			return $.getJSON( "data/data.json", function( data ) {
 				var cards = [];
-				var performance = [];
-				var triggerOnce = true;
+						performance = [];
+						triggerOnce = true;
 
 				$.each( data.mediacards, function( index, val ) {
-					cards.push( '<div class=' + val.category + '><article class="card"><h4>'+ val.title + '</h4><a class="title-text" href="' + val.link  + '?utm_source=' +window.location.href +'" target="_blank">' + val.linkText + '</a><blockquote class="quotes">' + val.quote +'</blockquote></div>');
+					cards.push( '<div class=' + val.category + '><article class="card"><h4>'+ val.medium + '</h4><a class="title-text" href="' + val.link  + '?utm_source=' +window.location.href +'" target="_blank">' + val.linkText + '</a><blockquote class="quotes">' + val.quote +'</blockquote></div>');
 				});
 
 				$( "<div/>", {
@@ -19,10 +19,10 @@ jQuery(function ($) {
 
 	jsonLoader().done(function() {
 		var owl = $('.owl-carousel');
-		var mobile = 360;
-		var tablet = 768;
-		var desktop = 1280;
-		var speed = 200;
+				mobile = 360;
+				tablet = 768;
+				desktop = 1280;
+				speed = 200;
 
 		owl.owlCarousel({
 			margin: 20,
@@ -33,13 +33,11 @@ jQuery(function ($) {
 					items: 1,
 					slideBy: 3,
 					nav: false,
-					mouseDrag: true,
 					stagePadding: 50,
 					center: true,
 			    },
 			    768 : {
 					items: 2,
-					mouseDrag: true,
 					nav: true,
 					slideBy: 2,
 					stagePadding: 0,
@@ -47,7 +45,6 @@ jQuery(function ($) {
 			    },
 			    1280 : {
 					items: 3,
-					mouseDrag: false,
 					nav: true,
 					slideBy: 3,
 					stagePadding: 0,
@@ -74,7 +71,7 @@ jQuery(function ($) {
 
 			var ClassOfActiveItem =  $('.owl-carousel .owl-item:nth-child(' + index + ') > ').attr('class');
 			$('.media-category.active').removeClass('active');
-			
+
 			$( '.media-category.' + ClassOfActiveItem ).addClass('active');
 		});
 	})
