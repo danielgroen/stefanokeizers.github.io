@@ -653,7 +653,7 @@ input[type="radio"] {
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -751,6 +751,8 @@ table {
   text-decoration: none;
   display: block !important;
   max-width: 150px; }
+  .button.small {
+    font-size: 14px; }
   .button:hover {
     color: white;
     background-color: #252525; }
@@ -759,6 +761,20 @@ table {
   .button {
     padding: calc( 40px / 4) calc( 40px / 2);
     max-width: 200px; } }
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between; }
+  .button-wrapper .button {
+    flex: 1 0 auto;
+    margin-right: 10px;
+    margin-bottom: 5px; }
+
+@media (min-width: 768px) {
+  .button-wrapper {
+    justify-content: flex-start; }
+    .button-wrapper .button {
+      flex: 0 0 auto; } }
 
 .owl-carousel .owl-stage {
   max-width: none;
@@ -837,11 +853,146 @@ table {
       background-color: #252525;
       border-radius: 50%; }
 
-main section {
+.block.book .inner {
+  min-height: auto;
+  background-image: url("../img/stefano-keizers-tepels.jpg");
+  background-position-y: 100%;
+  position: relative; }
+  .block.book .inner .content-wrapper {
+    display: flex;
+    width: 50%;
+    flex-direction: column; }
+    .block.book .inner .content-wrapper .title {
+      font-family: "SourceSansPro", sans-serif;
+      color: #252525;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-size: 2rem;
+      font-weight: bold;
+      font-size: 18px;
+      padding-bottom: 20px; }
+  .block.book .inner .bookcover {
+    bottom: 0;
+    right: 4.16667%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    position: absolute;
+    width: 125px;
+    height: 120px;
+    background-image: url("../img/book-cover.jpg"); }
+
+@media (min-width: 768px) {
+  .block.book .inner {
+    background-position: 40%; }
+    .block.book .inner .content-wrapper {
+      width: 100%; }
+      .block.book .inner .content-wrapper .title {
+        font-size: 24px; } }
+
+.block.contact .inner {
+  background-image: url("../img/stefano-voeten.jpg");
+  background-position: left -50px; }
+  .block.contact .inner .contact-article {
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px #f7fbfe; }
+    .block.contact .inner .contact-article .phonenumber {
+      display: block;
+      color: #252525;
+      text-decoration: none; }
+
+.block.hero .inner {
+  display: flex;
+  background-image: url("../img/stefano-hoofd.jpg");
+  background-position: left; }
+  .block.hero .inner .title-wrapper {
+    border: 1px;
+    align-self: center; }
+  .block.hero .inner .header-title {
+    font-family: "SourceSansPro", sans-serif;
+    color: #252525;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem; }
+    .block.hero .inner .header-title span {
+      font-weight: 400;
+      clear: left;
+      display: block; }
+
+@media (min-width: 768px) {
+  .block.hero .inner {
+    background-position: 40%; }
+    .block.hero .inner .header-title {
+      margin-bottom: 1.5rrem;
+      font-size: 3.5rem;
+      line-height: 60px; } }
+
+.block.media .inner {
+  background-image: url("../img/stefano-helemaal-achterkant.jpg"); }
+  .block.media .inner .media-nav {
+    padding-bottom: 20px; }
+    .block.media .inner .media-nav .media-category {
+      display: inline-block; }
+      .block.media .inner .media-nav .media-category a {
+        font-family: "SourceSansPro", sans-serif;
+        color: #252525;
+        font-size: 1rem;
+        line-height: 1.5;
+        font-family: "SourceSansPro", sans-serif;
+        color: #afafaf;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #afafaf;
+        text-decoration: none;
+        margin-right: 10px;
+        text-transform: none; }
+        .block.media .inner .media-nav .media-category a:hover {
+          color: #777777; }
+      .block.media .inner .media-nav .media-category:last-child a {
+        margin-right: 0; }
+      .block.media .inner .media-nav .media-category.active a {
+        color: #252525; }
+  .block.media .inner .owl-carousel {
+    width: 120%;
+    float: left;
+    margin-right: -100%;
+    margin-left: -10%;
+    clear: none;
+    max-width: none; }
+    .block.media .inner .owl-carousel .owl-stage-outer {
+      padding-left: 10px;
+      margin-left: -10px;
+      padding-right: 10px;
+      box-sizing: content-box;
+      margin-right: -10px; }
+    .block.media .inner .owl-carousel .owl-dots {
+      display: none; }
+
+@media (min-width: 360px) {
+  .block.media .inner .media-nav .media-category a {
+    margin-right: calc( 2rem / 1.5); } }
+
+@media (min-width: 768px) {
+  .block.media .inner .owl-carousel {
+    width: 88.88889%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; } }
+
+.block {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto; }
-  main section .inner {
+  .block .inner {
     width: 100%;
     float: right;
     margin-left: 0;
@@ -860,11 +1011,11 @@ main section {
     overflow: hidden;
     min-height: 300px;
     background-color: #fcfdff; }
-    main section .inner:after {
+    .block .inner:after {
       content: "";
       display: table;
       clear: both; }
-    main section .inner > .title {
+    .block .inner > .title {
       font-family: "SourceSansPro", sans-serif;
       color: #252525;
       font-size: 1rem;
@@ -875,7 +1026,7 @@ main section {
       font-size: 1.6rem; }
 
 @media (min-width: 768px) {
-  main section .inner {
+  .block .inner {
     width: 91.66667%;
     float: left;
     margin-right: -100%;
@@ -885,118 +1036,19 @@ main section {
     background-size: inherit;
     min-height: 500px;
     padding-left: 12.5%; }
-    main section .inner:after {
+    .block .inner:after {
       content: "";
       display: table;
       clear: both; }
-    main section .inner > .title {
+    .block .inner > .title {
       font-size: 2rem; } }
 
-#contact .inner {
-  background-image: url("../img/stefano-voeten.jpg");
-  background-position: left -50px; }
-  #contact .inner .contact-article {
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 0px #f7fbfe; }
-    #contact .inner .contact-article .phonenumber {
-      display: block;
-      color: #252525;
-      text-decoration: none; }
-
-#header-block .inner {
-  display: flex;
-  background-image: url("../img/stefano-hoofd.jpg");
-  background-position: left; }
-  #header-block .inner .title-wrapper {
-    border: 1px;
-    align-self: center; }
-  #header-block .inner .header-title {
-    font-family: "SourceSansPro", sans-serif;
-    color: #252525;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 40px 0;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 1.5rem; }
-    #header-block .inner .header-title span {
-      font-weight: 400;
-      clear: left;
-      display: block; }
-
-@media (min-width: 768px) {
-  #header-block .inner {
-    background-position: 40%; }
-    #header-block .inner .header-title {
-      margin-bottom: 1.5rrem;
-      font-size: 3.5rem;
-      line-height: 60px; } }
-
-#media .inner {
-  background-image: url("../img/stefano-helemaal-achterkant.jpg"); }
-  #media .inner .media-nav {
-    padding-bottom: 20px; }
-    #media .inner .media-nav .media-category {
-      display: inline-block; }
-      #media .inner .media-nav .media-category a {
-        font-family: "SourceSansPro", sans-serif;
-        color: #252525;
-        font-size: 1rem;
-        line-height: 1.5;
-        font-family: "SourceSansPro", sans-serif;
-        color: #afafaf;
-        font-size: 1rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-size: 1.25rem;
-        font-weight: 600;
-        color: #afafaf;
-        text-decoration: none;
-        margin-right: 10px;
-        text-transform: none; }
-        #media .inner .media-nav .media-category a:hover {
-          color: #777777; }
-      #media .inner .media-nav .media-category:last-child a {
-        margin-right: 0; }
-      #media .inner .media-nav .media-category.active a {
-        color: #252525; }
-  #media .inner .owl-carousel {
-    width: 120%;
-    float: left;
-    margin-right: -100%;
-    margin-left: -10%;
-    clear: none;
-    max-width: none; }
-    #media .inner .owl-carousel .owl-stage-outer {
-      padding-left: 10px;
-      margin-left: -10px;
-      padding-right: 10px;
-      box-sizing: content-box;
-      margin-right: -10px; }
-    #media .inner .owl-carousel .owl-dots {
-      display: none; }
-
-@media (min-width: 360px) {
-  #media .inner .media-nav .media-category a {
-    margin-right: calc( 2rem / 1.5); } }
-
-@media (min-width: 768px) {
-  #media .inner .owl-carousel {
-    width: 88.88889%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none; } }
-
-#speeldata .inner {
+.block.speeldata .inner {
   background-color: #f4f5fa;
   background-image: url("../img/stefanohelemaal.png"), url("../img/stefanohelemaalachterkant.png");
   background-position: right 400px, left 90%;
   background-size: initial; }
-  #speeldata .inner .header-title {
+  .block.speeldata .inner .header-title {
     font-family: "SourceSansPro", sans-serif;
     color: #252525;
     font-size: 1rem;
@@ -1008,9 +1060,9 @@ main section {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 1.5rem; }
-    #speeldata .inner .header-title span {
+    .block.speeldata .inner .header-title span {
       font-weight: 400; }
-  #speeldata .inner iframe {
+  .block.speeldata .inner iframe {
     width: 100%;
     float: right;
     margin-left: 0;
@@ -1021,11 +1073,11 @@ main section {
     min-height: 2215px; }
 
 @media (min-width: 768px) {
-  #speeldata .inner .header-title {
+  .block.speeldata .inner .header-title {
     margin-bottom: 40px;
     font-size: 3.5rem;
     line-height: 60px; }
-  #speeldata .inner iframe {
+  .block.speeldata .inner iframe {
     width: 91.66667%;
     float: left;
     margin-right: -100%;
