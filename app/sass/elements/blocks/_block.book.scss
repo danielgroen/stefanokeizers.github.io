@@ -1,9 +1,9 @@
 .block.book {
-
 	.inner {
     min-height: auto;
 		background-image: url('../img/stefano-keizers-tepels.jpg');
     background-position-y: 100%;
+    background-size:170%;
     position: relative;
 
     .content-wrapper {
@@ -31,6 +31,21 @@
   }
 }
 
+@include breakpoint(max-width $iphone5) {
+  .block.book {
+    .inner {
+      .content-wrapper {
+        width: 60%;
+
+        .bookcover {
+          width: 100px;
+          height: 105px;
+        }
+      }
+    }
+  }
+}
+
 @include breakpoint($tablet) {
 	.block.book {
 		.inner {
@@ -38,6 +53,7 @@
 
     .content-wrapper {
       width: 100%;
+      background-size: 130%;
 
         .title {
           font-size: 24px;
