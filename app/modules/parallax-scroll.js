@@ -14,7 +14,8 @@ $.fn.parallax = function(strength, offset) {
 };
 
 $(window).on('scroll load', function() {
-	$('#header-block .inner').parallax(0.2);
-	$('#media .inner').parallax(0.2);
-	$('#contact .inner').parallax(0.2, -200);
+	$('.block.hero .inner').parallax(0.2);
+	$('.block.media .inner').parallax(0.2);
+	$('.block.book .inner').parallax(0.2, -200);
+	$('.block.contact .inner').parallax(0.2, -200);
 });

@@ -1,4 +1,4 @@
-#speeldata {
+.block.speeldata {
 	.inner {
 		background-color: #f4f5fa;
 		background-image:  url('../img/stefanohelemaal.png'), url('../img/stefanohelemaalachterkant.png');
@@ -29,7 +29,7 @@
 }
 
 @include breakpoint($tablet) {
-	#speeldata {
+	.block.speeldata {
 		.inner {
 			.header-title {
 				margin-bottom: $gutter;

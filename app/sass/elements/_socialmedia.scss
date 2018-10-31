@@ -13,13 +13,13 @@
 			border: 1px solid $black;
 			transition: all $speed;
 		}
-		
+
 		&:hover {
 			svg {
 				fill: $white;
 				background-color: $black;
 				border-radius: 50%;
-			}			
+			}
 		}
 	}
 }

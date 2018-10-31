@@ -1,0 +1,20 @@
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  .button {
+    flex: 1 0 auto;
+    margin-right: 10px;
+    margin-bottom: $padding;
+  }
+}
+
+@include breakpoint($tablet) {
+  .button-wrapper {
+    justify-content: flex-start;
+
+    .button {
+      flex: 0 0 auto;
+    }
+  }
+}

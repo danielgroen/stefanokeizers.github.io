@@ -1,0 +1,48 @@
+.block.book {
+
+	.inner {
+    min-height: auto;
+		background-image: url('../img/stefano-keizers-tepels.jpg');
+    background-position-y: 100%;
+    position: relative;
+
+    .content-wrapper {
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+
+      .title {
+        @include font('title');
+        font-size: 18px;
+        padding-bottom: $gutter/2;
+      }
+    }
+
+    .bookcover {
+      bottom: 0;
+      right: grid-span(1,1);
+      box-shadow: $shadow;
+      background-size: cover;
+      position: absolute;
+      width: 125px;
+      height: 120px;
+      background-image:  url('../img/book-cover.jpg');
+    }
+  }
+}
+
+@include breakpoint($tablet) {
+	.block.book {
+		.inner {
+      background-position: 40%;
+
+    .content-wrapper {
+      width: 100%;
+
+        .title {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

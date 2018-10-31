@@ -1,4 +1,4 @@
-#media {
+.block.media {
 	.inner {
 		background-image:  url('../img/stefano-helemaal-achterkant.jpg');
 
@@ -7,7 +7,7 @@
 
 			.media-category {
 				display: inline-block;
-				
+
 				a {
 					@include font('navigation');
 					font-size: 1.25rem;
@@ -54,12 +54,12 @@
 }
 
 @include breakpoint($mobile) {
-	#media {
+	.block.media {
 		.inner {
 			.media-nav {
 				.media-category {
 					a {
-						margin-right: calc( #{$fontpadding} / 1.5;
+						margin-right: calc( #{$fontpadding} / 1.5);
 					}
 				}
 			}
@@ -68,7 +68,7 @@
 }
 
 @include breakpoint($tablet) {
-	#media {
+	.block.media {
 		.inner {
 			.owl-carousel {
 				@include grid-span(16, 1 ,18);

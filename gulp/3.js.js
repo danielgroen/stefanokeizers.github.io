@@ -31,4 +31,4 @@ gulp.task('concatJs', function() {
 				.pipe(global.browserSync.stream());
 });
 
-gulp.task('js', gulp.series('bower', 'concatJs'));
+gulp.task('js', gulp.series('concatJs'));

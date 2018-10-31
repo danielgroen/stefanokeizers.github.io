@@ -3,16 +3,16 @@
 		display: block;
 		position: absolute;
 		top: calc(50% - 30px);
-		opacity: 1; 
+		opacity: 1;
 		transition: opacity $speed ease-in-out;
-		
+
 		&.owl-prev {
 			left: grid-span(-2, 1, 18);
 		}
-		
+
 		&.owl-next {
 			right: grid-span(-2, 1, 18);
-		}		
+		}
 
 		&.disabled {
 			opacity:0 !important;
@@ -27,5 +27,4 @@
 		height: 2rem;
 		fill: $gray;
 	}
-	
 }

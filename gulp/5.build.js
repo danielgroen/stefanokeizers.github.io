@@ -22,4 +22,4 @@ gulp.task('cleanDist', () => {
 });
 
 
-gulp.task('build', gulp.series('sass','fonts', 'js', 'removeDist','buildDist', 'cleanDist'));
+gulp.task('build', gulp.series('sass','fonts', 'bower', 'js', 'removeDist','buildDist', 'cleanDist'));

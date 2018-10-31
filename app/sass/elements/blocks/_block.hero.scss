@@ -1,4 +1,4 @@
-#header-block {
+.block.hero {
 
 	.inner {
 		display: flex;
@@ -9,7 +9,7 @@
 			border: 1px;
 			align-self: center;
 		}
-		
+
 		.header-title {
 			@include font('title');
 			text-transform: uppercase;
@@ -27,7 +27,7 @@
 	}
 }
 @include breakpoint($tablet) {
-	#header-block {
+	.block.hero {
 		.inner {
 			background-position: 40%;
 
