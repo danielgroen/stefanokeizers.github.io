@@ -857,6 +857,7 @@ table {
   min-height: auto;
   background-image: url("../img/stefano-keizers-tepels.jpg");
   background-position-y: 100%;
+  background-size: 170%;
   position: relative; }
   .block.book .inner .content-wrapper {
     display: flex;
@@ -881,11 +882,19 @@ table {
     height: 120px;
     background-image: url("../img/book-cover.jpg"); }
 
+@media (max-width: 320px) {
+  .block.book .inner .content-wrapper {
+    width: 60%; }
+    .block.book .inner .content-wrapper .bookcover {
+      width: 100px;
+      height: 105px; } }
+
 @media (min-width: 768px) {
   .block.book .inner {
     background-position: 40%; }
     .block.book .inner .content-wrapper {
-      width: 100%; }
+      width: 100%;
+      background-size: 130%; }
       .block.book .inner .content-wrapper .title {
         font-size: 24px; } }
 
