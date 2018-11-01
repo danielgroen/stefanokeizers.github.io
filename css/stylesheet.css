@@ -891,12 +891,18 @@ table {
 
 @media (min-width: 768px) {
   .block.book .inner {
-    background-position: 40%;
     background-size: 130%; }
     .block.book .inner .content-wrapper {
       width: 100%; }
       .block.book .inner .content-wrapper .title {
         font-size: 24px; } }
+
+@media (min-width: 1280px) {
+  .block.book .inner .content-wrapper {
+    width: 60%; }
+    .block.book .inner .content-wrapper .bookcover {
+      width: 145px;
+      height: 145px; } }
 
 .block.contact .inner {
   background-image: url("../img/stefano-voeten.jpg");
