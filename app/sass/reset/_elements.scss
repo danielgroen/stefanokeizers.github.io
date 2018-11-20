@@ -16,3 +16,15 @@ img {
 	border-top: 1px solid $gray-light;
 	border-bottom: 1px solid $gray-light;
 }
+* {
+  &:focus {
+    outline: none !important;
+  }
+  -webkit-tap-highlight-color: transparent;
+
+	@include selection {
+		background: $black;
+    color: $white;
+    text-shadow: none;
+  }
+}
