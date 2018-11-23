@@ -58,6 +58,20 @@
     },
     {
       "category": "tv",
+      "medium": "PAUW",
+      "linkText": "Stefano Keizers schreef autobiografie Twee Luitenanten",
+      "link": "https://pauw.bnnvara.nl/media/428042",
+      "quote": "Normaal gesproken draag ik nooit dit soort truien."
+    },
+    {
+      "category": "tv",
+      "medium": "SPIEGELVRAGEN",
+      "linkText": "Na Pauw met Sinan Can",
+      "link": "https://pauw.bnnvara.nl/nieuws/spiegelvragen-stefano-keizers-en-sinan-can",
+      "quote": "Het was een 'fysiek' gesprek."
+    },
+    {
+      "category": "tv",
       "medium": "De Wereld Draait Door",
       "linkText": "Programma pitch NPO",
       "link": "https://dewerelddraaitdoor.bnnvara.nl/media/413756",
@@ -139,6 +153,13 @@
       "linkText": "Bekende Nerd: cabaretier Stefano Keizers heeft hele rare hobby's",
       "link": "https://www.youtube.com/watch?v=NGinitaWwIg",
       "quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
+    },
+    {
+      "category": "radio",
+      "medium": "NOOIT MEER SLAPEN",
+      "linkText": "Over Twee Luitenanten",
+      "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_14076794~stefano-keizers-schrijft-in-twee-luitenanten-over-zijn-ontstaan~.html",
+      "quote": "Hanneke en ik lebberen onszelf en elkaar een uur lang af en eten koekjes."
     },
     {
       "category": "radio",
@@ -245,6 +266,20 @@
       "linkText": "Open Kaart: Stefano Keizers/Gover Meit",
       "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
       "quote": "Ik kan me van deze opnames helemaal niets meer herinneren"
+    },
+    {
+      "category": "interviews",
+      "medium": "HP/De Tijd",
+      "linkText": "Ik zou het schrijfonderwijs willen laten bombarderen",
+      "link": "https://www.hpdetijd.nl/2018-11-06/stefano-keizers-gover-meit-schrijfonderwijs/",
+      "quote": "Alles is altijd metaforisch bedoeld +1."
+    },
+    {
+      "category": "interviews",
+      "medium": "NOS",
+      "linkText": "50 jaar Rietveld Academie",
+      "link": "https://nos.nl/artikel/2257521-50-jaar-rietveld-academie-is-de-kunstopleiding-nog-van-deze-tijd.html",
+      "quote": "Als je heel goed zoekt vind je me ook in het Acht Uur Journaal van die dag!"
     },
     {
       "category": "interviews",
