@@ -2,6 +2,13 @@
   "mediacards": [
     {
       "category": "recensies",
+      "medium": "Dagblad van het Noorden",
+      "linkText": "Jacques J. d'Ancona: Keizers kan doodvallen",
+      "link": "https://blendle.com/getpremium/item/bnl-dvhn-20181123-ST14QDLI",
+      "quote": "Dit is de moeder aller recensies. Een goede reden om een Blendle-abo te nemen. Hier doe je het allemaal voor. Er gaat niets boven Groningen!"
+    },
+    {
+      "category": "recensies",
       "medium": "PAROOL",
       "linkText": "Geef die Stefano Keizers een eigen programma",
       "link": "https://www.parool.nl/kunst-en-media/geef-die-stefano-keizers-een-eigen-programma~a4605041/",
@@ -55,6 +62,13 @@
       "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
       "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
       "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+    },
+    {
+      "category": "tv",
+      "medium": "5 Uur Live",
+      "linkText": "Het bijzondere boek van Stefano Keizers",
+      "link": "https://www.rtl.nl/video/cf709bef-40f4-446a-90f0-dc7130a01472/",
+      "quote": "Het is net alsof we het over voetbal hadden de hele tijd."
     },
     {
       "category": "tv",
@@ -266,6 +280,13 @@
       "linkText": "Open Kaart: Stefano Keizers/Gover Meit",
       "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
       "quote": "Ik kan me van deze opnames helemaal niets meer herinneren"
+    },
+    {
+      "category": "interviews",
+      "medium": "CJP",
+      "linkText": "Je bent niet welkom in het huis van Stefano Keizers",
+      "link": "https://www.cjp.nl/blog/2018/11/je-bent-niet-welkom-in-het-huis-van-stefano-keizers/80925/",
+      "quote": "Sinds CJP langs is gekomen ben ik allemaal spullen kwijt! Het zijn dieven, pas op!!"
     },
     {
       "category": "interviews",
