@@ -1,6 +1,5 @@
 const   gulp = require('gulp'),
-        del = require('del'),
-				concat = require('gulp-concat');
+        del = require('del');
 
 gulp.task('build:remove', () => {
     return del([`${global.paths.dist}`]);

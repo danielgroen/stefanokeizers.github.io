@@ -13,9 +13,9 @@ gulp.task('bower', function (done) {
 	});
 
 	if (bowerFiles.length) {
-		return gulp.src(bowerFiles)
-					.pipe(concat('bower-components.js'))
-					.pipe(gulp.dest(`${global.paths.app}/modules/`));
+		 return gulp.src(bowerFiles)
+                .pipe(concat('bower-components.js'))
+                .pipe(gulp.dest(`${global.paths.app}/modules/`));
 	}
 
 	else {
@@ -25,10 +25,10 @@ gulp.task('bower', function (done) {
 });
 
 gulp.task('concatJs', function() {
-	return gulp.src(`${global.paths.app}/modules/*.js`)
-				.pipe(concat('build.js'))
-				.pipe(gulp.dest(`${global.paths.app}/js/`))
-				.pipe(global.browserSync.stream());
+	 return gulp.src(`${global.paths.app}/modules/*.js`)
+              .pipe(concat('build.js'))
+              .pipe(gulp.dest(`${global.paths.app}/js/`))
+              .pipe(global.browserSync.stream());
 });
 
 gulp.task('js', gulp.series('concatJs'));
