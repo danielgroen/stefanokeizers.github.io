@@ -1,0 +1,62 @@
+.block {
+  .inner {
+    background-repeat: no-repeat;
+		background-position-x: center;
+		background-size: cover;
+  }
+
+
+  // hero
+  &.hero .inner {
+    background-image:  url('../img/stefano-hoofd.jpg');
+    background-position: left;
+
+    @include breakpoint($tablet) {
+      background-position: 40%;
+    }
+  }
+
+
+  // experimensen
+  &.experimensen .inner {
+    background-image: url('../img/kraskras.jpg');
+    background-size:100%;
+
+    @include breakpoint($tablet) {
+      background-size: 100%;
+    }
+  }
+
+
+  // boek
+  &.book .inner {
+    background-image: url('../img/stefano-keizers-tepels.jpg');
+    background-size:170%;
+    
+    @include breakpoint($tablet) {
+      background-attachment: center !important;
+      background-size: 120%;
+    }
+  }
+
+
+  // media
+  &.media .inner {
+    background-image:  url('../img/stefano-helemaal-achterkant.jpg');
+  }
+
+
+  // contact
+  &.contact .inner {
+    background-image:  url('../img/stefano-voeten.jpg');
+
+    @include breakpoint($tablet) {
+      background-size: 120vw;
+    }
+
+    @include breakpoint($desktop) {
+      background-size: cover;
+      background-position: center -50px;
+    }
+  }
+}

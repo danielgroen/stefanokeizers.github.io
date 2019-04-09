@@ -7,7 +7,7 @@ jQuery(function ($) {
 						triggerOnce = true;
 
 				$.each( data.mediacards, function( index, val ) {
-					cards.push( '<div class=' + val.category + '><article class="card"><h4>'+ val.medium + '</h4><a class="title-text" href="' + val.link  + '?utm_source=' +window.location.href +'" target="_blank">' + val.linkText + '</a><blockquote class="quotes">' + val.quote +'</blockquote></div>');
+					cards.push( '<div class=' + val.category + '><article class="card"><h4 class="title">'+ val.medium + '</h4><a class="title-text" href="' + val.link  + '?utm_source=' +window.location.href +'" target="_blank">' + val.linkText + '</a><blockquote class="quotes">' + val.quote +'</blockquote></div>');
 				});
 
 				$( "<div/>", {

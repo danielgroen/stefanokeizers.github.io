@@ -1,7 +1,5 @@
 .block.media {
 	.inner {
-		background-image:  url('../img/stefano-helemaal-achterkant.jpg');
-
 		.media-nav {
 			padding-bottom: 20px;
 
@@ -12,13 +10,13 @@
 					@include font('navigation');
 					font-size: 1.25rem;
 					font-weight: 600;
-					color: $gray;
+					color: rgba($white, .5);
 					text-decoration: none;
 					margin-right: 10px;
 					text-transform: none;
 
 					&:hover {
-						color: $linkshover;
+						color: $white;
 					}
 				}
 
@@ -26,10 +24,11 @@
 					a {
 						margin-right: 0;
 					}
-				}
+        }
+
 				&.active {
 					a {
-						color: $black;
+						color: $white;
 					}
 				}
 			}

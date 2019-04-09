@@ -1,6 +1,5 @@
 .button {
 	@include font('navigation');
-	color: $black;
 	margin: 0;
 	border: 0;
 	position: relative;
@@ -9,7 +8,7 @@
 	box-sizing: border-box;
 	cursor: pointer;
 	overflow: hidden;
-	border: #000000 solid 1px;
+	border: $white solid 1px;
 	padding: calc( #{$gutter} / 4) calc( #{$gutter} / 4);
 	transition: background-color $speed ease, color $speed ease;
 	border-radius: $border-radius;
@@ -22,9 +21,8 @@
 	}
 
 	&:hover {
-		color: $white;
-		background-color: $black;
-
+		color: $blue;
+		background-color: $white;
 	}
 }
 @include breakpoint($tablet) {

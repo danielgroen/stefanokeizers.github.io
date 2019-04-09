@@ -1,9 +1,6 @@
 .block.hero {
-
 	.inner {
 		display: flex;
-		background-image:  url('../img/stefano-hoofd.jpg');
-		background-position: left;
 
 		.title-wrapper {
 			border: 1px;
@@ -26,11 +23,10 @@
 		}
 	}
 }
+
 @include breakpoint($tablet) {
 	.block.hero {
 		.inner {
-			background-position: 40%;
-
 			.header-title {
 				margin-bottom: 1.5rrem;
 				font-size: 3.5rem;

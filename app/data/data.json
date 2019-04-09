@@ -1,69 +1,6 @@
 {
   "mediacards": [
     {
-      "category": "recensies",
-      "medium": "Dagblad van het Noorden",
-      "linkText": "Jacques J. d'Ancona: Keizers kan doodvallen",
-      "link": "https://blendle.com/getpremium/item/bnl-dvhn-20181123-ST14QDLI",
-      "quote": "Dit is de moeder aller recensies. Een goede reden om een Blendle-abo te nemen. Hier doe je het allemaal voor. Er gaat niets boven Groningen!"
-    },
-    {
-      "category": "recensies",
-      "medium": "PAROOL",
-      "linkText": "Geef die Stefano Keizers een eigen programma",
-      "link": "https://www.parool.nl/kunst-en-media/geef-die-stefano-keizers-een-eigen-programma~a4605041/",
-      "quote": "Ik ben inmiddels door verschillende instanties aangeklaagd."
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "Overrompelend cabaretdebuut van tragisch absurde Stefano Keizers",
-      "link": "https://www.nrc.nl/nieuws/2018/01/28/overrompelend-cabaretdebuut-van-tragisch-absurde-keizers-a1590077",
-      "quote": "Dick Zijp en ik zaten bij elkaar in de klas op de basisschool, vandaar."
-    },
-    {
-      "category": "recensies",
-      "medium": "Theaterkrant",
-      "linkText": "Tussen gekte en genialiteit",
-      "link": "https://www.theaterkrant.nl/recensie/erg-heel/stefano-keizers",
-      "quote": "Zij hebben het op zich ook wel goed begrepen."
-    },
-    {
-      "category": "recensies",
-      "medium": "Trouw",
-      "linkText": "Meesterlijk anti-cabaret van Stefano Keizers",
-      "link": "https://www.trouw.nl/cultuur/meesterlijk-anti-cabaret-van-stefano-keizers~a25165fb",
-      "quote": "In deze recensie worden al mijn grappen verklapt. Nul sterren!!!"
-    },
-    {
-      "category": "recensies",
-      "medium": "Volkskrant",
-      "linkText": "Dwarsligger Stefano Keizers gaat vast nog veel betere voorstellingen maken",
-      "link": "https://www.volkskrant.nl/theater/dwarsligger-stefano-keizers-gaat-vast-nog-veel-betere-voorstellingen-maken~a4562669",
-      "quote": "Deze mocht ik van Senf eigenlijk niet op de site zetten."
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
-      "link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
-      "quote": "Je bent zelf sensationeel"
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "De vermommingen van Stefano Keizers in De Slimste Mens",
-      "link": "https://www.nrc.nl/nieuws/2017/01/06/de-vermommingen-van-stefano-keizers-6077143-a1540007",
-      "quote": "Ik heb ook drie katten. Ze heten Kwik, Kwek en Kwak."
-    },
-    {
-      "category": "recensies",
-      "medium": "Televisier",
-      "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
-      "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
-      "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
-    },
-    {
       "category": "tv",
       "medium": "5 Uur Live",
       "linkText": "Het bijzondere boek van Stefano Keizers",
@@ -169,6 +106,69 @@
       "quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
     },
     {
+      "category": "recensies",
+      "medium": "Dagblad van het Noorden",
+      "linkText": "Jacques J. d'Ancona: Keizers kan doodvallen",
+      "link": "https://blendle.com/getpremium/item/bnl-dvhn-20181123-ST14QDLI",
+      "quote": "Dit is de moeder aller recensies. Een goede reden om een Blendle-abo te nemen. Hier doe je het allemaal voor. Er gaat niets boven Groningen!"
+    },
+    {
+      "category": "recensies",
+      "medium": "PAROOL",
+      "linkText": "Geef die Stefano Keizers een eigen programma",
+      "link": "https://www.parool.nl/kunst-en-media/geef-die-stefano-keizers-een-eigen-programma~a4605041/",
+      "quote": "Ik ben inmiddels door verschillende instanties aangeklaagd."
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "Overrompelend cabaretdebuut van tragisch absurde Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2018/01/28/overrompelend-cabaretdebuut-van-tragisch-absurde-keizers-a1590077",
+      "quote": "Dick Zijp en ik zaten bij elkaar in de klas op de basisschool, vandaar."
+    },
+    {
+      "category": "recensies",
+      "medium": "Theaterkrant",
+      "linkText": "Tussen gekte en genialiteit",
+      "link": "https://www.theaterkrant.nl/recensie/erg-heel/stefano-keizers",
+      "quote": "Zij hebben het op zich ook wel goed begrepen."
+    },
+    {
+      "category": "recensies",
+      "medium": "Trouw",
+      "linkText": "Meesterlijk anti-cabaret van Stefano Keizers",
+      "link": "https://www.trouw.nl/cultuur/meesterlijk-anti-cabaret-van-stefano-keizers~a25165fb",
+      "quote": "In deze recensie worden al mijn grappen verklapt. Nul sterren!!!"
+    },
+    {
+      "category": "recensies",
+      "medium": "Volkskrant",
+      "linkText": "Dwarsligger Stefano Keizers gaat vast nog veel betere voorstellingen maken",
+      "link": "https://www.volkskrant.nl/theater/dwarsligger-stefano-keizers-gaat-vast-nog-veel-betere-voorstellingen-maken~a4562669",
+      "quote": "Deze mocht ik van Senf eigenlijk niet op de site zetten."
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
+      "link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
+      "quote": "Je bent zelf sensationeel"
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "De vermommingen van Stefano Keizers in De Slimste Mens",
+      "link": "https://www.nrc.nl/nieuws/2017/01/06/de-vermommingen-van-stefano-keizers-6077143-a1540007",
+      "quote": "Ik heb ook drie katten. Ze heten Kwik, Kwek en Kwak."
+    },
+    {
+      "category": "recensies",
+      "medium": "Televisier",
+      "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
+      "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
+      "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+    },
+    {
       "category": "radio",
       "medium": "NOOIT MEER SLAPEN",
       "linkText": "Over Twee Luitenanten",
@@ -231,7 +231,6 @@
       "link": "https://www.nporadio2.nl/gemist/video/6424/stefano-keizers-heeft-een-avondvullende-theatervoorstelling-erg-heel",
       "quote": "Ik voelde me fris want ik had net gedoucht!"
     },
-
     {
       "category": "radio",
       "medium": "De Wild In De Middag",

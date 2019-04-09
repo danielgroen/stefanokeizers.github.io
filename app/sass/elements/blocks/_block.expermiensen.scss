@@ -1,4 +1,4 @@
-.block.book {
+.block.experimensen {
 	.inner {
     min-height: auto;
     position: relative;
@@ -6,35 +6,38 @@
     .content-wrapper {
       display: flex;
       width: 50%;
+      z-index: 2;
       flex-direction: column;
 
       .title {
         @include font('title');
         font-size: 18px;
         padding-bottom: $gutter/2;
+        z-index: 2;
       }
     }
 
-    .bookcover {
+    .iedereen {
       bottom: 0;
       right: grid-span(1,1);
-      box-shadow: $shadow;
-      background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
       position: absolute;
-      width: 125px;
-      height: 120px;
-      background-image:  url('../img/book-cover.jpg');
+      width: 325px;
+      background-position: bottom;
+      height: 100%;
+      background-image:  url('../img/expirimensen.png');
     }
   }
 }
 
 @include breakpoint(max-width $iphone5) {
-  .block.book {
+  .block.experimensen {
     .inner {
       .content-wrapper {
         width: 60%;
 
-        .bookcover {
+        .iedereen {
           width: 100px;
           height: 105px;
         }
@@ -44,10 +47,10 @@
 }
 
 @include breakpoint($tablet) {
-	.block.book {
+	.block.experimensen {
 		.inner {
-      .content-wrapper {
-        width: 100%;
+    .content-wrapper {
+      width: 100%;
 
         .title {
           font-size: 24px;
@@ -58,15 +61,10 @@
 }
 
 @include breakpoint($desktop) {
-  .block.book {
+  .block.experimensen {
     .inner {
       .content-wrapper {
         width: 60%;
-
-        .bookcover {
-          width: 145px;
-          height: 145px;
-        }
       }
     }
   }

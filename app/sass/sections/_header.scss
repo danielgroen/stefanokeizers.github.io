@@ -12,7 +12,11 @@
 			margin-right: 10px;
 			
 			a {
-				text-decoration: none;
+        color: $links;
+        text-decoration: none;
+        &:hover {
+          color: $linkshover;
+        }
 			}
 
 			&:last-child {
@@ -21,7 +25,7 @@
 
 			&.active {
 				a {
-					color: $black;
+          color: $blue;
 				}
 			}
 		}

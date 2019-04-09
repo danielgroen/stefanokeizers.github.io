@@ -15,7 +15,8 @@ $.fn.parallax = function(strength, offset) {
 
 $(window).on('scroll load', function() {
 	$('.block.hero .inner').parallax(0.2);
+	$('.block.experimensen .inner').parallax(0.2, -100);
+	$('.block.book .inner').parallax(0.2, -100);
 	$('.block.media .inner').parallax(0.2);
-	$('.block.book .inner').parallax(0.2, -200);
-	$('.block.contact .inner').parallax(0.2, -200);
+	$('.block.contact .inner').parallax(0.2, -50);
 });

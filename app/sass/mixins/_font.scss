@@ -1,6 +1,6 @@
 @mixin font($type:'normal') {
   font-family: "SourceSansPro", sans-serif;
-  color: $black;
+  color: $white;
   font-size: 1rem;
   line-height: 1.5;
 
@@ -10,7 +10,6 @@
 
   } @else if $type == "navigation" {
     font-family: "SourceSansPro", sans-serif;
-    color: $links;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;

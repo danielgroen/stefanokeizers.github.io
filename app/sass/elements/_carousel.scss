@@ -22,10 +22,10 @@
 				}
 
 				.title-text {
-					color: $gray;
 					margin-top: 1rem;
 					padding-bottom: 1rem;
-					display: block;
+          display: block;
+					color: $black;
 					font-size: 1rem;
 
 						&:hover {
@@ -34,6 +34,8 @@
 				}
 
 				.quotes {
+					color: $black;
+          
 					font-style: italic;
 
 					&:before {
