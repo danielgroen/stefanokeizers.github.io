@@ -1,8 +1,11 @@
 .owl-carousel {
 	.owl-stage {
-		max-width: none;
 	    padding-top: 10px;
-	    min-width: 5000px;
+      min-width: 5000px;
+
+      @include breakpoint(max-width bpmax($tablet)) {
+        margin-left: -50px;
+      }
 
 		.owl-item {
 			background-color: $white;
@@ -35,7 +38,7 @@
 
 				.quotes {
 					color: $black;
-          
+
 					font-style: italic;
 
 					&:before {

@@ -7,7 +7,11 @@
     overflow: visible;
     z-index: -1;
     top: 0;
-    transform: translateY(50%);
+    
+    @include breakpoint($tablet) {
+      transform: translateY(50%);
+    }
+
     .cover-image {
       height: 100%;
       width: 100%;
@@ -15,7 +19,7 @@
 
       @include breakpoint($tablet) {
         object-fit: cover;
-        height: auto !important;
+        height: auto;
         width: 100%;
       }
     }
@@ -34,7 +38,7 @@
   // experimensen
   &.experimensen .cover-image {
     height: 110%;
-    
+
     @include breakpoint($tablet) {
       height: 190%;
     }
@@ -46,13 +50,14 @@
     height: 110%;
 
     @include breakpoint($tablet) {
+      height: 160%;
     }
   }
 
 
   // media
   &.media .cover-image {
-    
+    height: 110%;
   }
 
 
@@ -60,9 +65,11 @@
   &.contact .cover-image {
 
     @include breakpoint($tablet) {
+      height: 120%;
     }
-
+    
     @include breakpoint($desktop) {
+      height: 105%;
     }
   }
 }

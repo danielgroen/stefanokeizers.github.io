@@ -6,7 +6,8 @@
 		margin-right: .5rem;
 
 		svg {
-			width: 15px;
+      width: 35px;
+      height: 100%;
 			fill: $white;
 			padding: 7px;
 			border-radius: 50%;
@@ -16,8 +17,7 @@
 
 		&:hover {
 			svg {
-        fill: $black;
-        border-color: $black;
+        border: 2px solid $white;
 				border-radius: 50%;
 			}
 		}

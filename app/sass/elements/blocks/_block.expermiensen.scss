@@ -40,9 +40,9 @@
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
-      width: 325px;
+      width: 150px;
       background-position: bottom;
-      height: 100%;
+      height: 60%;
       background-image:  url('../img/experimens.png');
 
       @include breakpoint($tablet) {
