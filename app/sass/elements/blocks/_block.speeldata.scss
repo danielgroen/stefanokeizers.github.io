@@ -1,10 +1,6 @@
 .block.speeldata {
 	.inner {
-		background-color: #f4f5fa;
-		background-image:  url('../img/stefanohelemaal.png'), url('../img/stefanohelemaalachterkant.png');
-	    background-position: right 400px, left 90%;
-	    background-size: initial;
-	    
+		background-color: $blue;
 
 		.header-title {
 			@include font('title');
@@ -20,7 +16,7 @@
 		}
 
 		iframe {
-			@include grid-span(24, 1);
+			width: grid-span(24, 1);
 			box-shadow: $shadow;
 			background-color: $white;
 			min-height: 2215px;
@@ -38,7 +34,7 @@
 			}
 
 			iframe {
-				@include grid-span(22, 1);
+				width: grid-span(22, 1);
 				min-height: 1730px;
 			}
 		}

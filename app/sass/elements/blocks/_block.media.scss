@@ -34,8 +34,7 @@
 			}
 		}
 		.owl-carousel {
-      // width: grid-span(12, 0 ,10);
-			@include grid-span(12, 0 ,10);
+      width: grid-span(12, 0 ,10);
 			max-width: none;
 
 			.owl-stage-outer {
@@ -71,7 +70,7 @@
 	.block.media {
 		.inner {
 			.owl-carousel {
-				@include grid-span(16, 1 ,18);
+				width: grid-span(16, 1 ,18);
 			}
 		}
 	}
