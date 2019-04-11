@@ -27,6 +27,27 @@
       background-position: bottom;
       height: 100%;
       background-image:  url('../img/expirimensen.png');
+      display: none;
+      
+      @include breakpoint($tablet) {
+        display: block;
+      }
+    }
+
+    .stef {
+      bottom: 0;
+      right: grid-span(1,1);
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 325px;
+      background-position: bottom;
+      height: 100%;
+      background-image:  url('../img/experimens.png');
+
+      @include breakpoint($tablet) {
+        display: none;
+      }
     }
   }
 }

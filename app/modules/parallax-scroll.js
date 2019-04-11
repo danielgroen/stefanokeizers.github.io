@@ -5,18 +5,18 @@ $.fn.parallax = function(strength, offset) {
 		if (!$.isNumeric(offset)) { offset = 0;	}
 		if ( $(window).width() > breakpoint  ) {
 			if ( this[0].offsetTop < ( $(window).scrollTop() + $(window).height() )) {
-	 		   this.css('background-position-y', Math.round( ( $(window).scrollTop() - this[0].offsetTop ) * strength + offset ) +'px');
+	 		   this.css('transform', 'translateY(' + Math.round( ( $(window).scrollTop() - this[0].offsetTop ) * strength + offset ) +'px)');
 			}
 		} else {
-		    this.css('background-position-y', '');
+		    this.css('transform', '');
 		}
 	}
 };
 
 $(window).on('scroll load', function() {
-	$('.block.hero .inner').parallax(0.2);
-	$('.block.experimensen .inner').parallax(0.2, -100);
-	$('.block.book .inner').parallax(0.2, -100);
-	$('.block.media .inner').parallax(0.2);
-	$('.block.contact .inner').parallax(0.2, -50);
+	$('.block.hero .inner .cover-image').parallax(0.2, -260);
+	$('.block.experimensen .inner .cover-image').parallax(0.1, -400);
+	$('.block.book .inner .cover-image').parallax(0.1, -600);
+	$('.block.media .inner .cover-image').parallax(0.1, -300);
+	$('.block.contact .inner .cover-image').parallax(0.1, -500);
 });
