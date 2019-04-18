@@ -17,6 +17,7 @@
 
 			.card {
 				.title {
+          margin: 0;
 					@include font('navigation');
 					font-size: 1.125rem;
 					color: $black;
