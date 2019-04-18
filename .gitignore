@@ -6,3 +6,4 @@ environment
 dist
 app/css/
 app/js/*.js
+*.swp
