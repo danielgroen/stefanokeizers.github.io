@@ -2,6 +2,76 @@
   "mediacards": [
     {
       "category": "tv",
+      "medium": "BEAU",
+      "linkText": "Stefano Keizers miste wat karakter bij het Gouden Televizier-Ring Gala",
+      "link": "https://www.rtl.nl/video/4d8cebf5-27f1-9d8f-5a3e-b1291be2e349/",
+      "quote": "Ik ben niet zuur ik ben bitter."
+    },
+    {
+      "category": "tv",
+      "medium": "JINEK",
+      "linkText": "Al mijn kennis over vrouwen heb ik uit de films van Eddie Murphy",
+      "link": "https://evajinek.kro-ncrv.nl/fragmenten/stefano-keizers-al-mijn-kennis-over-vrouwen-heb-ik-uit-de-films-van-eddie-murphy",
+      "quote": "Nog nooit van die vent gehoord eigenlijk!"
+    },
+    {
+      "category": "tv",
+      "medium": "PAUW",
+      "linkText": "Stefano Keizers krijgt eigen documentaire",
+      "link": "https://www.gids.tv/video/84450/stefano-keizers-krijgt-eigen-documentaire-ik-wil-mensen-nachtmerries-bezorgen",
+      "quote": "Wat krijgt Stefano eigenlijk NIET...?"
+    },
+    {
+      "category": "tv",
+      "medium": "DUMPERTREETEN",
+      "linkText": "Stefano Keizers, tongen, Sylvana, Nick, René",
+      "link": "https://www.youtube.com/watch?v=zTwLUNUHiAs",
+      "quote": "Die 1,25x afspeelsnelheid werkt echt als de neten!!"
+    },
+    {
+      "category": "tv",
+      "medium": "VAN DE WEEK",
+      "linkText": "Alle afleveringen en meer",
+      "link": "https://www.npo3.nl/van-de-week/BV_101392082",
+      "quote": "Dit programma verdient geen eigen banner."
+    },
+    {
+      "category": "tv",
+      "medium": "PAUW",
+      "linkText": "Stefano Keizers valt van zijn stoel",
+      "link": "https://www.televizier.nl/amusement/stefano-keizers-valt-van-zijn-stoel-bij-pauw",
+      "quote": "De vraag stellen is hem beantwoorden."
+    },
+    {
+      "category": "tv",
+      "medium": "DIT IS NIET MIJN WERELD VRIEND",
+      "linkText": "Marco Kroon VS Stefano Keizers",
+      "link": "https://www.powned.tv/programmas/dit-is-niet-mijn-wereld-vriend/marco-kroon-vs-stefano-keizers?",
+      "quote": "Dit was geweldig. Zwaarder gaat het niet worden."
+    },
+    {
+      "category": "tv",
+      "medium": "DRUNK HISTORY",
+      "linkText": "Het beleg van Leiden",
+      "link": "https://www.youtube.com/watch?v=Zv36x9MrVl4",
+      "quote": "Ik heb medelijden met iedereen die deelnam aan deze productie."
+    },
+    {
+      "category": "tv",
+      "medium": "DWDD",
+      "linkText": "Stefano Keizers over het nieuwe programma Experimensen",
+      "link": "https://www.gids.tv/video/32047/dwdd-gemist-stefano-keizers-over-het-nieuwe-programma-experimensen",
+      "quote": "Ik heb al mijn succes te danken aan een kakkerlak..."
+    },
+    {
+      "category": "tv",
+      "medium": "YUNG DWDD",
+      "linkText": "Taxi Terug met Samya",
+      "link": "https://www.youtube.com/watch?v=iAZYlVEZoFM",
+      "quote": "DIT WAS ZO GEZELLIG WE HADDEN ALLEBEI EEN HOED OP!!!"
+    },
+    {
+      "category": "tv",
       "medium": "5 Uur Live",
       "linkText": "Het bijzondere boek van Stefano Keizers",
       "link": "https://www.rtl.nl/video/cf709bef-40f4-446a-90f0-dc7130a01472/",
@@ -107,6 +177,20 @@
     },
     {
       "category": "recensies",
+      "medium": "TELEVISIER",
+      "linkText": "Het geheime juweel op televisie heet Experimensen",
+      "link": "https://www.televizier.nl/amusement/het-geheime-juweel-op-televisie-heet-experimensen",
+      "quote": "Mijn eigen geheime juweel heet Robbie :("
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "De rechtse kakkerlak van Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2019/01/22/de-rechtse-kakkerlak-van-stefano-keizers-a3651208",
+      "quote": "Nog meer lof voor de kakkerlak."
+    },
+    {
+      "category": "recensies",
       "medium": "Dagblad van het Noorden",
       "linkText": "Jacques J. d'Ancona: Keizers kan doodvallen",
       "link": "https://blendle.com/getpremium/item/bnl-dvhn-20181123-ST14QDLI",
@@ -167,6 +251,13 @@
       "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
       "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
       "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+    },
+    {
+      "category": "radio",
+      "medium": "SHAY",
+      "linkText": "Twee uur lang in mijn eentje te gast",
+      "link": "https://www.nporadio2.nl/shay/gemist/uitzending/258685/19-0-2019",
+      "quote": "Sindsdien is Shay wel echt klaar met mij."
     },
     {
       "category": "radio",
@@ -278,7 +369,42 @@
       "medium": "VPRO",
       "linkText": "Open Kaart: Stefano Keizers/Gover Meit",
       "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
-      "quote": "Ik kan me van deze opnames helemaal niets meer herinneren"
+      "quote": "Ik kan me van deze opnames helemaal niets meer herinneren."
+    },
+    {
+      "category": "interviews",
+      "medium": "TROUW",
+      "linkText": "De zomer is voor mij de meest stressvolle periode van het jaar",
+      "link": "https://www.trouw.nl/cultuur-media/stefano-keizers-de-zomer-is-voor-mij-de-meest-stressvolle-periode-van-het-jaar~b7bf06a4/",
+      "quote": "Ze konden niks saaiers bedenken om me mee lastig te vallen."
+    },
+    {
+      "category": "interviews",
+      "medium": "NRC",
+      "linkText": "De mishandeling van Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2019/04/03/de-mishandeling-van-stefano-keizers-a3955579",
+      "quote": "De Nationale Ombudsman moest er aan te pas komen :("
+    },
+    {
+      "category": "interviews",
+      "medium": "AD",
+      "linkText": "Werd cabaretier Stefano Keizers door bezoekers echt in de polsen gesneden en gewaterboard?",
+      "link": "https://www.ad.nl/musical-en-theater/werd-cabaretier-stefano-keizers-door-bezoekers-echt-in-de-polsen-gesneden-en-gewaterboard~ab59a559/",
+      "quote": "HAHAHAHAHAHHAAHHAHAHAHA!!!!!!!111!1"
+    },
+    {
+      "category": "interviews",
+      "medium": "ESQUIRE",
+      "linkText": "Altijd de dorpsgek",
+      "link": "https://www.hotelpincoffs.nl/upload/files/2019-03_ESQ19001-interview03.pdf",
+      "quote": "Ik mocht mijn haar een week niet wassen van de kapper."
+    },
+    {
+      "category": "interviews",
+      "medium": "NRC",
+      "linkText": "Ik snap oprecht hoe het in mijn hoofd werkt",
+      "link": "https://www.nrc.nl/nieuws/2018/12/06/ik-snap-oprecht-hoe-het-in-mijn-hoofd-werkt-a3059583",
+      "quote": "Hoeveel interviews gaat deze krant nog met mij doen zeg?!"
     },
     {
       "category": "interviews",
