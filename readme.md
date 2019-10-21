@@ -2,7 +2,6 @@
 
 ## Installation
 ```shell
-$ sudo apt install nasm #for imagemin jpeg plugin to work on linux
 $ pnpm install
 ```
 ## scripts
