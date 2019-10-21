@@ -7,3 +7,7 @@ dist
 app/css/
 app/js/*.js
 *.swp
+*.sql
+*.bak
+.vscode
+*.log

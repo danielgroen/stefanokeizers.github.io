@@ -7,7 +7,10 @@
   "license": "ISC",
   "homepage": "https://github.com/danielgroen/stefanokeizers.nl",
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "start": "pnpx gulp serve",
+    "build": "pnpx gulp build",
+    "deploy": "pnpx gulp deploy"
   },
   "browserslist": [
     "last 2 versions",

@@ -9,8 +9,8 @@ process.setMaxListeners(0);
 global.browserSync = browserSync;
 global.paths = {
 	'app': './app',
-      'dist': './dist',
-      'bower': './bower_components',
+  'dist': './dist',
+  'bower': './bower_components',
 };
 
 global.ghpagesOptions = {
