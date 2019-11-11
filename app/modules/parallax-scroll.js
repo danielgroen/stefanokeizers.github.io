@@ -14,7 +14,7 @@ $.fn.parallax = function(strength, offset) {
 };
 
 $(window).on('scroll load', function() {
-	$('.block.hero .inner .cover-image').parallax(0.2, -260);
+	$('.block.hero .inner .cover-image').parallax(0.2, -320);
 	$('.block.experimensen .inner .cover-image').parallax(0.1, -200);
 	$('.block.book .inner .cover-image').parallax(0.1, -200);
 	$('.block.media .inner .cover-image').parallax(0.1, -450);

@@ -3,8 +3,8 @@
 		display: flex;
 
 		.title-wrapper {
-			border: 1px;
-			align-self: center;
+      align-self: center;
+      width: 300px;
 		}
 
 		.header-title {
@@ -13,20 +13,41 @@
 			margin: $gutter 0;
 			margin-top: 0;
 			margin-bottom: 15px;
-			font-size: 1.5rem;
+      font-size: 1.5rem;
 
 			span {
 				font-weight: 400;
 				clear: left;
 				display: block;
 			}
-		}
+    }
+    .iframe-wrapper {
+      padding:75% 0 0 0;
+      position:relative;
+      margin-top: $gutter / 2;
+
+      iframe {
+        position:
+        absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+      }
+    }
 	}
 }
 
 @include breakpoint($tablet) {
 	.block.hero {
 		.inner {
+      .title-wrapper {
+        width: auto;
+      }
+      .button {
+        margin-top: $gutter / 2;
+        margin-bottom: $gutter / 3 * 2;
+      }
 			.header-title {
 				margin-bottom: 1.5rrem;
 				font-size: 3.5rem;

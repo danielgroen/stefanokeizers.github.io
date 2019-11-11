@@ -4,7 +4,6 @@
 	border: 0;
 	position: relative;
 	text-align: center;
-	font-size: 1.125rem;
 	box-sizing: border-box;
 	cursor: pointer;
 	overflow: hidden;
@@ -13,12 +12,9 @@
 	transition: background-color $speed ease, color $speed ease;
 	border-radius: $border-radius;
 	text-decoration: none;
-    display: block !important;
+  display: block !important;
 	max-width: 150px;
-
-	&.small {
-		font-size: 14px;
-	}
+  font-size: 14px;
 
 	&:hover {
 		color: $blue;
@@ -28,6 +24,11 @@
 @include breakpoint($tablet) {
 	.button {
 		padding: calc( #{$gutter} / 4) calc( #{$gutter} / 2);
-		max-width: 200px;
+    max-width: 200px;
+    font-size: 1.125rem;
+
+    &.small {
+      font-size: 14px;
+    }
 	}
 }
