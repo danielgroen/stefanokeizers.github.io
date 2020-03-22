@@ -1,6 +1,146 @@
 {
   "mediacards": [
     {
+      "category": "recensies",
+      "medium": "THEATERKRANT",
+      "linkText": "De onwillige artiest, gevangen in zijn tournee",
+      "link": "https://www.theaterkrant.nl/recensie/sorry-baby/stefano-keizers/",
+      "quote": "Yep"
+    },
+    {
+      "category": "recensies",
+      "medium": "PAROOL",
+      "linkText": "Stefano Keizers deelt weinig enerverende plaagstootjes uit",
+      "link": "https://www.parool.nl/kunst-media/stefano-keizers-deelt-weinig-enerverende-plaagstootjes-uit~b7aaec74/",
+      "quote": "Daar is de piemel!!!!!!!!!!!!! Elke zin in dit stuk is raak <3"
+    },
+    {
+      "category": "recensies",
+      "medium": "TELEGRAAF",
+      "linkText": "Sorry Baby is navelstaarderig kunstje",
+      "link": "https://www.telegraaf.nl/entertainment/1616608074/stefano-keizers-sorry-baby-is-navelstaarderig-kunstje",
+      "quote": "Ze halen de woorden uit mijn mond..."
+    },
+    {
+      "category": "recensies",
+      "medium": "TROUW",
+      "linkText": "De cabaretier is net een sekswerker",
+      "link": "https://www.trouw.nl/cultuur-media/de-cabaretier-is-net-een-sekswerker-volgens-stefano-keizers~b35ea01b/",
+      "quote": "Waarom zo positief dan??"
+    },
+    {
+      "category": "recensies",
+      "medium": "VOLKSKRANT",
+      "linkText": "Het schort aan originaliteit en verrassing",
+      "link": "www.volkskrant.nl/cultuur-media/het-schort-aan-originaliteit-en-verrassing-bij-het-anti-cabaret-van-keizers~b774e6a2/",
+      "quote": "Een prachtige en ontroerende tekst die mijn voorstelling eer aandoet."
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "Bloedstollend cabaret van Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2020/01/22/bloedstollend-cabaret-van-stefano-keizers-a3987734",
+      "quote": "Zoals u ziet: de meningen blijven verdeeld. Ik ben het daar niet mee eens."
+    },
+    {
+      "category": "recensies",
+      "medium": "TELEVISIER",
+      "linkText": "Het geheime juweel op televisie heet Experimensen",
+      "link": "https://www.televizier.nl/amusement/het-geheime-juweel-op-televisie-heet-experimensen",
+      "quote": "Mijn eigen geheime juweel heet Robbie :("
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "De rechtse kakkerlak van Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2019/01/22/de-rechtse-kakkerlak-van-stefano-keizers-a3651208",
+      "quote": "Nog meer lof voor de kakkerlak."
+    },
+    {
+      "category": "recensies",
+      "medium": "Dagblad van het Noorden",
+      "linkText": "Jacques J. d'Ancona: Keizers kan doodvallen",
+      "link": "https://blendle.com/getpremium/item/bnl-dvhn-20181123-ST14QDLI",
+      "quote": "Dit is de moeder aller recensies. Een goede reden om een Blendle-abo te nemen. Hier doe je het allemaal voor. Er gaat niets boven Groningen!"
+    },
+    {
+      "category": "recensies",
+      "medium": "PAROOL",
+      "linkText": "Geef die Stefano Keizers een eigen programma",
+      "link": "https://www.parool.nl/kunst-en-media/geef-die-stefano-keizers-een-eigen-programma~a4605041/",
+      "quote": "Ik ben inmiddels door verschillende instanties aangeklaagd."
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "Overrompelend cabaretdebuut van tragisch absurde Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2018/01/28/overrompelend-cabaretdebuut-van-tragisch-absurde-keizers-a1590077",
+      "quote": "Dick Zijp en ik zaten bij elkaar in de klas op de basisschool, vandaar."
+    },
+    {
+      "category": "recensies",
+      "medium": "Theaterkrant",
+      "linkText": "Tussen gekte en genialiteit",
+      "link": "https://www.theaterkrant.nl/recensie/erg-heel/stefano-keizers",
+      "quote": "Zij hebben het op zich ook wel goed begrepen."
+    },
+    {
+      "category": "recensies",
+      "medium": "Trouw",
+      "linkText": "Meesterlijk anti-cabaret van Stefano Keizers",
+      "link": "https://www.trouw.nl/cultuur/meesterlijk-anti-cabaret-van-stefano-keizers~a25165fb",
+      "quote": "In deze recensie worden al mijn grappen verklapt. Nul sterren!!!"
+    },
+    {
+      "category": "recensies",
+      "medium": "Volkskrant",
+      "linkText": "Dwarsligger Stefano Keizers gaat vast nog veel betere voorstellingen maken",
+      "link": "https://www.volkskrant.nl/theater/dwarsligger-stefano-keizers-gaat-vast-nog-veel-betere-voorstellingen-maken~a4562669",
+      "quote": "Deze mocht ik van Senf eigenlijk niet op de site zetten."
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
+      "link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
+      "quote": "Je bent zelf sensationeel"
+    },
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "De vermommingen van Stefano Keizers in De Slimste Mens",
+      "link": "https://www.nrc.nl/nieuws/2017/01/06/de-vermommingen-van-stefano-keizers-6077143-a1540007",
+      "quote": "Ik heb ook drie katten. Ze heten Kwik, Kwek en Kwak."
+    },
+    {
+      "category": "recensies",
+      "medium": "Televisier",
+      "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
+      "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
+      "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+    },
+    {
+      "category": "tv",
+      "medium": "5UURLIVE",
+      "linkText": "Een experiment van Stefano Keizers",
+      "link": "https://www.koffietijd.nl/experiment_van_stefano_keizers",
+      "quote": "Lekker kokkerellen voor Experimensen TBC TBC TBC...!!! !..2.!!"
+    },
+    {
+      "category": "tv",
+      "medium": "BEAU",
+      "linkText": "Er is een heel nieuw vrouwelijk publiek dat zich kenbaar aan mij maakt",
+      "link": "https://www.rtl.nl/video/6a1c2cde-1e27-4ccd-4400-3e78c56eae49/",
+      "quote": "Het beroemde interview met de badjas aan!!!"
+    },
+    {
+      "category": "tv",
+      "medium": "JINEK",
+      "linkText": "Heel veel mensen gaan boos worden om mijn voorstelling",
+      "link": "https://www.rtl.nl/video/80061a50-e0a0-4c42-8a55-dbcf7b151c4e/",
+      "quote": "Ik had een Fortnite-hoodie aan maar die werd angstvallig buiten beeld gehouden"
+    },
+    {
       "category": "tv",
       "medium": "BEAU",
       "linkText": "Stefano Keizers miste wat karakter bij het Gouden Televizier-Ring Gala",
@@ -176,81 +316,11 @@
       "quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
     },
     {
-      "category": "recensies",
-      "medium": "TELEVISIER",
-      "linkText": "Het geheime juweel op televisie heet Experimensen",
-      "link": "https://www.televizier.nl/amusement/het-geheime-juweel-op-televisie-heet-experimensen",
-      "quote": "Mijn eigen geheime juweel heet Robbie :("
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "De rechtse kakkerlak van Stefano Keizers",
-      "link": "https://www.nrc.nl/nieuws/2019/01/22/de-rechtse-kakkerlak-van-stefano-keizers-a3651208",
-      "quote": "Nog meer lof voor de kakkerlak."
-    },
-    {
-      "category": "recensies",
-      "medium": "Dagblad van het Noorden",
-      "linkText": "Jacques J. d'Ancona: Keizers kan doodvallen",
-      "link": "https://blendle.com/getpremium/item/bnl-dvhn-20181123-ST14QDLI",
-      "quote": "Dit is de moeder aller recensies. Een goede reden om een Blendle-abo te nemen. Hier doe je het allemaal voor. Er gaat niets boven Groningen!"
-    },
-    {
-      "category": "recensies",
-      "medium": "PAROOL",
-      "linkText": "Geef die Stefano Keizers een eigen programma",
-      "link": "https://www.parool.nl/kunst-en-media/geef-die-stefano-keizers-een-eigen-programma~a4605041/",
-      "quote": "Ik ben inmiddels door verschillende instanties aangeklaagd."
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "Overrompelend cabaretdebuut van tragisch absurde Stefano Keizers",
-      "link": "https://www.nrc.nl/nieuws/2018/01/28/overrompelend-cabaretdebuut-van-tragisch-absurde-keizers-a1590077",
-      "quote": "Dick Zijp en ik zaten bij elkaar in de klas op de basisschool, vandaar."
-    },
-    {
-      "category": "recensies",
-      "medium": "Theaterkrant",
-      "linkText": "Tussen gekte en genialiteit",
-      "link": "https://www.theaterkrant.nl/recensie/erg-heel/stefano-keizers",
-      "quote": "Zij hebben het op zich ook wel goed begrepen."
-    },
-    {
-      "category": "recensies",
-      "medium": "Trouw",
-      "linkText": "Meesterlijk anti-cabaret van Stefano Keizers",
-      "link": "https://www.trouw.nl/cultuur/meesterlijk-anti-cabaret-van-stefano-keizers~a25165fb",
-      "quote": "In deze recensie worden al mijn grappen verklapt. Nul sterren!!!"
-    },
-    {
-      "category": "recensies",
-      "medium": "Volkskrant",
-      "linkText": "Dwarsligger Stefano Keizers gaat vast nog veel betere voorstellingen maken",
-      "link": "https://www.volkskrant.nl/theater/dwarsligger-stefano-keizers-gaat-vast-nog-veel-betere-voorstellingen-maken~a4562669",
-      "quote": "Deze mocht ik van Senf eigenlijk niet op de site zetten."
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "Stefano Keizers wint het Amsterdams Kleinkunst Festival. Zijn optreden: sensationeel",
-      "link": "https://www.nrc.nl/nieuws/2016/04/19/cabaret-stefano-keizers-wint-het-amsterdams-kleink-1613098-a497898",
-      "quote": "Je bent zelf sensationeel"
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "De vermommingen van Stefano Keizers in De Slimste Mens",
-      "link": "https://www.nrc.nl/nieuws/2017/01/06/de-vermommingen-van-stefano-keizers-6077143-a1540007",
-      "quote": "Ik heb ook drie katten. Ze heten Kwik, Kwek en Kwak."
-    },
-    {
-      "category": "recensies",
-      "medium": "Televisier",
-      "linkText": "Stefano Keizers maakt wat los bij De Slimste Mens",
-      "link": "https://www.televizier.nl/categorie/amusement/stefano-keizers-maakt-wat-los-bij-de-slimste-mens.2383515.lynkx",
-      "quote": "Lees hier wat onder andere <a href='@dutchcatfriend'>@dutchcatfriend</a> en <a href='@RochelleDisney'>@RochelleDisney</a> van me vinden."
+      "category": "radio",
+      "medium": "SPIJKERS MET KOPPEN",
+      "linkText": "Columns Stefano",
+      "link": "https://www.nporadio2.nl/zoekresultaten?search=stefano+keizers",
+      "quote": "Luisterkijk hier een paar van mijn columns terug omdat ze zo moeilijk te vinden zijn!!!"
     },
     {
       "category": "radio",
@@ -370,6 +440,27 @@
       "linkText": "Open Kaart: Stefano Keizers/Gover Meit",
       "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
       "quote": "Ik kan me van deze opnames helemaal niets meer herinneren."
+    },
+    {
+      "category": "interviews",
+      "medium": "LEIDSCH DAGBLAD",
+      "linkText": "Stefano Keizers maakt het zich zo moeilijk mogelijk",
+      "link": "https://www.leidschdagblad.nl/cnt/dmf20200211_87178085/stefano-keizers-maakt-het-zich-zo-moeilijk-mogelijk",
+      "quote": "Een abonnement op het Leidsch Dagblad, wie wil dat nou niet..?"
+    },
+    {
+      "category": "interviews",
+      "medium": "PLAYBOY",
+      "linkText": "Ik ben de best functionerende junk van Nederland",
+      "link": "https://playboy.nl/index.php/artikel/64947/stefano-keizers-ik-ben-de-best-functionerende-junk-van-nederland",
+      "quote": "Best een raar idee dat ik nu allemaal sperma op mijn borsten heb."
+    },
+    {
+      "category": "interviews",
+      "medium": "NIEUWE REVU",
+      "linkText": "Ik ben geen Adje",
+      "link": "https://revu.nl/artikel/64607/ik-ben-geen-adje",
+      "quote": "Grapje ik ben het wel."
     },
     {
       "category": "interviews",
