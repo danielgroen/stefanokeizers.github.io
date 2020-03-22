@@ -8,7 +8,8 @@
     font-size: 2rem;
     font-weight: bold;
 
-  } @else if $type == "navigation" {
+  }
+  @else if $type == "navigation" {
     font-family: "SourceSansPro", sans-serif;
     font-size: 1rem;
     font-weight: 600;

@@ -11,3 +11,4 @@ app/js/*.js
 *.bak
 .vscode
 *.log
+vendor

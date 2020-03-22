@@ -16,10 +16,5 @@ gulp.task('minify:css', () => {
              .pipe(gulp.dest(`${global.paths.dist}`));
 });
 
-gulp.task('minify:js', () => {
-  return gulp.src(`${global.paths.dist}/**/*.js`)
-             .pipe(compileJS())
-             .pipe(gulp.dest(`${global.paths.dist}`));
-});
 
-gulp.task('minify', gulp.series('minify:html', 'minify:js', 'minify:css'));
+gulp.task('minify', gulp.series('minify:html', 'minify:css'));

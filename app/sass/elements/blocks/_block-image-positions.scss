@@ -13,7 +13,7 @@
     }
 
     .cover-image {
-      height: 100%;
+      height: auto;
       width: 100%;
       object-fit: cover;
 
@@ -43,17 +43,6 @@
       height: 140%;
     }
   }
-
-
-  // boek
-  &.book .cover-image {
-    height: 110%;
-
-    @include breakpoint($tablet) {
-      height: 160%;
-    }
-  }
-
 
   // media
   &.media .cover-image {

@@ -1,5 +1,17 @@
+@keyframes fadein {
+  from {background-color: $white;}
+  to {background-color: transparent;}
+}
+
+@keyframes upwards {
+  from {transform: translateY(25px);}
+  to {transform: translateY(0);}
+}
 .block {
 	@include max-width;
+  animation-name: upwards;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 
 	.inner {
 		width: grid-span(24, 1);
@@ -13,7 +25,8 @@
 		min-height: 300px;
 
 		> .title {
-			@include font('title');
+      @include font('title');
+      margin-top: 0;
 			margin-bottom: 20px;
 			font-size: 1.6rem;
     }
@@ -24,12 +37,40 @@
       width: 100%;
       height: 100%;
       left: 0;
+      pointer-events: none;
       top: 0;
       position: absolute;
       display: block;
       z-index: -5;
     }
+    
+    &:after {
+      content: '';
+      pointer-events: none;
+  		background-color: white;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      display: block;
+      z-index: 5;
+      animation-name: fadein;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
 	}
+}
+
+@for $i from 1 through 15 {
+  .block:nth-child(#{$i}) {
+    animation-delay: #{ 0.4 + ($i * .4)}s;
+    .inner {
+      &:after {
+        animation-delay: #{ 0.4 + ($i * .4)}s;
+      }
+    }
+  }
 }
 
 
@@ -39,7 +80,8 @@
 			width: grid-span(22, 2);
 			margin-left: grid-span(1,1);
 			min-height: 500px;
-			padding-left: grid-span(3, 1,24);
+      padding-left: grid-span(3, 1,24);
+  		margin-bottom: 48px;
 
 			> .title {
         font-size: 2rem;

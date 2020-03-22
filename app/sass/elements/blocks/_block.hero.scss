@@ -16,6 +16,9 @@
       font-size: 1.5rem;
 
 			span {
+        font-family: "SourceSansPro", sans-serif;
+        text-transform: capitalize;
+        margin: 15px 0;
 				font-weight: 400;
 				clear: left;
 				display: block;
@@ -40,7 +43,10 @@
 
 @include breakpoint($tablet) {
 	.block.hero {
-		.inner {
+    .inner {
+      padding-top: 64px;
+      padding-bottom: 64px;
+
       .title-wrapper {
         width: auto;
       }

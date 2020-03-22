@@ -1,0 +1,25 @@
+.bookcover {
+  bottom: 0;
+  right: grid-span(1,1);
+  box-shadow: $shadow;
+  background-size: cover;
+  position: absolute;
+  width: 125px;
+  height: 120px;
+  background-image:  url('../img/book-cover.jpg');
+}
+
+@include breakpoint(max-width $iphone5) {
+  .bookcover {
+    width: 100px;
+    height: 105px;
+  }
+}
+
+@include breakpoint($desktop) {
+  .bookcover {
+    right: grid-span(3,1,22);
+    width: 160px;
+    height: 160px;
+  }
+}

@@ -19,7 +19,7 @@
 			width: grid-span(24, 1);
 			box-shadow: $shadow;
 			background-color: $white;
-			min-height: 2215px;
+			min-height: 2875px;
 		}
 	}
 }
@@ -35,7 +35,7 @@
 
 			iframe {
 				width: grid-span(22, 1);
-				min-height: 1730px;
+				// min-height: 2350px;
 			}
 		}
 	}
