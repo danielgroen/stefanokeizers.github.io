@@ -67,4 +67,17 @@
       height: 105%;
     }
   }
+
+  // extra
+  &.extra .cover-image {
+    height: 120%;
+
+    @include breakpoint($tablet) {
+      height: 120%;
+    }
+    
+    @include breakpoint($desktop) {
+      height: 105%;
+    }
+  }
 }

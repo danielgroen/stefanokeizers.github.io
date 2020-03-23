@@ -21,9 +21,10 @@ export default function() {
     $('.block.hero .inner .cover-image').parallax(0.2, -350);
     $('.block.experimensen .inner .cover-image').parallax(0.1, -170);
     $('.block.maestro .inner .cover-image').parallax(0.1, -200);
-    $('.block.book .inner .cover-image').parallax(0.1, -820);
+    $('.block.book .inner .cover-image').parallax(0.1, -420);
     $('.block.media .inner .cover-image').parallax(0.1, -450);
     $('.block.contact .inner .cover-image').parallax(0.1, -460);
+    $('.block.extra .inner .cover-image').parallax(0.1, -460);
   }
   ajustParallax();
 };
