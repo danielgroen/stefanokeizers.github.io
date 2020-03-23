@@ -7,7 +7,7 @@
     overflow: visible;
     z-index: -1;
     top: 0;
-    
+
     @include breakpoint($tablet) {
       transform: translateY(50%);
     }
@@ -35,8 +35,7 @@
   }
 
 
-  // experimensen
-  &.experimensen .cover-image {
+  &.small .cover-image {
     height: 110%;
 
     @include breakpoint($tablet) {
@@ -44,14 +43,21 @@
     }
   }
 
+
   // media
   &.media .cover-image {
     height: 110%;
   }
 
+  // book
+  &.book .cover-image {
+    height: 310%;
+  }
+
 
   // contact
   &.contact .cover-image {
+    height: 120%;
 
     @include breakpoint($tablet) {
       height: 120%;
