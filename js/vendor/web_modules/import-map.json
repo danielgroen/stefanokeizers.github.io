@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "owl.carousel/dist/owl.carousel": "./owl.carousel/dist/owl.carousel.js"
+  }
+}
