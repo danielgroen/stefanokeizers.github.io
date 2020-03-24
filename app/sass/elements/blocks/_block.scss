@@ -64,10 +64,10 @@
 
 @for $i from 1 through 15 {
   .block:nth-child(#{$i}) {
-    animation-delay: #{ 0.4 + ($i * .4)}s;
+    animation-delay: #{ 0.4 + ($i * .2)}s;
     .inner {
       &:after {
-        animation-delay: #{ 0.4 + ($i * .4)}s;
+        animation-delay: #{ 0.4 + ($i * .2)}s;
       }
     }
   }

@@ -1,7 +1,15 @@
 .block.contact {
 	.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 		.contact-article {
-			margin-bottom: 20px;
+      margin-bottom: 20px;
+      
+      p,h4 {
+        margin: 0;
+      }
 
 			.phonenumber {
 				display: block;
