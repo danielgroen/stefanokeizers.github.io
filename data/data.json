@@ -1,5 +1,13 @@
 {
   "mediacards": [
+    
+    {
+      "category": "recensies",
+      "medium": "NRC",
+      "linkText": "Bloedstollend cabaret van Stefano Keizers",
+      "link": "https://www.nrc.nl/nieuws/2020/01/22/bloedstollend-cabaret-van-stefano-keizers-a3987734",
+      "quote": "Zoals u ziet: de meningen blijven verdeeld. Ik ben het daar niet mee eens."
+    },
     {
       "category": "recensies",
       "medium": "THEATERKRANT",
@@ -34,13 +42,6 @@
       "linkText": "Het schort aan originaliteit en verrassing",
       "link": "www.volkskrant.nl/cultuur-media/het-schort-aan-originaliteit-en-verrassing-bij-het-anti-cabaret-van-keizers~b774e6a2/",
       "quote": "Een prachtige en ontroerende tekst die mijn voorstelling eer aandoet."
-    },
-    {
-      "category": "recensies",
-      "medium": "NRC",
-      "linkText": "Bloedstollend cabaret van Stefano Keizers",
-      "link": "https://www.nrc.nl/nieuws/2020/01/22/bloedstollend-cabaret-van-stefano-keizers-a3987734",
-      "quote": "Zoals u ziet: de meningen blijven verdeeld. Ik ben het daar niet mee eens."
     },
     {
       "category": "recensies",
@@ -121,13 +122,6 @@
     },
     {
       "category": "tv",
-      "medium": "5UURLIVE",
-      "linkText": "Een experiment van Stefano Keizers",
-      "link": "https://www.koffietijd.nl/experiment_van_stefano_keizers",
-      "quote": "Lekker kokkerellen voor Experimensen TBC TBC TBC...!!! !..2.!!"
-    },
-    {
-      "category": "tv",
       "medium": "BEAU",
       "linkText": "Er is een heel nieuw vrouwelijk publiek dat zich kenbaar aan mij maakt",
       "link": "https://www.rtl.nl/video/6a1c2cde-1e27-4ccd-4400-3e78c56eae49/",
@@ -142,16 +136,9 @@
     },
     {
       "category": "tv",
-      "medium": "BEAU",
-      "linkText": "Stefano Keizers miste wat karakter bij het Gouden Televizier-Ring Gala",
-      "link": "https://www.rtl.nl/video/4d8cebf5-27f1-9d8f-5a3e-b1291be2e349/",
-      "quote": "Ik ben niet zuur ik ben bitter."
-    },
-    {
-      "category": "tv",
       "medium": "JINEK",
       "linkText": "Al mijn kennis over vrouwen heb ik uit de films van Eddie Murphy",
-      "link": "https://evajinek.kro-ncrv.nl/fragmenten/stefano-keizers-al-mijn-kennis-over-vrouwen-heb-ik-uit-de-films-van-eddie-murphy",
+      "link": "https://www.gids.tv/video/100821/stefano-keizers-heeft-veel-aan-eddie-murphy-te-danken",
       "quote": "Nog nooit van die vent gehoord eigenlijk!"
     },
     {
@@ -191,24 +178,10 @@
     },
     {
       "category": "tv",
-      "medium": "DRUNK HISTORY",
-      "linkText": "Het beleg van Leiden",
-      "link": "https://www.youtube.com/watch?v=Zv36x9MrVl4",
-      "quote": "Ik heb medelijden met iedereen die deelnam aan deze productie."
-    },
-    {
-      "category": "tv",
       "medium": "DWDD",
       "linkText": "Stefano Keizers over het nieuwe programma Experimensen",
       "link": "https://www.gids.tv/video/32047/dwdd-gemist-stefano-keizers-over-het-nieuwe-programma-experimensen",
       "quote": "Ik heb al mijn succes te danken aan een kakkerlak..."
-    },
-    {
-      "category": "tv",
-      "medium": "YUNG DWDD",
-      "linkText": "Taxi Terug met Samya",
-      "link": "https://www.youtube.com/watch?v=iAZYlVEZoFM",
-      "quote": "DIT WAS ZO GEZELLIG WE HADDEN ALLEBEI EEN HOED OP!!!"
     },
     {
       "category": "tv",
@@ -223,13 +196,6 @@
       "linkText": "Stefano Keizers schreef autobiografie Twee Luitenanten",
       "link": "https://pauw.bnnvara.nl/media/428042",
       "quote": "Normaal gesproken draag ik nooit dit soort truien."
-    },
-    {
-      "category": "tv",
-      "medium": "SPIEGELVRAGEN",
-      "linkText": "Na Pauw met Sinan Can",
-      "link": "https://pauw.bnnvara.nl/nieuws/spiegelvragen-stefano-keizers-en-sinan-can",
-      "quote": "Het was een 'fysiek' gesprek."
     },
     {
       "category": "tv",
@@ -289,24 +255,10 @@
     },
     {
       "category": "tv",
-      "medium": "Jinek",
-      "linkText": "Cabaretiers Dolf Jansen en Stefano Keizers maken hun opwachting op de Uitmarkt.",
-      "link": "https://www.npo.nl/jinek/25-08-2017/KN_1691969/POMS_KN_10500599",
-      "quote": "Na de uitzending heb ik hem niet meer gesproken"
-    },
-    {
-      "category": "tv",
       "medium": "KRO-NCRV",
       "linkText": "De Slimste Mens Afleveringen",
-      "link": "https://www.kro-ncrv.nl/deslimstemens/seizoenen/seizoen-2016-1",
+      "link": "https://www.kro-ncrv.nl/programmas/deslimstemens/seizoenen/seizoen-2016-1",
       "quote": "Ik heb dit zelf nog niet teruggekeken."
-    },
-    {
-      "category": "tv",
-      "medium": "NPO",
-      "linkText": "Uitmarkt 2017 Vanaf Het Water (vanaf 38:00)",
-      "link": "https://www.npo.nl/uitmarkt-2017-vanaf-het-water/27-08-2017/VPWON_1274608#e2c9eada7",
-      "quote": "Ik heb m'n mond gehouden, dat leek me het beste"
     },
     {
       "category": "tv",
@@ -314,6 +266,20 @@
       "linkText": "Bekende Nerd: cabaretier Stefano Keizers heeft hele rare hobby's",
       "link": "https://www.youtube.com/watch?v=NGinitaWwIg",
       "quote": "Dit was de laatste link. Ik hoop dat jullie hebben genoten. Gegroet en hou je taai!"
+    },
+    {
+      "category": "radio",
+      "medium": "MISS PODCAST",
+      "linkText": "Stefano recenseert de Elektra Podcast",
+      "link": "https://www.nporadio1.nl/podcasts/miss-podcast/125284-42-stefano-keizers-recenseert-de-elektra-podcast",
+      "quote": "Ik heb ook nog andere dingen gedaan, zoals de hele tijd gehuild"
+    },
+    {
+      "category": "radio",
+      "medium": "ZWARTE PRIETPRAAT",
+      "linkText": "De Aflevering van 16 maart",
+      "link": "https://www.nporadio1.nl/zwarte-prietpraat/uitzendingen/729158-2020-03-16",
+      "quote": "Twee uur lang (!) doe ik mijn best om het land te behoeden"
     },
     {
       "category": "radio",
@@ -345,31 +311,10 @@
     },
     {
       "category": "radio",
-      "medium": "DE NACHT VAN DE RADIO",
-      "linkText": "De gast van de radio",
-      "link": "https://www.nporadio1.nl/de-nacht-van-de-radio/onderwerpen/468809-de-gast-van-de-radio-stefano-keizers",
-      "quote": "Ik voel me nog steeds slecht over alles dat tijdens de opnames gebeurd is."
-    },
-    {
-      "category": "radio",
-      "medium": "SPIJKERS MET KOPPEN",
-      "linkText": "Terugkerende columns",
-      "link": "https://www.nporadio2.nl/gemist/video/8160/column-stefano-keizers-2",
-      "quote": "Ze zijn allemaal anders."
-    },
-    {
-      "category": "radio",
       "medium": "VOLGSPOT",
       "linkText": "Stefano Keizers bij Volgspot",
       "link": "https://www.nporadio5.nl/gemist/audio/326311/stefano-keizers-1",
       "quote": "Hoe moet je me nou noemen...?"
-    },
-    {
-      "category": "radio",
-      "medium": "De Wat een Weekshow met Shay",
-      "linkText": "11 augustus 2018",
-      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/254524/11-7-2018",
-      "quote": "Shay was er zelf niet eens."
     },
     {
       "category": "radio",
@@ -394,34 +339,6 @@
     },
     {
       "category": "radio",
-      "medium": "De Wild In De Middag",
-      "linkText": "Stefano Keizers over zijn nieuwe theatervoorstelling",
-      "link": "https://www.nporadio2.nl/gemist/audio/17433/stefano-keizers-over-zijn-nieuwe-theatervoorstelling",
-      "quote": "Hij heeft een grotere penis dan ik."
-    },
-    {
-      "category": "radio",
-      "medium": "De wat Een Weekshow met Shay",
-      "linkText": "Zaterdag 22 juli 2017",
-      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/242110/6-6-2017",
-      "quote": "Shay is m'n beste vriendin!!!"
-    },
-    {
-      "category": "radio",
-      "medium": "De Wat Een Weekshow met Shay",
-      "linkText": "Zaterdag 23 september 2017",
-      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/243455/6-8-2017",
-      "quote": "Shay is de enige die echt in me gelooft."
-    },
-    {
-      "category": "radio",
-      "medium": "De Wat Een Weekshow met Shay",
-      "linkText": "Zaterdag 23 december 2017",
-      "link": "https://www.nporadio2.nl/dewateenweekshowmetshay/gemist/uitzending/244443/6-11-2017",
-      "quote": "Shay krijgt altijd koekjes van de andere gasten, nooit van mij."
-    },
-    {
-      "category": "radio",
       "medium": "Friday Move",
       "linkText": "Stefano Keizers over zijn nieuwe theatervoorstelling",
       "link": "https://www.bnr.nl/podcast/the-friday-move/10338622/kees-jansma-bart-chabot-annabel-nanninga",
@@ -433,13 +350,6 @@
       "linkText": "21 April | Stefano Keizers, Jörgen Raymann en Erik Scherder",
       "link": "https://www.bnr.nl/radio/bnr-the-friday-move/10321484/21-april-stefano-keizers-jorgen-raymann-en-erik-scherder",
       "quote": "Wilfred rook inderdaad naar een zwoele zomernacht op het Spaanse platteland."
-    },
-    {
-      "category": "radio",
-      "medium": "VPRO",
-      "linkText": "Open Kaart: Stefano Keizers/Gover Meit",
-      "link": "https://www.vpro.nl/nooitmeerslapen/speel~RBX_VPRO_8150460~open-kaart-stefano-keizers-gover-meit~.html",
-      "quote": "Ik kan me van deze opnames helemaal niets meer herinneren."
     },
     {
       "category": "interviews",
@@ -548,13 +458,6 @@
     },
     {
       "category": "interviews",
-      "medium": "AD",
-      "linkText": "Saboteur om te koesteren",
-      "link": "https://www.stadsschouwburg-utrecht.nl/cms_files/MediaGalerij/Other/otherfiles20802_00.pdf",
-      "quote": "Arno moest de hele tijd giechelen toen ik me om aan het kleden was."
-    },
-    {
-      "category": "interviews",
       "medium": "Stentor/Turbantia",
       "linkText": "Stefano Keizers heeft schijt aan alles",
       "link": "http://erikkrebbers.nl/2017/10/stefano-keizers-heeft-schijt-aan-alles/",
@@ -590,10 +493,17 @@
     },
     {
       "category": "interviews",
-      "medium": "Vice",
-      "linkText": "We spraken Stefano Keizers over de maanlanding, Berlijn en Game of Thrones",
-      "link": "https://www.vice.com/nl/article/9a7eav/we-spraken-stefano-keizers-over-de-maanlanding-berlijn-en-game-of-thrones",
-      "quote": "Bijna elk woord in dit artikel is uit de context gehaald."
+      "medium": "Ajax Showtime",
+      "linkText": "Onze Trost Ajax Showtime",
+      "link": "https://www.ajaxshowtime.com/article/hoofdnieuws/106438/onze-trots-de-boer-is-redder-ajax-geweest",
+      "quote": "De pyjama heb ik gestolen van mijn broertje maar dat durfde ik niet tegen de interviewer te zeggen."
+    },
+    {
+      "category": "interviews",
+      "medium": "AT5",
+      "linkText": "Stefano Keizers 'huilt niet meer op zijn kamer' na winnen Kleinkunst Festival",
+      "link": "http://www.at5.nl/artikelen/167569/stefano-keizers-huilt-niet-meer-op-zijn-kamer-na-winnen-kleinkunst-festival",
+      "quote": "Let vooral ook op mijn haar!"
     }
   ]
 }
